@@ -10,7 +10,7 @@ Your contributions are always welcome! Please take a look at the [contribution g
 - [Build regexes without using regex syntax or code](#build-regexes-without-using-regex-syntax-or-code)
 - [Visualizers](#visualizers)
 - [Search and replace through files](#search-and-replace-through-files)
-- [Tutorials](#tutorial)
+- [Tutorials](#tutorials)
   - [Videos](#videos)
 - [Regex engines](#regex-engines)
   - [Documentation](#documentation)
@@ -40,7 +40,7 @@ Your contributions are always welcome! Please take a look at the [contribution g
 - [regex101](https://regex101.com/) — **Best free and best web-based tester**.
   - Flavors: Java, JavaScript, .NET, PCRE, RE2, Rust, and emulates Python.
   - Includes debugger (PCRE only).
-- [RegexBuddy](https://www.regexbuddy.com/) (<img src="public/images/ms-logo.svg" title="Windows" height="12">, $40) — **Best tester**.
+- [RegexBuddy](https://www.regexbuddy.com/) (<picture><img src="public/images/ms-logo.svg" title="Windows" height="12"></picture>, $40) — **Best tester**.
   - Flavors: Emulates hundreds of flavors/versions, with deep knowledge of differences.
   - Includes debugger.
 - [RegExr](https://regexr.com/) [[*GitHub*](https://github.com/gskinner/regexr/)] — **Best open source tester**.
@@ -56,7 +56,7 @@ Your contributions are always welcome! Please take a look at the [contribution g
 - Flavors:
   - Ruby: [Rubular](https://rubular.com/).
   - Python: [Pythex](https://pythex.org/), [PyRegex](http://www.pyregex.com/) [[*GitHub*](https://github.com/rscarvalho/pyregex)].
-  - .NET: [Nregex](http://www.nregex.com/), [Regex Storm](http://regexstorm.net/tester), [Regex Hero](https://regexhero.net/tester/) (<img src="public/images/ms-logo.svg" title="Windows" height="12">), [Expresso](https://ultrapico.com/Expresso.htm) (<img src="public/images/ms-logo.svg" title="Windows" height="12">).
+  - .NET: [Nregex](http://www.nregex.com/), [Regex Storm](http://regexstorm.net/tester), [Regex Hero](https://regexhero.net/tester/) (<picture><img src="public/images/ms-logo.svg" title="Windows" height="12"></picture>), [Expresso](https://ultrapico.com/Expresso.htm) (<picture><img src="public/images/ms-logo.svg" title="Windows" height="12"></picture>).
   - PCRE: [PHP Live Regex](https://www.phpliveregex.com/).
   - JS: [RegViz](http://regviz.org/), [jsregex](https://jsregex.com/), [RegexPal](https://www.regexpal.com/) [alias: regextester.com].
 - Multi-flavor:
@@ -66,7 +66,7 @@ Your contributions are always welcome! Please take a look at the [contribution g
 ## Build regexes without using regex syntax or code
 
 - [ChatGPT](https://chat.openai.com/) (and other LLMs) — Ex: *"create a regex that matches `X` and explain it step by step"*.
-- [RegexMagic](https://www.regexmagic.com/) (<img src="public/images/ms-logo.svg" title="Windows" height="12">, $40).
+- [RegexMagic](https://www.regexmagic.com/) (<picture><img src="public/images/ms-logo.svg" title="Windows" height="12"></picture>, $40).
 
 ## Visualizers
 
@@ -79,9 +79,9 @@ Your contributions are always welcome! Please take a look at the [contribution g
 ## Search and replace through files
 
 - [GNU Grep](https://www.gnu.org/software/grep/manual/grep.html).
-- [Aba Search and Replace](https://www.abareplace.com/) (<img src="public/images/ms-logo.svg" title="Windows" height="12">, $30).
-- [PowerGREP](https://www.powergrep.com/) (<img src="public/images/ms-logo.svg" title="Windows" height="12">, $159) — Search through files including archives, binary files, PDFs, and Office docs/sheets.
-- [RegexRenamer](https://regexrenamer.sourceforge.net/) (<img src="public/images/ms-logo.svg" title="Windows" height="12">) — Rename files using regexes.
+- [Aba Search and Replace](https://www.abareplace.com/) (<picture><img src="public/images/ms-logo.svg" title="Windows" height="12"></picture>, $30).
+- [PowerGREP](https://www.powergrep.com/) (<picture><img src="public/images/ms-logo.svg" title="Windows" height="12"></picture>, $159) — Search through files including archives, binary files, PDFs, and Office docs/sheets.
+- [RegexRenamer](https://regexrenamer.sourceforge.net/) (<picture><img src="public/images/ms-logo.svg" title="Windows" height="12"></picture>) — Rename files using regexes.
 
 ## Tutorials
 
@@ -142,7 +142,7 @@ Your contributions are always welcome! Please take a look at the [contribution g
 - Book chapter: *“Strings and Regular Expressions”*, by Steven Levithan, in [*High Performance JavaScript*](https://www.amazon.com/dp/059680279X/?tag=slev-20) [2010], by Nicholas C. Zakas et al.
 - Cross-regex-engine performance comparisons: [rebar](https://github.com/BurntSushi/rebar), [regex-benchmark](https://github.com/mariomka/regex-benchmark), [sljit/regex_perf.html](https://zherczeg.github.io/sljit/regex_perf.html).
 - Regex workload for performance testing: [octane/regexp.js](https://github.com/chromium/octane/blob/master/regexp.js).
-- [SDL Regex Fuzzer](https://download.cnet.com/sdl-regex-fuzzer/3000-2383_4-75321803.html) (<img src="public/images/ms-logo.svg" title="Windows" height="12">) — Finds strings that trigger catastrophic backtracking (requires [.NET Framework 3.5](https://learn.microsoft.com/en-us/dotnet/framework/install/dotnet-35-windows)).
+- [SDL Regex Fuzzer](https://download.cnet.com/sdl-regex-fuzzer/3000-2383_4-75321803.html) (<picture><img src="public/images/ms-logo.svg" title="Windows" height="12"></picture>) — Finds strings that trigger catastrophic backtracking (requires [.NET Framework 3.5](https://learn.microsoft.com/en-us/dotnet/framework/install/dotnet-35-windows)).
 - [*Regular Expression Matching Can Be Simple And Fast*](https://swtch.com/~rsc/regexp/regexp1.html), by Russ Cox — On non-backtracking engines.
 
 ## Collections of patterns
