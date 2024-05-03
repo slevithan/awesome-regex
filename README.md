@@ -19,9 +19,6 @@ Your contributions are always welcome! Please take a look at the [contribution g
 - [Performance](#performance)
 - [Collections of patterns](#collections-of-patterns)
 - [JavaScript regex packages](#javascript-regex-packages)
-  - [Regex processors (ASTs, etc.)](#regex-processors-asts-etc)
-  - [Alternative regex builders and engines](#alternative-regex-builders-and-engines)
-  - [Readable regex composers](#readable-regex-composers)
 - [JavaScript regex evolution](#javascript-regex-evolution)
   - [Future: Active proposals](#future-active-proposals)
 - [Books](#books)
@@ -130,7 +127,7 @@ Your contributions are always welcome! Please take a look at the [contribution g
 
 ### Source code
 
-*Read or contribute to the source code behind implementations.*
+*Read or contribute to the source code behind major implementations.*
 
 - [V8: Irregexp](https://github.com/v8/v8/tree/main/src/regexp) (Chrome, etc.) — JavaScript `RegExp`.
 - [Boost.Regex](https://github.com/boostorg/regex) (C++, Sublime Text, etc.).
@@ -170,7 +167,7 @@ Your contributions are always welcome! Please take a look at the [contribution g
 
 *Prewritten regexes for specific tasks.*
 
-- Book: [*Regular Expressions Cookbook, 2nd Edition*](https://www.amazon.com/dp/1449319432/?tag=slev-20) [2012], by Jan Goyvaerts, Steven Levithan — Includes detailed explanations and analysis
+- Book: [*Regular Expressions Cookbook, 2nd Edition*](https://www.amazon.com/dp/1449319432/?tag=slev-20) [2012], by Jan Goyvaerts, Steven Levithan — Includes detailed explanations and analysis.
   - Flavors: Java, JavaScript, .NET, PCRE, Perl, Python, Ruby, XRegExp.
 - [RegexHub](https://projects.lukehaas.me/regexhub/) [[*GitHub*](https://github.com/lukehaas/RegexHub)].
 - [RegexLib: Browse Expressions](https://regexlib.com/DisplayPatterns.aspx).
@@ -180,26 +177,20 @@ Your contributions are always welcome! Please take a look at the [contribution g
 
 *Open source packages for advanced regex use and tooling.*
 
-### Regex processors (ASTs, etc.)
-
-- AST builders: [regexp-tree](https://github.com/DmitrySoshnikov/regexp-tree) [includes optimizer, etc.], [regexpp](https://github.com/eslint-community/regexpp) [used by ESLint], [regjsparser](https://github.com/jviereck/regjsparser)/[regjsgen](https://github.com/bnjmnt4n/regjsgen), [ret.js](https://github.com/fent/ret.js), [RegexAnalyzer](https://github.com/foo123/RegexAnalyzer).
-- Generate strings that match a given regex: [randexp.js](https://github.com/fent/randexp.js), [regex-to-strings](https://github.com/wimpyprogrammer/regex-to-strings).
-- Generate regex from given strings: [retrie](https://github.com/satyr/retrie).
-- Highlight regex syntax: [Regex Colorizer](https://github.com/slevithan/regex-colorizer) [[*home*](https://stevenlevithan.com/regex/colorizer/)].
-
-### Alternative regex builders and engines
-
-- [XRegExp](https://github.com/slevithan/xregexp) [[*home*](https://xregexp.com/)] — Extended regex syntax/flags/utils.
-- String template tags: [regexp-make-js](https://github.com/mikesamuel/regexp-make-js), [`XRegExp.tag`](https://github.com/slevithan/xregexp?tab=readme-ov-file#xregexptag-included-with-xregexpbuild).
-- [incr-regex-package](https://github.com/nurulc/incr-regex-package) — Partial/incremental matching, used by [react-rxinput](https://github.com/nurulc/react-rxinput) for input validation with a regex mask.
-- [@iter-tools/regex](https://github.com/iter-tools/regex) — Non-backtracking engine for streaming evaluation.
-
-### Readable regex composers
-
-- [Rexx](https://github.com/yyytcool/rexx) — Structured syntax with variables and comments.
-- [compose-regexp.js](https://github.com/compose-regexp/compose-regexp.js) — Includes some extra features like `atomic`.
-
-**More:** [VerbalExpressions](https://github.com/VerbalExpressions/JSVerbalExpressions) [has implementations for [many languages](https://verbalexpressions.github.io/)], [magic-regexp](https://github.com/unjs/magic-regexp) [[*home*](https://regexp.dev/)], [Super Expressive](https://github.com/francisrstokes/super-expressive) [[*playground*](https://nartc.github.io/ng-super-expressive/)], [Melody](https://github.com/yoav-lavi/melody).
+- Regex processors (ASTs, etc.):
+  - AST builders: [regexp-tree](https://github.com/DmitrySoshnikov/regexp-tree) [includes optimizer, etc.], [regexpp](https://github.com/eslint-community/regexpp) [used by ESLint], [regjsparser](https://github.com/jviereck/regjsparser)/[regjsgen](https://github.com/bnjmnt4n/regjsgen), [ret.js](https://github.com/fent/ret.js), [RegexAnalyzer](https://github.com/foo123/RegexAnalyzer).
+  - Generate strings that match a given regex: [randexp.js](https://github.com/fent/randexp.js), [regex-to-strings](https://github.com/wimpyprogrammer/regex-to-strings).
+  - Generate regex from given strings: [retrie](https://github.com/satyr/retrie).
+  - Highlight regex syntax: [Regex Colorizer](https://github.com/slevithan/regex-colorizer) [[*home*](https://stevenlevithan.com/regex/colorizer/)].
+- Alternative regex builders and engines:
+  - [XRegExp](https://github.com/slevithan/xregexp) [[*home*](https://xregexp.com/)] — Extended regex syntax/flags/utils.
+  - String template tags: [regexp-make-js](https://github.com/mikesamuel/regexp-make-js), [`XRegExp.tag`](https://github.com/slevithan/xregexp?tab=readme-ov-file#xregexptag-included-with-xregexpbuild).
+  - [incr-regex-package](https://github.com/nurulc/incr-regex-package) — Partial/incremental matching, used by [react-rxinput](https://github.com/nurulc/react-rxinput) for input validation with a regex mask.
+  - [@iter-tools/regex](https://github.com/iter-tools/regex) — Non-backtracking engine for streaming evaluation.
+- Readable regex composers:
+  - [Rexx](https://github.com/yyytcool/rexx) — Structured syntax with variables and comments.
+  - [compose-regexp.js](https://github.com/compose-regexp/compose-regexp.js) — Includes some extra features like `atomic`.
+  - **More:** [VerbalExpressions](https://github.com/VerbalExpressions/JSVerbalExpressions) [has implementations for [many languages](https://verbalexpressions.github.io/)], [magic-regexp](https://github.com/unjs/magic-regexp) [[*home*](https://regexp.dev/)], [Super Expressive](https://github.com/francisrstokes/super-expressive) [[*playground*](https://nartc.github.io/ng-super-expressive/)], [Melody](https://github.com/yoav-lavi/melody).
 
 ## JavaScript regex evolution
 
