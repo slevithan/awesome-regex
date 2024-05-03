@@ -101,7 +101,7 @@ Your contributions are always welcome! Please take a look at the [contribution g
 - Exercises only:
   - [regex101: Regex Quiz](https://regex101.com/quiz) — Requires sign-in.
 
-**More:** [RexEgg](https://rexegg.com/), [regex.sketchengine.eu](https://regex.sketchengine.eu/).
+**More:** [RexEgg](https://rexegg.com/).
 
 ### Videos
 
