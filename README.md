@@ -48,15 +48,15 @@ Your contributions are welcome! Please take a look at the [contribution guidelin
 
 ### More testers
 
-*Additional options for testing various regex flavors. These still meet a minimum quality bar, or include unique features.*
+*Additional testing options that still meet the quality bar or include unique features.*
 
 - Flavors:
-  - JavaScript: [RegViz](http://regviz.org/), [jsregex](https://jsregex.com/), [RegexPal](https://www.regexpal.com/) [alias: regextester.com].
-  - .NET: [Nregex](http://www.nregex.com/), [Regex Storm](http://regexstorm.net/tester), [Regex Hero](https://regexhero.net/tester/) (<picture><img src="public/images/ms-logo.svg" title="Windows" height="12"></picture>), [Expresso](https://ultrapico.com/Expresso.htm) (<picture><img src="public/images/ms-logo.svg" title="Windows" height="12"></picture>).
+  - JavaScript: [RegViz](http://regviz.org/).
+  - .NET: [Regex Storm](http://regexstorm.net/tester) [[*GitHub*](https://github.com/lonekorean/regex-storm)], [Regex Hero](https://regexhero.net/tester/) (<picture><img src="public/images/ms-logo.svg" title="Windows" height="12"></picture>), [Expresso](https://ultrapico.com/Expresso.htm) (<picture><img src="public/images/ms-logo.svg" title="Windows" height="12"></picture>).
   - PCRE: [PHP Live Regex](https://www.phpliveregex.com/).
-  - Python: [Pythex](https://pythex.org/), [PyRegex](http://www.pyregex.com/) [[*GitHub*](https://github.com/rscarvalho/pyregex)].
+  - Python: [Pythex](https://pythex.org/).
   - Ruby: [Rubular](https://rubular.com/).
-- Multi-flavor:
+- Multiple flavors:
   - [CyrilEx](https://extendsclass.com/regex-tester.html) [[*GitHub*](https://github.com/cyrilbois/cyrilex)]: Java, JavaScript, MySQL, PHP, Python, Ruby.
   - [RegexPlanet](https://www.regexplanet.com/) [[*GitHub*](https://github.com/regexplanet)]: Go, Haskell, Java, JavaScript, .NET, Perl, PHP, PostgreSQL, Python, Ruby, Tcl, XRegExp.
 
@@ -108,11 +108,11 @@ More: [RexEgg](https://rexegg.com/).
 
 ## Regex engines
 
-*Major regex implementations, built into programming languages and standalone libraries.*
+*Major regex implementations, built into programming languages or as standalone libraries.*
 
 ### Documentation
 
-*Official references and guides.*
+*Official regex references and guides.*
 
 - Regex flavors:
   - JavaScript [MDN]: [RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp), [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions), [Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions).
@@ -124,8 +124,8 @@ More: [RexEgg](https://rexegg.com/).
   - PCRE2: [pcre2pattern](https://www.pcre.org/current/doc/html/pcre2pattern.html).
   - Perl: [perlre](https://perldoc.perl.org/perlre), [perlretut](https://perldoc.perl.org/perlretut), [perlrequick](https://perldoc.perl.org/perlrequick).
   - Python: [re](https://docs.python.org/library/re.html).
-- Tools and languages that don’t provide their own flavor:
-  - MySQL: [Regular Expressions](https://dev.mysql.com/doc/refman/en/regexp.html) — Flavor: ICU.
+- Non-unique:
+  - [MySQL](https://dev.mysql.com/doc/refman/en/regexp.html) — Flavor: ICU.
 
 ### Source code
 
