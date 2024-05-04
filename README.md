@@ -40,7 +40,7 @@ Your contributions are welcome! Please take a look at the [contribution guidelin
   - Ex: The “JavaScript” flavor is defined by the ECMAScript standard and implemented by multiple engines (V8, etc.).
   - Ex: The “PCRE” flavor is the PCRE2 library, used by numerous programming languages and tools (including PHP’s [`preg_*`](https://www.php.net/manual/en/ref.pcre.php) functions).
   - Ex: Ruby changed its regex implementation twice from version 1.8 ➜ 1.9 ➜ 2.0, so each used a distinct flavor. In this list, the Ruby 2.0+ flavor is referred to as either “Ruby” or “Onigmo” (the regex library adopted by Ruby 2.0).
-- **Non-backtracking engine:** Sometimes referred to elsewhere as a “DFA” engine (as opposed to a “traditional NFA” engine). Non-backtracking engines like RE2 and Rust’s `regex` run in linear time because they don’t require/allow backtracking. This precludes “catastrophic backtracking”, but it’s also slower with some common patterns and prevents some useful features like backreferences and lookaround. See also: [Performance](#performance).
+- **Non-backtracking engine:** Sometimes referred to elsewhere as a “DFA” or “text-directed” engine (as opposed to a “traditional NFA” or “regex-directed” engine). Non-backtracking engines like RE2 and Rust’s `regex` run in linear time because they don’t require/allow backtracking. This precludes “catastrophic backtracking”, but it’s also slower with some common patterns and prevents some useful features like backreferences and lookaround. See also: [Performance](#performance).
 </details>
 
 ## Testers
@@ -177,11 +177,12 @@ More: [RexEgg](https://rexegg.com/).
 
 ## Performance
 
-*Guides, benchmarks, and tools for regex performance.*
+*Guides for crafting efficient regexes, plus benchmarks and tools for regex performance.*
 
 - Learn:
   - [*Runaway Regular Expressions: Catastrophic Backtracking*](https://www.regular-expressions.info/catastrophic.html), by Jan Goyvaerts.
-  - Book chapter: *“Strings and Regular Expressions”*, by Steven Levithan, in [*High Performance JavaScript*](https://www.amazon.com/dp/059680279X/?tag=slev-20) [2010], by Nicholas C. Zakas et al. — Deep dive into backtracking and writing regexes for optimal performance.
+  - *Chapter 5: Strings and Regular Expressions*, by Steven Levithan, in [*High Performance JavaScript*](https://www.amazon.com/dp/059680279X/?tag=slev-20) [2010], by Nicholas C. Zakas et al.
+  - *Chapter 6: Crafting an Efficient Expression*, in [*Mastering Regular Expressions, 3rd Edition*](https://www.amazon.com/dp/0596528124/?tag=slev-20) [2006], by Jeffrey Friedl.
   - [*Regular Expression Matching Can Be Simple And Fast*](https://swtch.com/~rsc/regexp/regexp1.html), by Russ Cox — On non-backtracking engines.
 - Benchmark:
   - Cross-regex-engine performance comparisons: [rebar](https://github.com/BurntSushi/rebar), [regex-benchmark](https://github.com/mariomka/regex-benchmark), [sljit/regex_perf.html](https://zherczeg.github.io/sljit/regex_perf.html).
@@ -250,7 +251,7 @@ See also: Backcompat libraries: [regexpu](https://github.com/mathiasbynens/regex
 - [RegExp escaping](https://github.com/tc39/proposal-regex-escaping) [2015] — `RegExp.escape`.
 - [Legacy RegExp features](https://github.com/tc39/proposal-regexp-legacy-features) [2015] — Standardization of legacy features.
 
-See also: Chrome’s `/l` (`linear`) flag, behind a V8 flag [[*explainer*](https://v8.dev/blog/non-backtracking-regexp)] [[*how to run*](https://www.chromium.org/developers/how-tos/run-chromium-with-flags/)].
+See also: Chrome’s `l` (`linear`) flag, behind a V8 flag [[*explainer*](https://v8.dev/blog/non-backtracking-regexp)] [[*how to run*](https://www.chromium.org/developers/how-tos/run-chromium-with-flags/)].
 
 ## Books
 
