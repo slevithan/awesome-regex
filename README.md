@@ -4,6 +4,7 @@ Your contributions are welcome! Please take a look at the [contribution guidelin
 
 ## Contents
 
+- [Glossary](#glossary)
 - [Testers](#testers)
   - [Best testers](#best-testers)
   - [More testers](#more-testers)
@@ -25,6 +26,22 @@ Your contributions are welcome! Please take a look at the [contribution guidelin
 - [Articles](#articles)
 - [Communities](#communities)
 - [Miscelaneous](#miscelaneous)
+
+## Glossary
+
+*A brief glossary of regular expression terms as used in this list.*
+
+<details>
+  <summary>Show the glossary.</summary>
+  <br>
+
+- **Regex engine:** Software that parses and executes regular expressions, often built into a programming language (synonym: implementation).
+- **Regex flavor:** A unique set of regex syntax and behavior. Basic syntax is typically shared across flavors, but more advanced features often vary, sometimes in subtle ways. A flavor might be shared across multiple implementations or programming languages.
+  - Ex: The “JavaScript” flavor is defined by the ECMAScript standard and implemented by multiple engines (V8, etc.).
+  - Ex: The “PCRE” flavor is the PCRE2 library, used by numerous programming languages and tools (including PHP’s [`preg_*`](https://www.php.net/manual/en/ref.pcre.php) functions).
+  - Ex: Ruby changed its regex implementation twice from version 1.8 ➜ 1.9 ➜ 2.0, so each used a distinct flavor. In this list, the Ruby 2.0+ flavor is referred to as either “Ruby” or “Onigmo” (the regex library adopted by Ruby 2.0).
+- **Non-backtracking engine:** Sometimes referred to elsewhere as a “DFA” engine (as opposed to a “traditional NFA” engine). Non-backtracking engines like RE2 and Rust’s `regex` run in linear time because they don’t require/allow backtracking. This precludes “catastophic backtracking”, but it’s also slower with some common patterns and prevents some useful features like backreferences and lookaround. See also: [Performance](#performance).
+</details>
 
 ## Testers
 
