@@ -136,7 +136,7 @@ More: [RexEgg](https://rexegg.com/).
 - [V8: Irregexp](https://github.com/v8/v8/tree/main/src/regexp) (Chrome, etc.) — JavaScript `RegExp`.
 - [Boost.Regex](https://github.com/boostorg/regex) (C++, Sublime Text, etc.).
 - [Hyperscan](https://github.com/intel/hyperscan) — Intel’s high-performance library, used for [DPI](https://en.wikipedia.org/wiki/Deep_packet_inspection).
-- [ICU](https://github.com/unicode-org/icu) — Unicode org’s package with full Unicode support.
+- [ICU](https://github.com/unicode-org/icu/blob/main/icu4c/source/i18n/unicode/regex.h) — Unicode org’s package with full Unicode support.
 - [Java: java.util.regex](https://github.com/openjdk/jdk/tree/master/src/java.base/share/classes/java/util/regex).
 - [.NET: System.Text.RegularExpressions](https://github.com/dotnet/runtime/tree/main/src/libraries/System.Text.RegularExpressions).
 - [Onigmo](https://github.com/k-takata/Onigmo) (Ruby 2.0+, etc.) and [Oniguruma](https://github.com/kkos/oniguruma) (Ruby 1.9, etc.).
