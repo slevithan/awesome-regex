@@ -124,6 +124,8 @@ More: [RexEgg](https://rexegg.com/).
   - PCRE2: [pcre2pattern](https://www.pcre.org/current/doc/html/pcre2pattern.html).
   - Perl: [perlre](https://perldoc.perl.org/perlre), [perlretut](https://perldoc.perl.org/perlretut), [perlrequick](https://perldoc.perl.org/perlrequick).
   - Python: [re](https://docs.python.org/library/re.html).
+  - RE2: [Syntax](https://github.com/google/re2/wiki/Syntax).
+  - Rust: [regex](https://docs.rs/regex/latest/regex/).
 - Non-unique:
   - [MySQL](https://dev.mysql.com/doc/refman/en/regexp.html) — Flavor: ICU.
 
@@ -135,9 +137,11 @@ More: [RexEgg](https://rexegg.com/).
 - [Boost.Regex](https://github.com/boostorg/regex) (C++, Sublime Text, etc.).
 - [Hyperscan](https://github.com/intel/hyperscan) — Intel’s high-performance library, used for [DPI](https://en.wikipedia.org/wiki/Deep_packet_inspection).
 - [ICU](https://github.com/unicode-org/icu) — Unicode org’s package with full Unicode support.
+- [Java: java.util.regex](https://github.com/openjdk/jdk/tree/master/src/java.base/share/classes/java/util/regex).
 - [.NET: System.Text.RegularExpressions](https://github.com/dotnet/runtime/tree/main/src/libraries/System.Text.RegularExpressions).
 - [Onigmo](https://github.com/k-takata/Onigmo) (Ruby 2.0+, etc.) and [Oniguruma](https://github.com/kkos/oniguruma) (Ruby 1.9, etc.).
 - [PCRE2](https://github.com/PCRE2Project/pcre2) (PHP, R, etc.).
+- [Perl](https://github.com/Perl/perl5/blob/blead/regexp.h) (see [perlreguts](https://perldoc.perl.org/perlreguts)).
 - [Python: re](https://github.com/python/cpython/tree/main/Lib/re) and [regex](https://github.com/mrabarnett/mrab-regex) (with extended features).
 - [RE2](https://github.com/google/re2) (Go, etc.) — Non-backtracking engine.
 - [Rust: regex](https://github.com/rust-lang/regex) — Non-backtracking engine.
