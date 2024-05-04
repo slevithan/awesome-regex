@@ -40,7 +40,7 @@ Your contributions are welcome! Please take a look at the [contribution guidelin
   - Ex: The “JavaScript” flavor is defined by the ECMAScript standard and implemented by multiple engines (V8, etc.).
   - Ex: The “PCRE” flavor is the PCRE2 library, used by numerous programming languages and tools (including PHP’s [`preg_*`](https://www.php.net/manual/en/ref.pcre.php) functions).
   - Ex: Ruby changed its regex implementation twice from version 1.8 ➜ 1.9 ➜ 2.0, so each used a distinct flavor. In this list, the Ruby 2.0+ flavor is referred to as either “Ruby” or “Onigmo” (the regex library adopted by Ruby 2.0).
-- **Non-backtracking engine:** Sometimes referred to elsewhere as a “DFA” engine (as opposed to a “traditional NFA” engine). Non-backtracking engines like RE2 and Rust’s `regex` run in linear time because they don’t require/allow backtracking. This precludes “catastophic backtracking”, but it’s also slower with some common patterns and prevents some useful features like backreferences and lookaround. See also: [Performance](#performance).
+- **Non-backtracking engine:** Sometimes referred to elsewhere as a “DFA” engine (as opposed to a “traditional NFA” engine). Non-backtracking engines like RE2 and Rust’s `regex` run in linear time because they don’t require/allow backtracking. This precludes “catastrophic backtracking”, but it’s also slower with some common patterns and prevents some useful features like backreferences and lookaround. See also: [Performance](#performance).
 </details>
 
 ## Testers
@@ -241,14 +241,14 @@ See also: Backcompat libraries: [regexpu](https://github.com/mathiasbynens/regex
 
 *Learn about regex features potentially coming to future JavaScript versions.*
 
-- [Duplicate named capturing groups](https://github.com/tc39/proposal-duplicate-named-capturing-groups) — `(?<a>…)|(?<a>…)`.
-- [Extended mode and comments](https://github.com/tc39/proposal-regexp-x-mode) — Flag `/x` (`extended`) with free spacing and line comments `#…`, inline comments `(?#…)`.
-- [Pattern modifiers](https://github.com/tc39/proposal-regexp-modifiers) — `(?imsx-imsx:…)`.
-- [Atomic operators](https://github.com/tc39/proposal-regexp-atomic-operators) — Atomic groups `(?>…)` and possessive quantifiers (ex: `*+`, `++`).
-- [RegExp escaping](https://github.com/tc39/proposal-regex-escaping) — `RegExp.escape`.
-- [Buffer boundaries](https://github.com/tc39/proposal-regexp-buffer-boundaries) — `\A` and `\z`, not affected by flag `/m`.
-- [\R escape](https://github.com/tc39/proposal-regexp-r-escape) — `\R` for any line terminator.
-- [Legacy RegExp features](https://github.com/tc39/proposal-regexp-legacy-features) — Standardization of legacy features.
+- [Duplicate named capturing groups](https://github.com/tc39/proposal-duplicate-named-capturing-groups) [2022] — `(?<a>…)|(?<a>…)`.
+- [Extended mode and comments](https://github.com/tc39/proposal-regexp-x-mode) [2021] — Flag `/x` (`extended`) with insignificant whitespace and line comments `#…`, inline comments `(?#…)`.
+- [Pattern modifiers](https://github.com/tc39/proposal-regexp-modifiers) [2021] — `(?imsx-imsx:…)`.
+- [Atomic operators](https://github.com/tc39/proposal-regexp-atomic-operators) [2021] — Atomic groups `(?>…)` and possessive quantifiers (ex: `*+`, `++`).
+- [Buffer boundaries](https://github.com/tc39/proposal-regexp-buffer-boundaries) [2021] — `\A` and `\z`, not affected by flag `/m`.
+- [\R escape](https://github.com/tc39/proposal-regexp-r-escape) [2021] — `\R` for any line terminator.
+- [RegExp escaping](https://github.com/tc39/proposal-regex-escaping) [2015] — `RegExp.escape`.
+- [Legacy RegExp features](https://github.com/tc39/proposal-regexp-legacy-features) [2015] — Standardization of legacy features.
 
 See also: Chrome’s `/l` (`linear`) flag, behind a V8 flag [[*explainer*](https://v8.dev/blog/non-backtracking-regexp)] [[*how to run*](https://www.chromium.org/developers/how-tos/run-chromium-with-flags/)].
 
