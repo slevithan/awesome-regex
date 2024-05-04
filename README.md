@@ -255,16 +255,15 @@ See also: Chrome’s `l` (`linear`) flag, behind a V8 flag [[*explainer*](https:
 
 ## Books
 
-*Curated list of regex books.*
+*A curated list of regex books.*
 
 - [*Regular Expressions Cookbook, 2nd Edition*](https://www.amazon.com/dp/1449319432/?tag=slev-20) [2012], by Jan Goyvaerts, Steven Levithan.
 - [*Mastering Regular Expressions, 3rd Edition*](https://www.amazon.com/dp/0596528124/?tag=slev-20) [2006], by Jeffrey Friedl.
-
-More: [*Regular Expression Puzzles and AI Coding Assistants*](https://www.amazon.com/dp/1633437817/?tag=slev-20) [2023], [*Regular Expression Pocket Reference, 2nd Edition*](https://www.amazon.com/dp/0596514271/?tag=slev-20) [2007], [*Mastering Python Regular Expressions*](https://www.amazon.com/dp/1783283157/?tag=slev-20) [2014], [*Introducing Regular Expressions*](https://www.amazon.com/dp/1449392687/?tag=slev-20) [2012], [*Learning Regular Expressions*](https://www.amazon.com/dp/0134757068/?tag=slev-20) [2018], [*Regex Quick Syntax Reference*](https://www.amazon.com/dp/1484238753/?tag=slev-20) [2018], [*Regular Expressions: Pocket Primer*](https://www.amazon.com/dp/1683922271/?tag=slev-20) [2018], [*Sams Teach Yourself Regular Expressions in 10 Minutes*](https://www.amazon.com/dp/0672325667/?tag=slev-20) [2004].
+- [*Introducing Regular Expressions*](https://www.amazon.com/dp/1449392687/?tag=slev-20) [2012], by Michael Fitzgerald.
 
 ## Articles
 
-*Curated list of regex articles.*
+*A curated list of regex articles.*
 
 - [*The World's Shortest Regex Compiler?*](https://jasonhpriestley.com/regex) and a [follow up](https://jasonhpriestley.com/regex-dfa) on optimization, by Jason H Priestley.
 
