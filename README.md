@@ -224,16 +224,16 @@ More: [RexEgg](https://rexegg.com/).
 
 - ES3 [1999] introduced powerful regular expressions, though limited compared to other major flavors.
 - ES6/ES2015 added: [[*explainer*](https://exploringjs.com/es6/ch_regexp.html)]
-  - Flag `/y` (`sticky`).
-  - Flag `/u` (`unicode`) [[*explainer*](https://mathiasbynens.be/notes/es6-unicode-regex)] [[*2016 spec fix*](https://github.com/tc39/ecma262/pull/525)] with errors for unreserved letter escapes, Unicode code point escapes `\u{…}`, impact on flag `/i`, and surrogate pairs as code points (with impact on quantifiers, character classes, character class ranges, and built-in classes like dot and `\W`).
-  - Getter `flags`.
+  - Flag `y` (`sticky`).
+  - Flag `u` (`unicode`) [[*explainer*](https://mathiasbynens.be/notes/es6-unicode-regex)] [[*2016 spec fix*](https://github.com/tc39/ecma262/pull/525)] with errors for unreserved letter escapes, Unicode code point escapes (`\u{…}`), impact on flag `i`, and surrogate pairs as code points (with impact on quantifiers, character classes, character class ranges, and built-in classes like `.` and `\W`).
+  - Getter `RegExp.prototype.flags`.
   - Can subclass `RegExp`, and `RegExp.prototype[Symbol.match/replace/search/split]` for use in subclasses.
   - Use `RegExp` to copy a regex, optionally with new flags.
-- ES2018 added [flag `/s`](https://github.com/tc39/proposal-regexp-dotall-flag) (`dotAll`), [lookbehind](https://github.com/tc39/proposal-regexp-lookbehind), [named capture](https://github.com/tc39/proposal-regexp-named-groups), and [Unicode properties](https://github.com/tc39/proposal-regexp-unicode-property-escapes) via `\p{…}` and `\P{…}` behind flag `/u` (see [property list](https://github.com/mathiasbynens/regexpu-core/blob/main/property-escapes.md)).
+- ES2018 added [flag `s`](https://github.com/tc39/proposal-regexp-dotall-flag) (`dotAll`), [lookbehind](https://github.com/tc39/proposal-regexp-lookbehind), [named capture](https://github.com/tc39/proposal-regexp-named-groups), and [Unicode properties](https://github.com/tc39/proposal-regexp-unicode-property-escapes) via `\p{…}` and `\P{…}` behind flag `u` (see [property list](https://github.com/mathiasbynens/regexpu-core/blob/main/property-escapes.md)).
 - ES2020 added string method [`matchAll`](https://github.com/tc39/proposal-string-matchall) (which returns an iterator) and `RegExp.prototype[Symbol.matchAll]`.
 - ES2021 added [`replaceAll`](https://github.com/tc39/proposal-string-replaceall).
-- ES2022 added [flag `/d`](https://github.com/tc39/proposal-regexp-match-indices) (`hasIndices`), which provides start/end indices for matched substrings.
-- ES2024 added [flag `/v`](https://github.com/tc39/proposal-regexp-v-flag) (`unicodeSets`) [[*explainer*](https://v8.dev/features/regexp-v-flag)] as an upgrade to flag `/u` (can't be used together); adds properties of *strings* to `\p{…}`, multicharacter elements within character classes via `\p{…}` and `\q{…|…}`, nested character classes, set operators `[…--…]` and `[…&&…]`, improved case-insensitive matching, and different escaping rules within character classes.
+- ES2022 added [flag `d`](https://github.com/tc39/proposal-regexp-match-indices) (`hasIndices`), which provides start/end indices for matched substrings.
+- ES2024 added [flag `v`](https://github.com/tc39/proposal-regexp-v-flag) (`unicodeSets`) [[*explainer*](https://v8.dev/features/regexp-v-flag)] as an upgrade to flag `u` (can't be used together); adds properties of *strings* to `\p{…}`, multicharacter elements within character classes via `\p{…}` and `\q{…|…}`, nested character classes, set operators `[…--…]` and `[…&&…]`, improved case-insensitive matching, and different escaping rules within character classes.
 
 See also: Backcompat libraries: [regexpu](https://github.com/mathiasbynens/regexpu), [regenerate](https://github.com/mathiasbynens/regenerate).
 
@@ -242,10 +242,10 @@ See also: Backcompat libraries: [regexpu](https://github.com/mathiasbynens/regex
 *Learn about regex features potentially coming to future JavaScript versions.*
 
 - [Duplicate named capturing groups](https://github.com/tc39/proposal-duplicate-named-capturing-groups) [2022] — `(?<a>…)|(?<a>…)`.
-- [Extended mode and comments](https://github.com/tc39/proposal-regexp-x-mode) [2021] — Flag `/x` (`extended`) with insignificant whitespace and line comments `#…`, inline comments `(?#…)`.
+- [Extended mode and comments](https://github.com/tc39/proposal-regexp-x-mode) [2021] — Flag `x` (`extended`) with insignificant whitespace and line comments (`#…`), inline comments via `(?#…)`.
 - [Pattern modifiers](https://github.com/tc39/proposal-regexp-modifiers) [2021] — `(?imsx-imsx:…)`.
-- [Atomic operators](https://github.com/tc39/proposal-regexp-atomic-operators) [2021] — Atomic groups `(?>…)` and possessive quantifiers (ex: `*+`, `++`).
-- [Buffer boundaries](https://github.com/tc39/proposal-regexp-buffer-boundaries) [2021] — `\A` and `\z`, not affected by flag `/m`.
+- [Atomic operators](https://github.com/tc39/proposal-regexp-atomic-operators) [2021] — Atomic groups via `(?>…)`, possessive quantifiers (ex: `*+`, `++`).
+- [Buffer boundaries](https://github.com/tc39/proposal-regexp-buffer-boundaries) [2021] — `\A` and `\z`, not affected by flag `m`.
 - [\R escape](https://github.com/tc39/proposal-regexp-r-escape) [2021] — `\R` for any line terminator.
 - [RegExp escaping](https://github.com/tc39/proposal-regex-escaping) [2015] — `RegExp.escape`.
 - [Legacy RegExp features](https://github.com/tc39/proposal-regexp-legacy-features) [2015] — Standardization of legacy features.
