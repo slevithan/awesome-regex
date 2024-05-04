@@ -62,7 +62,7 @@ Your contributions are welcome! Please take a look at the [contribution guidelin
 
 ## Syntax-free regex builders
 
-*Build regexes without writing regex syntax or code. See also: [Readable regex composers](#readable-regex-composers).*
+*Build regexes without writing regex syntax or code. See also: [Readable regex composers](#javascript-regex-libraries).*
 
 - [ChatGPT](https://chat.openai.com/) (and other LLMs) — Ex: *"create a regex that matches `X` and explain it step by step"*.
 - [RegexMagic](https://www.regexmagic.com/) (<picture><img src="public/images/ms-logo.svg" title="Windows" height="12"></picture>, $40).
@@ -79,19 +79,20 @@ More: [RegExper](https://regexper.com/) [[*GitLab*](https://gitlab.com/javallone
 
 ## Search and replace through files
 
-*Grep-like tools for working with files.*
+*Software for grepping through files, on the command line or visually.*
 
 - [GNU Grep](https://www.gnu.org/software/grep/manual/grep.html).
 - [Aba Search and Replace](https://www.abareplace.com/) (<picture><img src="public/images/ms-logo.svg" title="Windows" height="12"></picture>, $30).
-- [PowerGREP](https://www.powergrep.com/) (<picture><img src="public/images/ms-logo.svg" title="Windows" height="12"></picture>, $159) — Search through files including archives, binary files, PDFs, and Office docs/sheets.
+- [PowerGREP](https://www.powergrep.com/) (<picture><img src="public/images/ms-logo.svg" title="Windows" height="12"></picture>, $159) — Can search through archives, binary files, PDFs, docs/sheets, Outlook emails, etc., via GUI or command line.
 - [RegexRenamer](https://regexrenamer.sourceforge.net/) (<picture><img src="public/images/ms-logo.svg" title="Windows" height="12"></picture>) — Rename files using regexes.
 
 ## Tutorials
 
-*The best tutorials and interactive excercises.*
+*Learn how to use regular expressions.*
 
-- [Regular-Expressions.info](https://www.regular-expressions.info/) — Covers numerous regex flavors.
-- [The Modern JavaScript Tutorial: Regular expressions](https://javascript.info/regular-expressions) [[*GitHub*](https://github.com/javascript-tutorial/en.javascript.info)] — Languages: 🇺🇸, 🇪🇸, 🇫🇷, 🇮🇹, 🇯🇵, 🇷🇺, 🇺🇦, 🇨🇳 (partial for [others](https://javascript.info/translate)).
+- Traditional:
+  - [Regular-Expressions.info](https://www.regular-expressions.info/) — Covers numerous regex flavors.
+  - [The Modern JavaScript Tutorial: Regular expressions](https://javascript.info/regular-expressions) [[*GitHub*](https://github.com/javascript-tutorial/en.javascript.info)] — Languages: 🇺🇸, 🇪🇸, 🇫🇷, 🇮🇹, 🇯🇵, 🇷🇺, 🇺🇦, 🇨🇳 (partial for [others](https://javascript.info/translate)).
 - With interactive exercises:
   - [RegexLearn](https://regexlearn.com/) [[*GitHub*](https://github.com/aykutkardas/regexlearn.com)] — Languages: 🇺🇸, 🇹🇷, 🇷🇺, 🇪🇸, 🇨🇳, 🇩🇪, 🇺🇦, 🇫🇷, 🇵🇱, 🇰🇷, 🇧🇷, 🇨🇿, 🇬🇪.
   - [RegexOne](https://regexone.com/).
@@ -101,6 +102,8 @@ More: [RegExper](https://regexper.com/) [[*GitLab*](https://gitlab.com/javallone
 More: [RexEgg](https://rexegg.com/).
 
 ### Videos
+
+*Regex video tutorials.*
 
 - [*Demystifying Regular Expressions*](https://www.youtube.com/watch?v=M7vDtxaD7ZU), by Lea Verou.
 - [*Learn Regular Expressions In 20 Minutes*](https://www.youtube.com/watch?v=rhzKDrUiJVk), by Kyle Cook.
@@ -161,7 +164,7 @@ More: [RexEgg](https://rexegg.com/).
 
 - Learn:
   - [*Runaway Regular Expressions: Catastrophic Backtracking*](https://www.regular-expressions.info/catastrophic.html), by Jan Goyvaerts.
-  - Book chapter: *“Strings and Regular Expressions”*, by Steven Levithan, in [*High Performance JavaScript*](https://www.amazon.com/dp/059680279X/?tag=slev-20) [2010], by Nicholas C. Zakas et al. — Deep dive into understanding backtracking and writing regexes for optimal performance.
+  - Book chapter: *“Strings and Regular Expressions”*, by Steven Levithan, in [*High Performance JavaScript*](https://www.amazon.com/dp/059680279X/?tag=slev-20) [2010], by Nicholas C. Zakas et al. — Deep dive into backtracking and writing regexes for optimal performance.
   - [*Regular Expression Matching Can Be Simple And Fast*](https://swtch.com/~rsc/regexp/regexp1.html), by Russ Cox — On non-backtracking engines.
 - Benchmark:
   - Cross-regex-engine performance comparisons: [rebar](https://github.com/BurntSushi/rebar), [regex-benchmark](https://github.com/mariomka/regex-benchmark), [sljit/regex_perf.html](https://zherczeg.github.io/sljit/regex_perf.html).
@@ -184,12 +187,12 @@ More: [RexEgg](https://rexegg.com/).
 *Open source JavaScript libraries for advanced regex use and processing.*
 
 - Regex processors:
-  - AST builders: [regexp-tree](https://github.com/DmitrySoshnikov/regexp-tree) [includes optimizer, etc.], [regexpp](https://github.com/eslint-community/regexpp) [used by ESLint], [regjsparser](https://github.com/jviereck/regjsparser)/[regjsgen](https://github.com/bnjmnt4n/regjsgen), [ret.js](https://github.com/fent/ret.js), [RegexAnalyzer](https://github.com/foo123/RegexAnalyzer).
+  - AST builders: [regexp-tree](https://github.com/DmitrySoshnikov/regexp-tree) (includes optimizer, etc.), [regexpp](https://github.com/eslint-community/regexpp) (used by ESLint), [regjsparser](https://github.com/jviereck/regjsparser)/[regjsgen](https://github.com/bnjmnt4n/regjsgen), [ret.js](https://github.com/fent/ret.js), [RegexAnalyzer](https://github.com/foo123/RegexAnalyzer).
   - Generate strings that match a given regex: [randexp.js](https://github.com/fent/randexp.js), [regex-to-strings](https://github.com/wimpyprogrammer/regex-to-strings).
   - Generate regex from given strings: [retrie](https://github.com/satyr/retrie).
   - Highlight regex syntax: [Regex Colorizer](https://github.com/slevithan/regex-colorizer) [[*home*](https://stevenlevithan.com/regex/colorizer/)].
 - Alternative regex builders and engines:
-  - [XRegExp](https://github.com/slevithan/xregexp) [[*home*](https://xregexp.com/)] — Extended regex syntax/flags/utils.
+  - [XRegExp](https://github.com/slevithan/xregexp) [[*home*](https://xregexp.com/)] — Extended regex syntax, flags, and utils.
   - String template tags: [regexp-make-js](https://github.com/mikesamuel/regexp-make-js), [`XRegExp.tag`](https://github.com/slevithan/xregexp?tab=readme-ov-file#xregexptag-included-with-xregexpbuild).
   - [incr-regex-package](https://github.com/nurulc/incr-regex-package) — Partial/incremental matching, used by [react-rxinput](https://github.com/nurulc/react-rxinput) for input validation with a regex mask.
   - [@iter-tools/regex](https://github.com/iter-tools/regex) — Non-backtracking engine for streaming evaluation.
