@@ -128,13 +128,12 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 - With interactive exercises:
   - [RegexLearn](https://regexlearn.com/) [[*GitHub*](https://github.com/aykutkardas/regexlearn.com)] - Languages: 🇺🇸, 🇹🇷, 🇷🇺, 🇪🇸, 🇨🇳, 🇩🇪, 🇺🇦, 🇫🇷, 🇵🇱, 🇰🇷, 🇧🇷, 🇨🇿, 🇬🇪.
   - [RegexOne](https://regexone.com/).
-- Exercises only:
-  - [regex101: Regex Quiz](https://regex101.com/quiz) - Requires sign-in.
 
 <details>
   <summary>✳️ <b>Notable mentions</b></summary>
 
 - [RexEgg](https://rexegg.com/) - Detailed tutorial with advanced topics.
+- [regex101: Regex Quiz](https://regex101.com/quiz) - Exercises only. Requires sign-in.
 </details>
 
 ### Videos
