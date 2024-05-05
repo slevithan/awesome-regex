@@ -232,7 +232,10 @@ Your contributions to this list are welcome! Please take a look at the [contribu
   - Flavors: Java, JavaScript, .NET, PCRE, Perl, Python, Ruby, XRegExp.
 - [Regex DB](https://rgxdb.com/) — Solutions include basic descriptions and examples of matching and non-matching text.
 
-**⚠️ Note**: The quality of random regexes online tends to be low. It’s risky to use regexes that you don’t fully understand, as they might have false positives/negatives, run into performance problems with certain target strings only, or assume a different regex flavor.
+<details>
+  <summary>⚠️ <b>Word of warning</b></summary>
+The quality of random regexes online tends to be low. It’s risky to use regexes that you don’t fully understand, as they might have false positives/negatives, run into performance problems with certain target strings only, or assume a different regex flavor.
+</details>
 
 ## JavaScript regex libraries
 
