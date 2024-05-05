@@ -80,7 +80,7 @@ Your contributions are welcome! Please take a look at the [contribution guidelin
 
 ## Syntax-free regex builders
 
-*Build regexes without writing regex syntax or code. See also: [Readable regex composers](#javascript-regex-libraries).*
+*Build regexes without writing regex syntax or code. See also: [Readable regex composers](#javascript-regex-libraries), [Collections of patterns](#collections-of-patterns).*
 
 - [ChatGPT](https://chat.openai.com/) (and other LLMs) — Ex: *"create a regex that matches `X` and explain it step by step"*.
 - [RegexMagic](https://www.regexmagic.com/) (<picture><img src="public/images/windows.svg" title="Windows" height="12"></picture>, $40).
