@@ -69,7 +69,7 @@ Your contributions are welcome! Please take a look at the [contribution guidelin
 
 - Flavors:
   - JavaScript: [RegViz](http://regviz.org/).
-  - .NET: [Regex Storm](http://regexstorm.net/tester) [[*GitHub*](https://github.com/lonekorean/regex-storm)], [Regex Hero](https://regexhero.net/tester/) (<picture><img src="public/images/ms-logo.svg" title="Windows" height="12"></picture>), [Expresso](https://ultrapico.com/Expresso.htm) (<picture><img src="public/images/ms-logo.svg" title="Windows" height="12"></picture>).
+  - .NET: [Regex Storm](http://regexstorm.net/tester) [[*GitHub*](https://github.com/lonekorean/regex-storm)].
   - PCRE: [PHP Live Regex](https://www.phpliveregex.com/).
   - Python: [Pythex](https://pythex.org/).
   - Ruby: [Rubular](https://rubular.com/).
@@ -149,12 +149,13 @@ More: [RexEgg](https://rexegg.com/).
   - Python: [re](https://docs.python.org/library/re.html).
   - RE2: [Syntax](https://github.com/google/re2/wiki/Syntax).
   - Rust: [regex](https://docs.rs/regex/latest/regex/).
-- Non-unique:
-  - [MySQL](https://dev.mysql.com/doc/refman/en/regexp.html) — Flavor: ICU.
+- Without own flavor:
+  - MySQL: [Regular Expressions](https://dev.mysql.com/doc/refman/en/regexp.html) — Flavor: ICU.
+  - Swift: [NSRegularExpression](https://developer.apple.com/documentation/foundation/nsregularexpression) — Flavor: ICU.
 
 ### Source code
 
-*Read or contribute to the code behind major implementations.*
+*Read or contribute to the code behind major regex implementations.*
 
 - [V8: Irregexp](https://github.com/v8/v8/tree/main/src/regexp) (Chrome, etc.) — JavaScript `RegExp`.
 - [Boost.Regex](https://github.com/boostorg/regex) (C++, Sublime Text, etc.).
