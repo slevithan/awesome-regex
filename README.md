@@ -9,8 +9,6 @@ Currently includes especially deep coverage of regular expressions in JavaScript
 
 # Contents
 
-- [Intro](#intro)
-- [Glossary](#glossary)
 - [Testers](#testers)
   - [Best testers](#best-testers)
   - [More testers](#more-testers)
@@ -42,7 +40,7 @@ Regular expressions (regex or regexp) are a powerful and concise way to search, 
 <details>
   <summary>🤝 <b>Contributing</b></summary>
 
-Your contributions to this list are welcome! Please take a look at the [contribution guidelines](CONTRIBUTING.md) first.
+Improvements to this list are welcome. Please take a look at the [contribution guidelines](CONTRIBUTING.md) first.
 </details>
 
 <details>
@@ -66,17 +64,17 @@ Your contributions to this list are welcome! Please take a look at the [contribu
 
 *The very best, in multiple categories. All include live match highlighting.*
 
-- [regex101](https://regex101.com/) — **Best free and best web-based tester**.
+- [regex101](https://regex101.com/) - **Best free and best web-based tester**.
   - Flavors: Java, JavaScript, .NET, PCRE, RE2, Rust, and emulates Python.
   - Includes regex debugger (PCRE only).
-- [RegexBuddy](https://www.regexbuddy.com/) (<picture><img src="public/images/windows.svg" title="Windows" height="14"></picture>, $40) — **Best tester**.
+- [RegexBuddy](https://www.regexbuddy.com/) (<picture><img src="public/images/windows.svg" title="Windows" height="14"></picture>, $40) - **Best tester**.
   - Flavors: Emulates hundreds of flavors/versions, with deep knowledge of differences.
   - Includes regex debugger.
-- [RegExr](https://regexr.com/) [[*GitHub*](https://github.com/gskinner/regexr/)] — **Best open source tester**.
+- [RegExr](https://regexr.com/) [[*GitHub*](https://github.com/gskinner/regexr/)] - **Best open source tester**.
   - Flavors: JavaScript, PCRE.
-- [RegexLearn](https://regexlearn.com/playground) [[*GitHub*](https://github.com/aykutkardas/regexlearn.com)] — **Best multilingual tester** (JavaScript).
+- [RegexLearn](https://regexlearn.com/playground) [[*GitHub*](https://github.com/aykutkardas/regexlearn.com)] - **Best multilingual tester** (JavaScript).
   - Languages: 🇺🇸, 🇹🇷, 🇷🇺, 🇪🇸, 🇨🇳, 🇩🇪, 🇺🇦, 🇫🇷, 🇵🇱, 🇰🇷, 🇧🇷, 🇨🇿, 🇬🇪.
-- [regexplained](https://regexplained.com/) [[*GitHub*](https://github.com/LeaVerou/regexplained)] — **Best tester for presentations** (JavaScript).
+- [regexplained](https://regexplained.com/) [[*GitHub*](https://github.com/LeaVerou/regexplained)] - **Best tester for presentations** (JavaScript).
 
 ### More testers
 
@@ -97,7 +95,7 @@ Your contributions to this list are welcome! Please take a look at the [contribu
 
 *Build regexes without writing regex syntax or code. See also: [Readable regex composers](#javascript-regex-libraries), [Collections of patterns](#collections-of-patterns).*
 
-- [ChatGPT](https://chat.openai.com/) (and other LLMs) — Ex: *"create a regex that matches `X` and explain it step by step"*.
+- [ChatGPT](https://chat.openai.com/) (and other LLMs) - Ex: *"create a regex that matches `X` and explain it step by step"*.
 - [RegexMagic](https://www.regexmagic.com/) (<picture><img src="public/images/windows.svg" title="Windows" height="14"></picture>, $40).
 
 <details>
@@ -111,9 +109,9 @@ Your contributions to this list are welcome! Please take a look at the [contribu
 
 *Visualize how your regular expressions are structured or operate.*
 
-- [Regulex](https://jex.im/regulex/) [[*GitHub*](https://github.com/CJex/regulex)] — Create railroad diagrams. Flavor: JavaScript.
-- [Nodexr](https://www.nodexr.net/) [[*GitHub*](https://github.com/Jcparkyn/nodexr)] — Flavor: .NET.
-- [Regex Nodes](https://johannesvollmer.com/regex-nodes/) [[*GitHub*](https://github.com/johannesvollmer/regex-nodes)] — Flavor: JavaScript.
+- [Regulex](https://jex.im/regulex/) [[*GitHub*](https://github.com/CJex/regulex)] - Create railroad diagrams. Flavor: JavaScript.
+- [Nodexr](https://www.nodexr.net/) [[*GitHub*](https://github.com/Jcparkyn/nodexr)] - Flavor: .NET.
+- [Regex Nodes](https://johannesvollmer.com/regex-nodes/) [[*GitHub*](https://github.com/johannesvollmer/regex-nodes)] - Flavor: JavaScript.
 
 <details>
   <summary>✳️ <b>Notable mentions</b></summary>
@@ -128,24 +126,24 @@ Your contributions to this list are welcome! Please take a look at the [contribu
 
 - Command line:
   - [GNU Grep](https://www.gnu.org/software/grep/manual/grep.html).
-  - [ack](https://beyondgrep.com/) [[*GitHub*](https://github.com/beyondgrep/ack3)] — Better grep; defaults to only searching source code.
+  - [ack](https://beyondgrep.com/) [[*GitHub*](https://github.com/beyondgrep/ack3)] - Better grep; defaults to only searching source code.
 - GUI:
   - [Aba Search and Replace](https://www.abareplace.com/) (<picture><img src="public/images/windows.svg" title="Windows" height="14"></picture>, $30).
-  - [PowerGREP](https://www.powergrep.com/) (<picture><img src="public/images/windows.svg" title="Windows" height="14"></picture>, $159) — Can search through archives, binary files, PDFs, docs/sheets, Outlook emails, etc., via GUI or command line.
-  - [RegexRenamer](https://regexrenamer.sourceforge.net/) (<picture><img src="public/images/windows.svg" title="Windows" height="14"></picture>) — Rename files using regexes.
+  - [PowerGREP](https://www.powergrep.com/) (<picture><img src="public/images/windows.svg" title="Windows" height="14"></picture>, $159) - Can search through archives, binary files, PDFs, docs/sheets, Outlook emails, etc., via GUI or command line.
+  - [RegexRenamer](https://regexrenamer.sourceforge.net/) (<picture><img src="public/images/windows.svg" title="Windows" height="14"></picture>) - Rename files using regexes.
 
 ## Tutorials
 
 *Learn how to use regular expressions.*
 
 - Traditional:
-  - [Regular-Expressions.info](https://www.regular-expressions.info/) — Covers numerous regex flavors.
-  - [The Modern JavaScript Tutorial: Regular expressions](https://javascript.info/regular-expressions) [[*GitHub*](https://github.com/javascript-tutorial/en.javascript.info)] — Languages: 🇺🇸, 🇪🇸, 🇫🇷, 🇮🇹, 🇯🇵, 🇷🇺, 🇺🇦, 🇨🇳 (partial for [others](https://javascript.info/translate)).
+  - [Regular-Expressions.info](https://www.regular-expressions.info/) - Covers numerous regex flavors.
+  - [The Modern JavaScript Tutorial: Regular expressions](https://javascript.info/regular-expressions) [[*GitHub*](https://github.com/javascript-tutorial/en.javascript.info)] - Languages: 🇺🇸, 🇪🇸, 🇫🇷, 🇮🇹, 🇯🇵, 🇷🇺, 🇺🇦, 🇨🇳 (partial for [others](https://javascript.info/translate)).
 - With interactive exercises:
-  - [RegexLearn](https://regexlearn.com/) [[*GitHub*](https://github.com/aykutkardas/regexlearn.com)] — Languages: 🇺🇸, 🇹🇷, 🇷🇺, 🇪🇸, 🇨🇳, 🇩🇪, 🇺🇦, 🇫🇷, 🇵🇱, 🇰🇷, 🇧🇷, 🇨🇿, 🇬🇪.
+  - [RegexLearn](https://regexlearn.com/) [[*GitHub*](https://github.com/aykutkardas/regexlearn.com)] - Languages: 🇺🇸, 🇹🇷, 🇷🇺, 🇪🇸, 🇨🇳, 🇩🇪, 🇺🇦, 🇫🇷, 🇵🇱, 🇰🇷, 🇧🇷, 🇨🇿, 🇬🇪.
   - [RegexOne](https://regexone.com/).
 - Exercises only:
-  - [regex101: Regex Quiz](https://regex101.com/quiz) — Requires sign-in.
+  - [regex101: Regex Quiz](https://regex101.com/quiz) - Requires sign-in.
 
 <details>
   <summary>✳️ <b>Notable mentions</b></summary>
@@ -182,26 +180,26 @@ Your contributions to this list are welcome! Please take a look at the [contribu
   - RE2: [Syntax](https://github.com/google/re2/wiki/Syntax).
   - Rust: [regex](https://docs.rs/regex/latest/regex/).
 - Without own flavor:
-  - MySQL: [Regular Expressions](https://dev.mysql.com/doc/refman/en/regexp.html) — Flavor: ICU.
-  - PHP: [Regular Expressions](https://www.php.net/manual/en/book.pcre.php) — Flavor: PCRE.
-  - Swift: [NSRegularExpression](https://developer.apple.com/documentation/foundation/nsregularexpression) — Flavor: ICU.
+  - MySQL: [Regular Expressions](https://dev.mysql.com/doc/refman/en/regexp.html) - Flavor: ICU.
+  - PHP: [Regular Expressions](https://www.php.net/manual/en/book.pcre.php) - Flavor: PCRE.
+  - Swift: [NSRegularExpression](https://developer.apple.com/documentation/foundation/nsregularexpression) - Flavor: ICU.
 
 ### Source code
 
 *Read or contribute to the code behind major regex implementations.*
 
-- [V8: Irregexp](https://github.com/v8/v8/tree/main/src/regexp) (Chrome, etc.) — JavaScript `RegExp`.
+- [V8: Irregexp](https://github.com/v8/v8/tree/main/src/regexp) (Chrome, etc.) - JavaScript `RegExp`.
 - [Boost.Regex](https://github.com/boostorg/regex) (C++, Sublime Text, etc.).
-- [Hyperscan](https://github.com/intel/hyperscan) — Intel’s high-performance library, used for [DPI](https://en.wikipedia.org/wiki/Deep_packet_inspection).
-- [ICU](https://github.com/unicode-org/icu/blob/main/icu4c/source/i18n/unicode/regex.h) — Unicode org’s package with full Unicode support.
+- [Hyperscan](https://github.com/intel/hyperscan) - Intel’s high-performance library, used for [DPI](https://en.wikipedia.org/wiki/Deep_packet_inspection).
+- [ICU](https://github.com/unicode-org/icu/blob/main/icu4c/source/i18n/unicode/regex.h) - Unicode org’s package with full Unicode support.
 - [Java: java.util.regex](https://github.com/openjdk/jdk/tree/master/src/java.base/share/classes/java/util/regex).
 - [.NET: System.Text.RegularExpressions](https://github.com/dotnet/runtime/tree/main/src/libraries/System.Text.RegularExpressions).
 - [Onigmo](https://github.com/k-takata/Onigmo) (Ruby 2.0+, etc.) and [Oniguruma](https://github.com/kkos/oniguruma) (Ruby 1.9, etc.).
 - [PCRE2](https://github.com/PCRE2Project/pcre2) (PHP, R, etc.).
 - [Perl](https://github.com/Perl/perl5/blob/blead/regexp.h) (see [perlreguts](https://perldoc.perl.org/perlreguts)).
 - [Python: re](https://github.com/python/cpython/tree/main/Lib/re) and [regex](https://github.com/mrabarnett/mrab-regex) (with extended features).
-- [RE2](https://github.com/google/re2) (Go, etc.) — Non-backtracking engine.
-- [Rust: regex](https://github.com/rust-lang/regex) — Non-backtracking engine.
+- [RE2](https://github.com/google/re2) (Go, etc.) - Non-backtracking engine.
+- [Rust: regex](https://github.com/rust-lang/regex) - Non-backtracking engine.
 
 ### Flavor differences
 
@@ -220,20 +218,20 @@ Your contributions to this list are welcome! Please take a look at the [contribu
   - [*Runaway Regular Expressions: Catastrophic Backtracking*](https://www.regular-expressions.info/catastrophic.html), by Jan Goyvaerts.
   - *Chapter 5: Strings and Regular Expressions*, by Steven Levithan, in [*High Performance JavaScript*](https://www.amazon.com/dp/059680279X/?tag=slev-20) [2010], by Nicholas C. Zakas et al.
   - *Chapter 6: Crafting an Efficient Expression*, in [*Mastering Regular Expressions, 3rd Edition*](https://www.amazon.com/dp/0596528124/?tag=slev-20) [2006], by Jeffrey Friedl.
-  - [*Regular Expression Matching Can Be Simple And Fast*](https://swtch.com/~rsc/regexp/regexp1.html), by Russ Cox — On non-backtracking engines.
+  - [*Regular Expression Matching Can Be Simple And Fast*](https://swtch.com/~rsc/regexp/regexp1.html), by Russ Cox - On non-backtracking engines.
 - Benchmark:
   - Cross-regex-engine performance comparisons: [rebar](https://github.com/BurntSushi/rebar), [regex-benchmark](https://github.com/mariomka/regex-benchmark), [sljit/regex_perf.html](https://zherczeg.github.io/sljit/regex_perf.html).
-  - [octane/regexp.js](https://github.com/chromium/octane/blob/master/regexp.js) — Regex workload for performance testing.
+  - [octane/regexp.js](https://github.com/chromium/octane/blob/master/regexp.js) - Regex workload for performance testing.
 - Tools:
-  - [SDL Regex Fuzzer](https://download.cnet.com/sdl-regex-fuzzer/3000-2383_4-75321803.html) (<picture><img src="public/images/windows.svg" title="Windows" height="14"></picture>) — Finds strings that trigger catastrophic backtracking (requires [.NET Framework 3.5](https://learn.microsoft.com/en-us/dotnet/framework/install/dotnet-35-windows)).
+  - [SDL Regex Fuzzer](https://download.cnet.com/sdl-regex-fuzzer/3000-2383_4-75321803.html) (<picture><img src="public/images/windows.svg" title="Windows" height="14"></picture>) - Finds strings that trigger catastrophic backtracking (requires [.NET Framework 3.5](https://learn.microsoft.com/en-us/dotnet/framework/install/dotnet-35-windows)).
 
 ## Collections of patterns
 
 *Prewritten regexes for specific tasks.*
 
-- Book: [*Regular Expressions Cookbook, 2nd Edition*](https://www.amazon.com/dp/1449319432/?tag=slev-20) [2012], by Jan Goyvaerts, Steven Levithan — High quality solutions with detailed explanations and analysis.
+- Book: [*Regular Expressions Cookbook, 2nd Edition*](https://www.amazon.com/dp/1449319432/?tag=slev-20) [2012], by Jan Goyvaerts, Steven Levithan - High quality solutions with detailed explanations and analysis.
   - Flavors: Java, JavaScript, .NET, PCRE, Perl, Python, Ruby, XRegExp.
-- [Regex DB](https://rgxdb.com/) — Solutions include basic descriptions and examples of matching and non-matching text.
+- [Regex DB](https://rgxdb.com/) - Solutions include basic descriptions and examples of matching and non-matching text.
 
 <details>
   <summary>⚠️ <b>Word of warning</b></summary>
@@ -250,13 +248,13 @@ The quality of random regexes online tends to be low. It’s risky to use regexe
   - Generate a regex from given strings: [retrie](https://github.com/satyr/retrie).
   - Highlight regex syntax: [Regex Colorizer](https://github.com/slevithan/regex-colorizer) [[*home*](https://stevenlevithan.com/regex/colorizer/)].
 - Alternative regex builders and engines:
-  - [XRegExp](https://github.com/slevithan/xregexp) [[*home*](https://xregexp.com/)] — Extended regex syntax, flags, and utils.
+  - [XRegExp](https://github.com/slevithan/xregexp) [[*home*](https://xregexp.com/)] - Extended regex syntax, flags, and utils.
   - String template tags: [regexp-make-js](https://github.com/mikesamuel/regexp-make-js), [`XRegExp.tag`](https://github.com/slevithan/xregexp?tab=readme-ov-file#xregexptag-included-with-xregexpbuild).
-  - [incr-regex-package](https://github.com/nurulc/incr-regex-package) — Partial/incremental matching, used by [react-rxinput](https://github.com/nurulc/react-rxinput) for input validation with a regex mask.
-  - [@iter-tools/regex](https://github.com/iter-tools/regex) — Non-backtracking engine for streaming evaluation.
+  - [incr-regex-package](https://github.com/nurulc/incr-regex-package) - Partial/incremental matching, used by [react-rxinput](https://github.com/nurulc/react-rxinput) for input validation with a regex mask.
+  - [@iter-tools/regex](https://github.com/iter-tools/regex) - Non-backtracking engine for streaming evaluation.
 - Readable regex composers:
-  - [Rexx](https://github.com/yyytcool/rexx) — Structured syntax with variables and comments.
-  - [compose-regexp.js](https://github.com/compose-regexp/compose-regexp.js) — Includes some extra features like `atomic`.
+  - [Rexx](https://github.com/yyytcool/rexx) - Structured syntax with variables and comments.
+  - [compose-regexp.js](https://github.com/compose-regexp/compose-regexp.js) - Includes some extra features like `atomic`.
   - <details><summary>✳️ <b>Notable mentions</b></summary> <ul><li><a href="https://github.com/VerbalExpressions/JSVerbalExpressions">VerbalExpressions</a> (has implementations for <a href="https://verbalexpressions.github.io/">many languages</a>).</li> <li><a href="https://github.com/unjs/magic-regexp">magic-regexp</a> [<a href="https://regexp.dev/"><i>home</i></a>].</li> <li><a href="https://github.com/francisrstokes/super-expressive">Super Expressive</a> [<a href="https://nartc.github.io/ng-super-expressive/"><i>playground</i></a>].</li> <li><a href="https://github.com/yoav-lavi/melody">Melody</a>.</li></ul></details>
 
 ## JavaScript regex evolution
@@ -282,14 +280,14 @@ The quality of random regexes online tends to be low. It’s risky to use regexe
 
 *Learn about regex features potentially coming to future JavaScript versions.*
 
-- [Duplicate named capturing groups](https://github.com/tc39/proposal-duplicate-named-capturing-groups) [2022] — `(?<a>…)|(?<a>…)`.
-- [Extended mode and comments](https://github.com/tc39/proposal-regexp-x-mode) [2021] — Flag `x` (`extended`) with insignificant whitespace and line comments (`#…`), inline comments via `(?#…)`.
-- [Pattern modifiers](https://github.com/tc39/proposal-regexp-modifiers) [2021] — `(?imsx-imsx:…)`.
-- [Atomic operators](https://github.com/tc39/proposal-regexp-atomic-operators) [2021] — Atomic groups via `(?>…)`, possessive quantifiers (ex: `*+`, `++`).
-- [Buffer boundaries](https://github.com/tc39/proposal-regexp-buffer-boundaries) [2021] — `\A` and `\z`, not affected by flag `m`.
-- [\R escape](https://github.com/tc39/proposal-regexp-r-escape) [2021] — `\R` for any line terminator.
-- [RegExp escaping](https://github.com/tc39/proposal-regex-escaping) [2015] — `RegExp.escape`.
-- [Legacy RegExp features](https://github.com/tc39/proposal-regexp-legacy-features) [2015] — Standardization of legacy features.
+- [Duplicate named capturing groups](https://github.com/tc39/proposal-duplicate-named-capturing-groups) [2022] - `(?<a>…)|(?<a>…)`.
+- [Extended mode and comments](https://github.com/tc39/proposal-regexp-x-mode) [2021] - Flag `x` (`extended`) with insignificant whitespace and line comments (`#…`), inline comments via `(?#…)`.
+- [Pattern modifiers](https://github.com/tc39/proposal-regexp-modifiers) [2021] - `(?imsx-imsx:…)`.
+- [Atomic operators](https://github.com/tc39/proposal-regexp-atomic-operators) [2021] - Atomic groups via `(?>…)`, possessive quantifiers (ex: `*+`, `++`).
+- [Buffer boundaries](https://github.com/tc39/proposal-regexp-buffer-boundaries) [2021] - `\A` and `\z`, not affected by flag `m`.
+- [\R escape](https://github.com/tc39/proposal-regexp-r-escape) [2021] - `\R` for any line terminator.
+- [RegExp escaping](https://github.com/tc39/proposal-regex-escaping) [2015] - `RegExp.escape`.
+- [Legacy RegExp features](https://github.com/tc39/proposal-regexp-legacy-features) [2015] - Standardization of legacy features.
 
 ➕ **See also:** Chrome’s `l` (`linear`) flag, behind a V8 flag [[*explainer*](https://v8.dev/blog/non-backtracking-regexp)] [[*how to run*](https://www.chromium.org/developers/how-tos/run-chromium-with-flags/)].
 
@@ -318,5 +316,5 @@ The quality of random regexes online tends to be low. It’s risky to use regexe
 
 *Other interesting, fun, and useful stuff.*
 
-- Chrome extension: [Regex](https://chromewebstore.google.com/detail/regex/pmihaiejckejbpjdnildimfkpcpnohlo) — Regex search on webpages via `Ctrl+Shift+F`.
+- Chrome extension: [Regex](https://chromewebstore.google.com/detail/regex/pmihaiejckejbpjdnildimfkpcpnohlo) - Regex search on webpages via `Ctrl+Shift+F`.
 - Games: [Regex Crossword](https://regexcrossword.com/), [Redoku](https://padolsey.github.io/redoku/).
