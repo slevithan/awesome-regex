@@ -45,18 +45,18 @@ Your contributions are welcome! Please take a look at the [contribution guidelin
 
 ## Testers
 
-*For building, testing, and playing with regexes. All of these include live match highlighting, and many include regex syntax highlighting and other advanced features.*
+*For building, testing, and playing with regexes.*
 
 ### Best testers
 
-*The very best, in several categories.*
+*The very best, in multiple categories. All include live match highlighting.*
 
 - [regex101](https://regex101.com/) — **Best free and best web-based tester**.
   - Flavors: Java, JavaScript, .NET, PCRE, RE2, Rust, and emulates Python.
-  - Includes debugger (PCRE only).
+  - Includes regex debugger (PCRE only).
 - [RegexBuddy](https://www.regexbuddy.com/) (<picture><img src="public/images/ms-logo.svg" title="Windows" height="12"></picture>, $40) — **Best tester**.
   - Flavors: Emulates hundreds of flavors/versions, with deep knowledge of differences.
-  - Includes debugger.
+  - Includes regex debugger.
 - [RegExr](https://regexr.com/) [[*GitHub*](https://github.com/gskinner/regexr/)] — **Best open source tester**.
   - Flavors: JavaScript, PCRE.
 - [RegexLearn](https://regexlearn.com/playground) [[*GitHub*](https://github.com/aykutkardas/regexlearn.com)] — **Best multilingual tester** (JavaScript).
@@ -65,7 +65,7 @@ Your contributions are welcome! Please take a look at the [contribution guidelin
 
 ### More testers
 
-*Additional testing options that still meet the quality bar or include unique features.*
+*Additional testing options that are high quality or include unique features.*
 
 - Flavors:
   - JavaScript: [RegViz](http://regviz.org/).
