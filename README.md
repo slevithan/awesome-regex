@@ -1,22 +1,15 @@
 <div align="center">
 
-# Awesome Regex [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Regex `(.*)` [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 *An opinionated list of regular expression tools, tutorials, libraries, and other resources.
 <br>
 Currently includes especially deep coverage of regular expressions in JavaScript.*
 </div>
 
-## Intro
+# Contents
 
-Regular expressions (regex or regexp) are a powerful tool for searching, replacing, and parsing text. They’re built into programming languages, text editors, IDEs, DBMSes, and many other tools.
-
-Your contributions to this list are welcome! Please take a look at the [contribution guidelines](CONTRIBUTING.md) first.
-
-<blockquote>
-<details>
-  <summary>📋 <b>Contents</b></summary>
-
+- [Intro](#intro)
 - [Glossary](#glossary)
 - [Testers](#testers)
   - [Best testers](#best-testers)
@@ -42,7 +35,16 @@ Your contributions to this list are welcome! Please take a look at the [contribu
 </details>
 </blockquote>
 
-<blockquote>
+## Intro
+
+Regular expressions (regex or regexp) are a powerful and concise way to search, replace, and parse text. They’re built into many programming languages, text editors, IDEs, DBMSes, and other tools.
+
+<details>
+  <summary>🤝 <b>Contributing</b></summary>
+
+Your contributions to this list are welcome! Please take a look at the [contribution guidelines](CONTRIBUTING.md) first.
+</details>
+
 <details>
   <summary>📖 <b>Glossary</b></summary>
 
@@ -55,7 +57,6 @@ Your contributions to this list are welcome! Please take a look at the [contribu
   - Ex: Ruby changed its regex implementation twice from version 1.8 ➜ 1.9 ➜ 2.0, so each used a distinct flavor. The Ruby 2.0+ flavor is referred to here as either “Ruby” or “Onigmo” (the underlying regex library).
 - **Non-backtracking engine:** Sometimes referred to elsewhere as a “DFA” engine. Non-backtracking engines like RE2 and Rust’s `regex` run in linear time because they don’t use backtracking. This precludes “catastrophic backtracking”, but it’s also slower with some common patterns and precludes useful features like backreferences and lookarounds. See also: [Performance](#performance).
 </details>
-</blockquote>
 
 ## Testers
 
