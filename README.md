@@ -2,7 +2,7 @@
 
 > A curated and opinionated list of regular expression tools, tutorials, libraries, and other resources. Covers all major regex flavors. Currently includes especially deep coverage of regular expressions in JavaScript.
 
-Regular expressions (regex or regexp) are a powerful and concise way to search, parse, and process text. They’re built into many programming languages, text editors, IDEs, DBMSes, and other tools.
+Regular expressions (regex or regexp) are a powerful and concise way to search, parse, and process text. They're built into many programming languages, text editors, IDEs, DBMSes, and other tools.
 
 Contributions are welcome. Add links through pull requests ([guidelines](CONTRIBUTING.md)) or create an issue to start a discussion.
 
@@ -16,7 +16,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
   - Ex: The “JavaScript” flavor is defined by the ECMAScript spec; implemented by multiple engines (V8, etc.).
   - Ex: The “PCRE” flavor is the PCRE2 library, used by numerous programming languages and tools.
   - Ex: Ruby changed its regex implementation twice from version 1.8 ➜ 1.9 ➜ 2.0, so each used a distinct flavor. The Ruby 2.0+ flavor is referred to here as either “Ruby” or “Onigmo” (the underlying regex library).
-- **Non-backtracking engine:** Sometimes referred to elsewhere as a “DFA” engine. Non-backtracking engines like RE2 and Rust’s `regex` run in linear time because they don’t use backtracking. This rules out inefficiency from superlinear backtracking, but it’s also slower with some common patterns and precludes useful features like backreferences and lookarounds. See also: [Performance](#performance).
+- **Non-backtracking engine:** Sometimes referred to elsewhere as a “DFA” engine. Non-backtracking engines like RE2 and Rust's `regex` run in linear time because they don't use backtracking. This rules out inefficiency from superlinear backtracking, but it's also slower with some common patterns and precludes useful features like backreferences and lookarounds. See also: [Performance](#performance).
 </details>
 
 # Contents
@@ -175,8 +175,8 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 - [V8: Irregexp](https://github.com/v8/v8/tree/main/src/regexp) (Chrome, etc.) - JavaScript `RegExp`.
 - [Boost.Regex](https://github.com/boostorg/regex) (C++, Sublime Text, etc.).
-- [Hyperscan](https://github.com/intel/hyperscan) - Intel’s high-performance library, used for [DPI](https://en.wikipedia.org/wiki/Deep_packet_inspection).
-- [ICU](https://github.com/unicode-org/icu/blob/main/icu4c/source/i18n/unicode/regex.h) - Unicode org’s package with full Unicode support.
+- [Hyperscan](https://github.com/intel/hyperscan) - Intel's high-performance library, used for [DPI](https://en.wikipedia.org/wiki/Deep_packet_inspection).
+- [ICU](https://github.com/unicode-org/icu/blob/main/icu4c/source/i18n/unicode/regex.h) - Unicode org's package with full Unicode support.
 - [Java: java.util.regex](https://github.com/openjdk/jdk/tree/master/src/java.base/share/classes/java/util/regex).
 - [.NET: System.Text.RegularExpressions](https://github.com/dotnet/runtime/tree/main/src/libraries/System.Text.RegularExpressions).
 - [Onigmo](https://github.com/k-takata/Onigmo) (Ruby 2.0+, etc.) and [Oniguruma](https://github.com/kkos/oniguruma) (Ruby 1.9, etc.).
@@ -220,7 +220,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 <details>
   <summary>⚠️ <b>Word of warning</b></summary>
-The quality of random regexes online tends to be low. It’s risky to use regexes that you don’t fully understand, as they might have false positives/negatives, run into performance problems with certain target strings only, or assume a different regex flavor.
+The quality of random regexes online tends to be low. It's risky to use regexes that you don't fully understand, as they might have false positives/negatives, run into performance problems with certain target strings only, or assume a different regex flavor.
 </details>
 
 ## JavaScript regex libraries
@@ -274,7 +274,7 @@ The quality of random regexes online tends to be low. It’s risky to use regexe
 - [RegExp escaping](https://github.com/tc39/proposal-regex-escaping) [2015] - `RegExp.escape`.
 - [Legacy RegExp features](https://github.com/tc39/proposal-regexp-legacy-features) [2015] - Standardization of legacy features.
 
-➕ **See also:** Chrome’s `l` (`linear`) flag, behind a V8 flag [[*explainer*](https://v8.dev/blog/non-backtracking-regexp)] [[*how to run*](https://www.chromium.org/developers/how-tos/run-chromium-with-flags/)].
+➕ **See also:** Chrome's `l` (`linear`) flag, behind a V8 flag [[*explainer*](https://v8.dev/blog/non-backtracking-regexp)] [[*how to run*](https://www.chromium.org/developers/how-tos/run-chromium-with-flags/)].
 
 ## Books
 
