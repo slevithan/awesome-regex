@@ -1,6 +1,6 @@
-# `(?<=awesome)regex` [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# `(?<=`Awesome`)` Regex [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated and opinionated list of regular expression tools, tutorials, libraries, and other resources that covers all major regex flavors. Currently includes especially deep coverage of regular expressions in JavaScript.
+> A curated and opinionated list of regular expression tools, tutorials, libraries, and other resources. Covers all major regex flavors. Currently includes especially deep coverage of regular expressions in JavaScript.
 
 Regular expressions (regex or regexp) are a powerful and concise way to search, parse, and process text. They’re built into many programming languages, text editors, IDEs, DBMSes, and other tools.
 
