@@ -39,7 +39,6 @@ Your contributions to this list are welcome! Please take a look at the [contribu
 - [Miscelaneous](#miscelaneous)
 </details>
 </blockquote>
-<br>
 
 <blockquote>
 <details>
@@ -98,7 +97,12 @@ Your contributions to this list are welcome! Please take a look at the [contribu
 - [ChatGPT](https://chat.openai.com/) (and other LLMs) — Ex: *"create a regex that matches `X` and explain it step by step"*.
 - [RegexMagic](https://www.regexmagic.com/) (<picture><img src="public/images/windows.svg" title="Windows" height="12"></picture>, $40).
 
-More: [Regex Generator](https://regex-generator.olafneumann.org/) [[*GitHub*](https://github.com/noxone/regex-generator)], [Regex.ai](https://regex.ai/).
+<details>
+  <summary>✳️ <b>Notable mentions</b></summary>
+
+- [Regex Generator](https://regex-generator.olafneumann.org/) [[*GitHub*](https://github.com/noxone/regex-generator)].
+- [Regex.ai](https://regex.ai/).
+</details>
 
 ## Visualizers
 
@@ -108,7 +112,12 @@ More: [Regex Generator](https://regex-generator.olafneumann.org/) [[*GitHub*](ht
 - [Nodexr](https://www.nodexr.net/) [[*GitHub*](https://github.com/Jcparkyn/nodexr)] — Flavor: .NET.
 - [Regex Nodes](https://johannesvollmer.com/regex-nodes/) [[*GitHub*](https://github.com/johannesvollmer/regex-nodes)] — Flavor: JavaScript.
 
-More: [RegExper](https://regexper.com/) [[*GitLab*](https://gitlab.com/javallone/regexper-static)], [Debuggex](https://www.debuggex.com/).
+<details>
+  <summary>✳️ <b>Notable mentions</b></summary>
+
+- [RegExper](https://regexper.com/) [[*GitLab*](https://gitlab.com/javallone/regexper-static)].
+- [Debuggex](https://www.debuggex.com/).
+</details>
 
 ## Search and replace through files
 
@@ -135,7 +144,11 @@ More: [RegExper](https://regexper.com/) [[*GitLab*](https://gitlab.com/javallone
 - Exercises only:
   - [regex101: Regex Quiz](https://regex101.com/quiz) — Requires sign-in.
 
-More: [RexEgg](https://rexegg.com/).
+<details>
+  <summary>✳️ <b>Notable mentions</b></summary>
+
+- [RexEgg](https://rexegg.com/).
+</details>
 
 ### Videos
 
@@ -238,7 +251,7 @@ More: [RexEgg](https://rexegg.com/).
 - Readable regex composers:
   - [Rexx](https://github.com/yyytcool/rexx) — Structured syntax with variables and comments.
   - [compose-regexp.js](https://github.com/compose-regexp/compose-regexp.js) — Includes some extra features like `atomic`.
-  - More: [VerbalExpressions](https://github.com/VerbalExpressions/JSVerbalExpressions) (has implementations for [many languages](https://verbalexpressions.github.io/)), [magic-regexp](https://github.com/unjs/magic-regexp) [[*home*](https://regexp.dev/)], [Super Expressive](https://github.com/francisrstokes/super-expressive) [[*playground*](https://nartc.github.io/ng-super-expressive/)], [Melody](https://github.com/yoav-lavi/melody).
+  - <details><summary>✳️ <b>Notable mentions</b></summary> <ul><li><a href="https://github.com/VerbalExpressions/JSVerbalExpressions">VerbalExpressions</a> (has implementations for <a href="https://verbalexpressions.github.io/">many languages</a>).</li> <li><a href="https://github.com/unjs/magic-regexp">magic-regexp</a> [<a href="https://regexp.dev/"><i>home</i></a>].</li> <li><a href="https://github.com/francisrstokes/super-expressive">Super Expressive</a> [<a href="https://nartc.github.io/ng-super-expressive/"><i>playground</i></a>].</li> <li><a href="https://github.com/yoav-lavi/melody">Melody</a>.</li></ul></details>
 
 ## JavaScript regex evolution
 
@@ -257,7 +270,7 @@ More: [RexEgg](https://rexegg.com/).
 - ES2022 added [flag `d`](https://github.com/tc39/proposal-regexp-match-indices) (`hasIndices`), which provides start/end indices for matched substrings.
 - ES2024 added [flag `v`](https://github.com/tc39/proposal-regexp-v-flag) (`unicodeSets`) [[*explainer*](https://v8.dev/features/regexp-v-flag)] as an upgrade to flag `u` (can't be used together); adds properties of *strings* to `\p{…}`, multicharacter elements within character classes via `\p{…}` and `\q{…|…}`, nested character classes, set operators `[…--…]` and `[…&&…]`, improved case-insensitive matching, and different escaping rules within character classes.
 
-See also: Backcompat libraries: [regexpu](https://github.com/mathiasbynens/regexpu), [regenerate](https://github.com/mathiasbynens/regenerate).
+➕ **See also:** Backcompat libraries: [regexpu](https://github.com/mathiasbynens/regexpu), [regenerate](https://github.com/mathiasbynens/regenerate).
 
 ### Future: Active proposals
 
@@ -272,7 +285,7 @@ See also: Backcompat libraries: [regexpu](https://github.com/mathiasbynens/regex
 - [RegExp escaping](https://github.com/tc39/proposal-regex-escaping) [2015] — `RegExp.escape`.
 - [Legacy RegExp features](https://github.com/tc39/proposal-regexp-legacy-features) [2015] — Standardization of legacy features.
 
-See also: Chrome’s `l` (`linear`) flag, behind a V8 flag [[*explainer*](https://v8.dev/blog/non-backtracking-regexp)] [[*how to run*](https://www.chromium.org/developers/how-tos/run-chromium-with-flags/)].
+➕ **See also:** Chrome’s `l` (`linear`) flag, behind a V8 flag [[*explainer*](https://v8.dev/blog/non-backtracking-regexp)] [[*how to run*](https://www.chromium.org/developers/how-tos/run-chromium-with-flags/)].
 
 ## Books
 
