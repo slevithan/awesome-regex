@@ -1,9 +1,11 @@
-<h1 align="center">Awesome Regex</h1>
-<p align="center">
-  <i>An opinionated list of awesome regular expression tools, tutorials, libraries, and other resources.</i>
-  <br>
-  <i>Currently includes especially deep coverage of regular expressions in JavaScript.</i>
-</p>
+<div align="center">
+
+# Awesome Regex ![Awesome](https://awesome.re/badge.svg)
+
+*An opinionated list of awesome regular expression tools, tutorials, libraries, and other resources.
+<br>
+Currently includes especially deep coverage of regular expressions in JavaScript.*
+</div>
 
 ## Intro
 
