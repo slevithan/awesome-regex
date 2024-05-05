@@ -84,6 +84,7 @@ Contributions welcome. Add links through pull requests ([guidelines](CONTRIBUTIN
 
 - [ChatGPT](https://chat.openai.com/) (and other LLMs) - Ex: *"create a regex that matches `X` and explain it step by step"*.
 - [RegexMagic](https://www.regexmagic.com/) (<picture><img src="public/images/windows.svg" title="Windows" height="14"></picture>, $40) - Generate regexes using samples and rules.
+  - Flavors: Emulates hundreds of flavors/versions.
 
 <details>
   <summary>✳️ <b>Notable mentions</b></summary>
@@ -112,10 +113,11 @@ Contributions welcome. Add links through pull requests ([guidelines](CONTRIBUTIN
 *Grep-like software.*
 
 - Command line:
-  - [ack](https://beyondgrep.com/) [[*GitHub*](https://github.com/beyondgrep/ack3)] - Better grep; defaults to only searching source code.
+  - [ack](https://beyondgrep.com/) [[*GitHub*](https://github.com/beyondgrep/ack3)] - Better grep; defaults to only searching source code. Flavor: Perl.
 - GUI:
   - [Aba Search and Replace](https://www.abareplace.com/) (<picture><img src="public/images/windows.svg" title="Windows" height="14"></picture>, $30) - Displays matches as you type.
   - [PowerGREP](https://www.powergrep.com/) (<picture><img src="public/images/windows.svg" title="Windows" height="14"></picture>, $159) - Can search through archives, binary files, PDFs, docs/sheets, emails, etc., via GUI or command line.
+    - Flavors: Emulates hundreds of flavors/versions.
   - [RegexRenamer](https://regexrenamer.sourceforge.net/) (<picture><img src="public/images/windows.svg" title="Windows" height="14"></picture>) - Rename files using regexes.
 
 ## Tutorials
@@ -134,7 +136,7 @@ Contributions welcome. Add links through pull requests ([guidelines](CONTRIBUTIN
 <details>
   <summary>✳️ <b>Notable mentions</b></summary>
 
-- [RexEgg](https://rexegg.com/).
+- [RexEgg](https://rexegg.com/) - Detailed tutorial with advanced topics.
 </details>
 
 ### Videos
@@ -240,7 +242,7 @@ The quality of random regexes online tends to be low. It’s risky to use regexe
   - [@iter-tools/regex](https://github.com/iter-tools/regex) - Non-backtracking engine for streaming evaluation.
 - Readable regex composers:
   - [Rexx](https://github.com/yyytcool/rexx) - Structured syntax with variables and comments.
-  - [compose-regexp.js](https://github.com/compose-regexp/compose-regexp.js) - Includes some extra features like `atomic`.
+  - [compose-regexp.js](https://github.com/compose-regexp/compose-regexp.js) - Compose with functions. Includes extra features like `atomic`, `bound`.
   - <details><summary>✳️ <b>Notable mentions</b></summary> <ul><li><a href="https://github.com/VerbalExpressions/JSVerbalExpressions">VerbalExpressions</a> (has implementations for <a href="https://verbalexpressions.github.io/">many languages</a>).</li> <li><a href="https://github.com/unjs/magic-regexp">magic-regexp</a> [<a href="https://regexp.dev/"><i>home</i></a>].</li> <li><a href="https://github.com/francisrstokes/super-expressive">Super Expressive</a> [<a href="https://nartc.github.io/ng-super-expressive/"><i>playground</i></a>].</li> <li><a href="https://github.com/yoav-lavi/melody">Melody</a>.</li></ul></details>
 
 ## JavaScript regex evolution
