@@ -1,10 +1,19 @@
-# Awesome Regex
+<h1 align="center">Awesome Regex</h1>
+<p align="center">
+  <i>An opinionated list of awesome regular expression tools, tutorials, libraries, and other resources.</i>
+  <br>
+  <i>Currently includes especially deep coverage of regular expressions in JavaScript.</i>
+</p>
 
-An opinionated list of awesome regular expression tools, tutorials, libraries, and other resources. Currently includes especially deep coverage of regular expressions in JavaScript.
+## Intro
 
-Your contributions are welcome! Please take a look at the [contribution guidelines](CONTRIBUTING.md) first.
+Built into programming languages, text editors, IDEs, DBMSes, and many other tools, regular expressions (regex or regexp) are a powerful tool for searching, replacing, and parsing text.
 
-## Contents
+Your contributions to this list are welcome! Please take a look at the [contribution guidelines](CONTRIBUTING.md) first.
+
+<blockquote>
+<details>
+  <summary>📋 <b>Contents</b></summary>
 
 - [Glossary](#glossary)
 - [Testers](#testers)
@@ -28,14 +37,15 @@ Your contributions are welcome! Please take a look at the [contribution guidelin
 - [Articles](#articles)
 - [Communities](#communities)
 - [Miscelaneous](#miscelaneous)
+</details>
+</blockquote>
+<br>
 
-## Glossary
+<blockquote>
+<details>
+  <summary>📖 <b>Glossary</b></summary>
 
 *A brief glossary of regular expression terms as used in this list.*
-
-<details>
-  <summary>Show the glossary.</summary>
-  <br>
 
 - **Regex engine:** Software that parses and executes regular expressions, often built into a programming language (synonym: implementation).
 - **Regex flavor:** A unique set of regex syntax and behavior. Basic syntax is typically shared across flavors, but more advanced features often vary, sometimes in subtle ways. A flavor might be shared across multiple implementations or programming languages.
@@ -44,6 +54,7 @@ Your contributions are welcome! Please take a look at the [contribution guidelin
   - Ex: Ruby changed its regex implementation twice from version 1.8 ➜ 1.9 ➜ 2.0, so each used a distinct flavor. The Ruby 2.0+ flavor is referred to here as either “Ruby” or “Onigmo” (the underlying regex library).
 - **Non-backtracking engine:** Sometimes referred to elsewhere as a “DFA” engine. Non-backtracking engines like RE2 and Rust’s `regex` run in linear time because they don’t use backtracking. This precludes “catastrophic backtracking”, but it’s also slower with some common patterns and precludes useful features like backreferences and lookaround. See also: [Performance](#performance).
 </details>
+</blockquote>
 
 ## Testers
 
@@ -208,7 +219,7 @@ More: [RexEgg](https://rexegg.com/).
   - Flavors: Java, JavaScript, .NET, PCRE, Perl, Python, Ruby, XRegExp.
 - [Regex DB](https://rgxdb.com/) — Solutions include basic descriptions and examples of matching and non-matching text.
 
-**Warning**: It’s risky to use regular expressions you don’t fully understand. They might have false positives/negatives, performance problems that only arise with certain target strings, or rely on syntax/behavior from a different regex flavor.
+**⚠️ Note**: The quality of random regexes online tends to be low. It’s risky to use regexes that you don’t fully understand, as they might have false positives/negatives, run into performance problems with certain target strings only, or assume a different regex flavor.
 
 ## JavaScript regex libraries
 
@@ -217,7 +228,7 @@ More: [RexEgg](https://rexegg.com/).
 - Regex processors:
   - AST builders: [regexp-tree](https://github.com/DmitrySoshnikov/regexp-tree) (includes optimizer, etc.), [regexpp](https://github.com/eslint-community/regexpp) (used by ESLint), [regjsparser](https://github.com/jviereck/regjsparser)/[regjsgen](https://github.com/bnjmnt4n/regjsgen), [ret.js](https://github.com/fent/ret.js), [RegexAnalyzer](https://github.com/foo123/RegexAnalyzer).
   - Generate strings that match a given regex: [randexp.js](https://github.com/fent/randexp.js), [regex-to-strings](https://github.com/wimpyprogrammer/regex-to-strings).
-  - Generate regex from given strings: [retrie](https://github.com/satyr/retrie).
+  - Generate a regex from given strings: [retrie](https://github.com/satyr/retrie).
   - Highlight regex syntax: [Regex Colorizer](https://github.com/slevithan/regex-colorizer) [[*home*](https://stevenlevithan.com/regex/colorizer/)].
 - Alternative regex builders and engines:
   - [XRegExp](https://github.com/slevithan/xregexp) [[*home*](https://xregexp.com/)] — Extended regex syntax, flags, and utils.
