@@ -1,15 +1,15 @@
 <div align="center">
 
-# Awesome Regex ![Awesome](https://awesome.re/badge.svg)
+# Awesome Regex [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-*An opinionated list of awesome regular expression tools, tutorials, libraries, and other resources.
+*An opinionated list of regular expression tools, tutorials, libraries, and other resources.
 <br>
 Currently includes especially deep coverage of regular expressions in JavaScript.*
 </div>
 
 ## Intro
 
-Built into programming languages, text editors, IDEs, DBMSes, and many other tools, regular expressions (regex or regexp) are a powerful tool for searching, replacing, and parsing text.
+Regular expressions (regex or regexp) are a powerful tool for searching, replacing, and parsing text. They’re built into programming languages, text editors, IDEs, DBMSes, and many other tools.
 
 Your contributions to this list are welcome! Please take a look at the [contribution guidelines](CONTRIBUTING.md) first.
 
