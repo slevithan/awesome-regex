@@ -1,6 +1,6 @@
 # Awesome Regex `(.*)` [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of regular expression tools, tutorials, libraries, and other resources. Currently includes especially deep coverage of regular expressions in JavaScript.
+> A curated and opinionated list of regular expression tools, tutorials, libraries, and other resources. Currently includes especially deep coverage of regular expressions in JavaScript.
 
 Regular expressions (regex or regexp) are a powerful and concise way to search, parse, and process text. They’re built into many programming languages, text editors, IDEs, DBMSes, and other tools.
 
@@ -18,7 +18,6 @@ Contributions welcome. Add links through pull requests ([guidelines](CONTRIBUTIN
   - Ex: Ruby changed its regex implementation twice from version 1.8 ➜ 1.9 ➜ 2.0, so each used a distinct flavor. The Ruby 2.0+ flavor is referred to here as either “Ruby” or “Onigmo” (the underlying regex library).
 - **Non-backtracking engine:** Sometimes referred to elsewhere as a “DFA” engine. Non-backtracking engines like RE2 and Rust’s `regex` run in linear time because they don’t use backtracking. This precludes “catastrophic backtracking”, but it’s also slower with some common patterns and precludes useful features like backreferences and lookarounds. See also: [Performance](#performance).
 </details>
-<br>
 
 # Contents
 
@@ -84,13 +83,13 @@ Contributions welcome. Add links through pull requests ([guidelines](CONTRIBUTIN
 *Build regexes without writing regex syntax or code. See also: [Readable regex composers](#javascript-regex-libraries), [Collections of patterns](#collections-of-patterns).*
 
 - [ChatGPT](https://chat.openai.com/) (and other LLMs) - Ex: *"create a regex that matches `X` and explain it step by step"*.
-- [RegexMagic](https://www.regexmagic.com/) (<picture><img src="public/images/windows.svg" title="Windows" height="14"></picture>, $40).
+- [RegexMagic](https://www.regexmagic.com/) (<picture><img src="public/images/windows.svg" title="Windows" height="14"></picture>, $40) - Generate regexes using samples and rules.
 
 <details>
   <summary>✳️ <b>Notable mentions</b></summary>
 
-- [Regex Generator](https://regex-generator.olafneumann.org/) [[*GitHub*](https://github.com/noxone/regex-generator)].
-- [Regex.ai](https://regex.ai/).
+- [Regex Generator](https://regex-generator.olafneumann.org/) [[*GitHub*](https://github.com/noxone/regex-generator)] - Generate simple regexes from a sample text.
+- [Regex.ai](https://regex.ai/) - Mark samples in a text and use AI to generate potential regexes.
 </details>
 
 ## Visualizers
@@ -98,14 +97,14 @@ Contributions welcome. Add links through pull requests ([guidelines](CONTRIBUTIN
 *Visualize how your regular expressions are structured or operate.*
 
 - [Regulex](https://jex.im/regulex/) [[*GitHub*](https://github.com/CJex/regulex)] - Create railroad diagrams. Flavor: JavaScript.
-- [Nodexr](https://www.nodexr.net/) [[*GitHub*](https://github.com/Jcparkyn/nodexr)] - Flavor: .NET.
-- [Regex Nodes](https://johannesvollmer.com/regex-nodes/) [[*GitHub*](https://github.com/johannesvollmer/regex-nodes)] - Flavor: JavaScript.
+- [Nodexr](https://www.nodexr.net/) [[*GitHub*](https://github.com/Jcparkyn/nodexr)] - Graphical editor with visual hierarchy. Flavor: .NET.
+- [Regex Nodes](https://johannesvollmer.com/regex-nodes/) [[*GitHub*](https://github.com/johannesvollmer/regex-nodes)] - Graphical editor with visual hierarchy. Flavor: JavaScript.
 
 <details>
   <summary>✳️ <b>Notable mentions</b></summary>
 
-- [RegExper](https://regexper.com/) [[*GitLab*](https://gitlab.com/javallone/regexper-static)].
-- [Debuggex](https://www.debuggex.com/).
+- [Debuggex](https://www.debuggex.com/) - Create railroad diagrams. Flavors: JavaScript, PCRE, Python.
+- [RegExper](https://regexper.com/) [[*GitLab*](https://gitlab.com/javallone/regexper-static)] - Create railroad diagrams. Flavor: JavaScript.
 </details>
 
 ## Search and replace through files
