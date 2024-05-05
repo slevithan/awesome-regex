@@ -16,7 +16,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
   - Ex: The “JavaScript” flavor is defined by the ECMAScript spec; implemented by multiple engines (V8, etc.).
   - Ex: The “PCRE” flavor is the PCRE2 library, used by numerous programming languages and tools.
   - Ex: Ruby changed its regex implementation twice from version 1.8 ➜ 1.9 ➜ 2.0, so each used a distinct flavor. The Ruby 2.0+ flavor is referred to here as either “Ruby” or “Onigmo” (the underlying regex library).
-- **Non-backtracking engine:** Sometimes referred to elsewhere as a “DFA” engine. Non-backtracking engines like RE2 and Rust’s `regex` run in linear time because they don’t use backtracking. This precludes “catastrophic backtracking”, but it’s also slower with some common patterns and precludes useful features like backreferences and lookarounds. See also: [Performance](#performance).
+- **Non-backtracking engine:** Sometimes referred to elsewhere as a “DFA” engine. Non-backtracking engines like RE2 and Rust’s `regex` run in linear time because they don’t use backtracking. This rules out inefficiency from superlinear backtracking, but it’s also slower with some common patterns and precludes useful features like backreferences and lookarounds. See also: [Performance](#performance).
 </details>
 
 # Contents
