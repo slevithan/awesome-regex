@@ -138,9 +138,22 @@ More: [RexEgg](https://rexegg.com/).
 
 *Official regex references and guides.*
 
-| Regex flavors | Without own flavor |
-| ------------- | ------------------ |
-| <ul> <li>JavaScript [MDN]: [RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp), [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions), [Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions).</li> <li>Boost.Regex: [Manual](https://boost.org/libs/regex).</li> <li>Hyperscan: [Introduction](https://www.hyperscan.io/).</li> <li>ICU: [Regular Expressions](https://unicode-org.github.io/icu/userguide/strings/regexp.html).</li> <li>Java: [java.util.regex](https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/util/regex/package-summary.html), [Pattern](https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/util/regex/Pattern.html).</li> <li>.NET: [.NET regular expressions](https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expressions), [System.Text.RegularExpressions](https://learn.microsoft.com/en-us/dotnet/api/system.text.regularexpressions).</li> <li>PCRE2: [pcre2pattern](https://www.pcre.org/current/doc/html/pcre2pattern.html).</li> <li>Perl: [perlre](https://perldoc.perl.org/perlre), [perlretut](https://perldoc.perl.org/perlretut), [perlrequick](https://perldoc.perl.org/perlrequick).</li> <li>Python: [re](https://docs.python.org/library/re.html).</li> <li>RE2: [Syntax](https://github.com/google/re2/wiki/Syntax).</li> <li>Rust: [regex](https://docs.rs/regex/latest/regex/).</li> </ul> | <ul> <li>MySQL: [Regular Expressions](https://dev.mysql.com/doc/refman/en/regexp.html) — Flavor: ICU.</li> <li>PHP: [Regular Expressions](https://www.php.net/manual/en/book.pcre.php) — Flavor: PCRE.</li> <li>Swift: [NSRegularExpression](https://developer.apple.com/documentation/foundation/nsregularexpression) — Flavor: ICU.</li> </ul> <br><br><br><br><br><br> |
+- Regex flavors:
+  - JavaScript [MDN]: [RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp), [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions), [Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions).
+  - Boost.Regex: [Manual](https://boost.org/libs/regex).
+  - Hyperscan: [Introduction](https://www.hyperscan.io/).
+  - ICU: [Regular Expressions](https://unicode-org.github.io/icu/userguide/strings/regexp.html).
+  - Java: [java.util.regex](https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/util/regex/package-summary.html), [Pattern](https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/util/regex/Pattern.html).
+  - .NET: [.NET regular expressions](https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expressions), [System.Text.RegularExpressions](https://learn.microsoft.com/en-us/dotnet/api/system.text.regularexpressions).
+  - PCRE2: [pcre2pattern](https://www.pcre.org/current/doc/html/pcre2pattern.html).
+  - Perl: [perlre](https://perldoc.perl.org/perlre), [perlretut](https://perldoc.perl.org/perlretut), [perlrequick](https://perldoc.perl.org/perlrequick).
+  - Python: [re](https://docs.python.org/library/re.html).
+  - RE2: [Syntax](https://github.com/google/re2/wiki/Syntax).
+  - Rust: [regex](https://docs.rs/regex/latest/regex/).
+- Without own flavor:
+  - MySQL: [Regular Expressions](https://dev.mysql.com/doc/refman/en/regexp.html) — Flavor: ICU.
+  - PHP: [Regular Expressions](https://www.php.net/manual/en/book.pcre.php) — Flavor: PCRE.
+  - Swift: [NSRegularExpression](https://developer.apple.com/documentation/foundation/nsregularexpression) — Flavor: ICU.
 
 ### Source code
 
