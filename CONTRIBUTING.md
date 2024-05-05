@@ -1,12 +1,13 @@
 # Contributing
 
-Your contributions are welcome!
+Contributions are welcome. Add links through pull requests or create an issue to start a discussion.
 
 ## Guidelines
 
 - Add one link per pull request.
   - Use the format `Add ResourceName` for your PR title.
   - Describe why the resource is awesome.
+  - Describe precisely which regex flavor(s) it uses.
   - If relevant, list similar alternatives you considered but didn’t include.
 - Add the link.
   - In most cases, use the format `[ResourceName](https://example.com/) — A short description ends with a period.`

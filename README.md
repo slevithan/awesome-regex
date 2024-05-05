@@ -1,10 +1,10 @@
-# Awesome Regex `(.*)` [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# `(?<=awesome)regex` [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated and opinionated list of regular expression tools, tutorials, libraries, and other resources. Currently includes especially deep coverage of regular expressions in JavaScript.
+> A curated and opinionated list of regular expression tools, tutorials, libraries, and other resources that covers all major regex flavors. Currently includes especially deep coverage of regular expressions in JavaScript.
 
 Regular expressions (regex or regexp) are a powerful and concise way to search, parse, and process text. They’re built into many programming languages, text editors, IDEs, DBMSes, and other tools.
 
-Contributions welcome. Add links through pull requests ([guidelines](CONTRIBUTING.md)) or create an issue to start a discussion.
+Contributions are welcome. Add links through pull requests ([guidelines](CONTRIBUTING.md)) or create an issue to start a discussion.
 
 <details>
   <summary>📖 <b>Glossary</b></summary>
@@ -13,7 +13,7 @@ Contributions welcome. Add links through pull requests ([guidelines](CONTRIBUTIN
 
 - **Regex engine:** Software that parses and executes regular expressions, often built into a programming language (synonym: implementation).
 - **Regex flavor:** A unique set of regex syntax and behavior. Basic syntax is typically shared across flavors, but more advanced features often vary, sometimes in subtle ways. A flavor might be shared across multiple implementations or programming languages.
-  - Ex: The “JavaScript” flavor is defined by the ECMAScript standard; implemented by multiple engines (V8, etc.).
+  - Ex: The “JavaScript” flavor is defined by the ECMAScript spec; implemented by multiple engines (V8, etc.).
   - Ex: The “PCRE” flavor is the PCRE2 library, used by numerous programming languages and tools.
   - Ex: Ruby changed its regex implementation twice from version 1.8 ➜ 1.9 ➜ 2.0, so each used a distinct flavor. The Ruby 2.0+ flavor is referred to here as either “Ruby” or “Onigmo” (the underlying regex library).
 - **Non-backtracking engine:** Sometimes referred to elsewhere as a “DFA” engine. Non-backtracking engines like RE2 and Rust’s `regex` run in linear time because they don’t use backtracking. This precludes “catastrophic backtracking”, but it’s also slower with some common patterns and precludes useful features like backreferences and lookarounds. See also: [Performance](#performance).
