@@ -83,12 +83,13 @@ Your contributions are welcome! Please take a look at the [contribution guidelin
 
 - [ChatGPT](https://chat.openai.com/) (and other LLMs) — Ex: *"create a regex that matches `X` and explain it step by step"*.
 - [RegexMagic](https://www.regexmagic.com/) (<picture><img src="public/images/ms-logo.svg" title="Windows" height="12"></picture>, $40).
+- [Regex Generator](https://regex-generator.olafneumann.org/) [[*GitHub*](https://github.com/noxone/regex-generator)].
 
 ## Visualizers
 
 *Visualize how your regular expressions are structured or operate.*
 
-- [Regulex](https://jex.im/regulex/) [[*GitHub*](https://github.com/CJex/regulex)] — Flavor: JavaScript.
+- [Regulex](https://jex.im/regulex/) [[*GitHub*](https://github.com/CJex/regulex)] — Create railroad diagrams. Flavor: JavaScript.
 - [Nodexr](https://www.nodexr.net/) [[*GitHub*](https://github.com/Jcparkyn/nodexr)] — Flavor: .NET.
 - [Regex Nodes](https://johannesvollmer.com/regex-nodes/) [[*GitHub*](https://github.com/johannesvollmer/regex-nodes)] — Flavor: JavaScript.
 
@@ -137,21 +138,9 @@ More: [RexEgg](https://rexegg.com/).
 
 *Official regex references and guides.*
 
-- Regex flavors:
-  - JavaScript [MDN]: [RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp), [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions), [Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions).
-  - Boost.Regex: [Manual](https://boost.org/libs/regex).
-  - Hyperscan: [Introduction](https://www.hyperscan.io/).
-  - ICU: [Regular Expressions](https://unicode-org.github.io/icu/userguide/strings/regexp.html).
-  - Java: [java.util.regex](https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/util/regex/package-summary.html), [Pattern](https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/util/regex/Pattern.html).
-  - .NET: [.NET regular expressions](https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expressions), [System.Text.RegularExpressions](https://learn.microsoft.com/en-us/dotnet/api/system.text.regularexpressions).
-  - PCRE2: [pcre2pattern](https://www.pcre.org/current/doc/html/pcre2pattern.html).
-  - Perl: [perlre](https://perldoc.perl.org/perlre), [perlretut](https://perldoc.perl.org/perlretut), [perlrequick](https://perldoc.perl.org/perlrequick).
-  - Python: [re](https://docs.python.org/library/re.html).
-  - RE2: [Syntax](https://github.com/google/re2/wiki/Syntax).
-  - Rust: [regex](https://docs.rs/regex/latest/regex/).
-- Without own flavor:
-  - MySQL: [Regular Expressions](https://dev.mysql.com/doc/refman/en/regexp.html) — Flavor: ICU.
-  - Swift: [NSRegularExpression](https://developer.apple.com/documentation/foundation/nsregularexpression) — Flavor: ICU.
+| Regex flavors: | Without own flavor: |
+| -------------- | ------------------- |
+| <ul> <li>JavaScript [MDN]: [RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp), [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions), [Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions).</li> <li>Boost.Regex: [Manual](https://boost.org/libs/regex).</li> <li>Hyperscan: [Introduction](https://www.hyperscan.io/).</li> <li>ICU: [Regular Expressions](https://unicode-org.github.io/icu/userguide/strings/regexp.html).</li> <li>Java: [java.util.regex](https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/util/regex/package-summary.html), [Pattern](https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/util/regex/Pattern.html).</li> <li>.NET: [.NET regular expressions](https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expressions), [System.Text.RegularExpressions](https://learn.microsoft.com/en-us/dotnet/api/system.text.regularexpressions).</li> <li>PCRE2: [pcre2pattern](https://www.pcre.org/current/doc/html/pcre2pattern.html).</li> <li>Perl: [perlre](https://perldoc.perl.org/perlre), [perlretut](https://perldoc.perl.org/perlretut), [perlrequick](https://perldoc.perl.org/perlrequick).</li> <li>Python: [re](https://docs.python.org/library/re.html).</li> <li>RE2: [Syntax](https://github.com/google/re2/wiki/Syntax).</li> <li>Rust: [regex](https://docs.rs/regex/latest/regex/).</li> </ul> | <ul> <li>MySQL: [Regular Expressions](https://dev.mysql.com/doc/refman/en/regexp.html) — Flavor: ICU.</li> <li>Swift: [NSRegularExpression](https://developer.apple.com/documentation/foundation/nsregularexpression) — Flavor: ICU.</li> </ul> |
 
 ### Source code
 
@@ -198,11 +187,11 @@ More: [RexEgg](https://rexegg.com/).
 
 *Prewritten regexes for specific tasks.*
 
-- Book: [*Regular Expressions Cookbook, 2nd Edition*](https://www.amazon.com/dp/1449319432/?tag=slev-20) [2012], by Jan Goyvaerts, Steven Levithan — Includes detailed explanations and analysis.
+- Book: [*Regular Expressions Cookbook, 2nd Edition*](https://www.amazon.com/dp/1449319432/?tag=slev-20) [2012], by Jan Goyvaerts, Steven Levithan — High quality solutions with detailed explanations and analysis.
   - Flavors: Java, JavaScript, .NET, PCRE, Perl, Python, Ruby, XRegExp.
-- [RegexHub](https://projects.lukehaas.me/regexhub/) [[*GitHub*](https://github.com/lukehaas/RegexHub)].
-- [RegexLib: Browse Expressions](https://regexlib.com/DisplayPatterns.aspx).
-- Perl: `Regexp::Common` [[*MetaCPAN*](https://metacpan.org/pod/Regexp::Common)] [[*GitHub*](https://github.com/Abigail/Regexp--Common)].
+- [Regex DB](https://rgxdb.com/) — Solutions include basic descriptions and examples of matching and non-matching text.
+
+**Warning**: It’s risky to use regular expressions you don’t fully understand. They might have false positives, false negatives, performance problems that only arise with certain target strings, or rely on syntax/behavior from a different regex flavor.
 
 ## JavaScript regex libraries
 
