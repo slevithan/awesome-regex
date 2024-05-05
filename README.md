@@ -22,8 +22,6 @@ Contributions welcome. Add links through pull requests ([guidelines](CONTRIBUTIN
 # Contents
 
 - [Testers](#testers)
-  - [Best testers](#best-testers)
-  - [More testers](#more-testers)
 - [Syntax-free regex builders](#syntax-free-regex-builders)
 - [Visualizers](#visualizers)
 - [Search and replace through files](#search-and-replace-through-files)
