@@ -54,7 +54,7 @@ Your contributions are welcome! Please take a look at the [contribution guidelin
 - [regex101](https://regex101.com/) — **Best free and best web-based tester**.
   - Flavors: Java, JavaScript, .NET, PCRE, RE2, Rust, and emulates Python.
   - Includes regex debugger (PCRE only).
-- [RegexBuddy](https://www.regexbuddy.com/) (<picture><img src="public/images/ms-logo.svg" title="Windows" height="12"></picture>, $40) — **Best tester**.
+- [RegexBuddy](https://www.regexbuddy.com/) (<picture><img src="public/images/windows.svg" title="Windows" height="12"></picture>, $40) — **Best tester**.
   - Flavors: Emulates hundreds of flavors/versions, with deep knowledge of differences.
   - Includes regex debugger.
 - [RegExr](https://regexr.com/) [[*GitHub*](https://github.com/gskinner/regexr/)] — **Best open source tester**.
@@ -75,6 +75,7 @@ Your contributions are welcome! Please take a look at the [contribution guidelin
   - Ruby: [Rubular](https://rubular.com/).
 - Multiple flavors:
   - [CyrilEx](https://extendsclass.com/regex-tester.html) [[*GitHub*](https://github.com/cyrilbois/cyrilex)]: Java, JavaScript, MySQL, PHP, Python, Ruby.
+  - [Patterns](https://krillapps.com/patterns/) (<picture><img src="public/images/macos.svg" title="macOS" height="12"></picture>, $3): Bash, Emacs, grep, Java, Oniguruma, PCRE, POSIX BRE, POSIX ERE, Ruby, sed.
   - [RegexPlanet](https://www.regexplanet.com/) [[*GitHub*](https://github.com/regexplanet)]: Go, Haskell, Java, JavaScript, .NET, Perl, PHP, PostgreSQL, Python, Ruby, Tcl, XRegExp.
 
 ## Syntax-free regex builders
@@ -82,8 +83,9 @@ Your contributions are welcome! Please take a look at the [contribution guidelin
 *Build regexes without writing regex syntax or code. See also: [Readable regex composers](#javascript-regex-libraries).*
 
 - [ChatGPT](https://chat.openai.com/) (and other LLMs) — Ex: *"create a regex that matches `X` and explain it step by step"*.
-- [RegexMagic](https://www.regexmagic.com/) (<picture><img src="public/images/ms-logo.svg" title="Windows" height="12"></picture>, $40).
-- [Regex Generator](https://regex-generator.olafneumann.org/) [[*GitHub*](https://github.com/noxone/regex-generator)].
+- [RegexMagic](https://www.regexmagic.com/) (<picture><img src="public/images/windows.svg" title="Windows" height="12"></picture>, $40).
+
+More: [Regex Generator](https://regex-generator.olafneumann.org/) [[*GitHub*](https://github.com/noxone/regex-generator)], [Regex.ai](https://regex.ai/).
 
 ## Visualizers
 
@@ -103,9 +105,9 @@ More: [RegExper](https://regexper.com/) [[*GitLab*](https://gitlab.com/javallone
   - [GNU Grep](https://www.gnu.org/software/grep/manual/grep.html).
   - [ack](https://beyondgrep.com/) [[*GitHub*](https://github.com/beyondgrep/ack3)] — Better grep; defaults to only searching source code.
 - GUI:
-  - [Aba Search and Replace](https://www.abareplace.com/) (<picture><img src="public/images/ms-logo.svg" title="Windows" height="12"></picture>, $30).
-  - [PowerGREP](https://www.powergrep.com/) (<picture><img src="public/images/ms-logo.svg" title="Windows" height="12"></picture>, $159) — Can search through archives, binary files, PDFs, docs/sheets, Outlook emails, etc., via GUI or command line.
-  - [RegexRenamer](https://regexrenamer.sourceforge.net/) (<picture><img src="public/images/ms-logo.svg" title="Windows" height="12"></picture>) — Rename files using regexes.
+  - [Aba Search and Replace](https://www.abareplace.com/) (<picture><img src="public/images/windows.svg" title="Windows" height="12"></picture>, $30).
+  - [PowerGREP](https://www.powergrep.com/) (<picture><img src="public/images/windows.svg" title="Windows" height="12"></picture>, $159) — Can search through archives, binary files, PDFs, docs/sheets, Outlook emails, etc., via GUI or command line.
+  - [RegexRenamer](https://regexrenamer.sourceforge.net/) (<picture><img src="public/images/windows.svg" title="Windows" height="12"></picture>) — Rename files using regexes.
 
 ## Tutorials
 
@@ -194,7 +196,7 @@ More: [RexEgg](https://rexegg.com/).
   - Cross-regex-engine performance comparisons: [rebar](https://github.com/BurntSushi/rebar), [regex-benchmark](https://github.com/mariomka/regex-benchmark), [sljit/regex_perf.html](https://zherczeg.github.io/sljit/regex_perf.html).
   - [octane/regexp.js](https://github.com/chromium/octane/blob/master/regexp.js) — Regex workload for performance testing.
 - Tools:
-  - [SDL Regex Fuzzer](https://download.cnet.com/sdl-regex-fuzzer/3000-2383_4-75321803.html) (<picture><img src="public/images/ms-logo.svg" title="Windows" height="12"></picture>) — Finds strings that trigger catastrophic backtracking (requires [.NET Framework 3.5](https://learn.microsoft.com/en-us/dotnet/framework/install/dotnet-35-windows)).
+  - [SDL Regex Fuzzer](https://download.cnet.com/sdl-regex-fuzzer/3000-2383_4-75321803.html) (<picture><img src="public/images/windows.svg" title="Windows" height="12"></picture>) — Finds strings that trigger catastrophic backtracking (requires [.NET Framework 3.5](https://learn.microsoft.com/en-us/dotnet/framework/install/dotnet-35-windows)).
 
 ## Collections of patterns
 
