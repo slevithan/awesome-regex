@@ -122,14 +122,13 @@ Improvements to this list are welcome. Please take a look at the [contribution g
 
 ## Search and replace through files
 
-*Software for grepping through files.*
+*Grep-like software.*
 
 - Command line:
-  - [GNU Grep](https://www.gnu.org/software/grep/manual/grep.html).
   - [ack](https://beyondgrep.com/) [[*GitHub*](https://github.com/beyondgrep/ack3)] - Better grep; defaults to only searching source code.
 - GUI:
-  - [Aba Search and Replace](https://www.abareplace.com/) (<picture><img src="public/images/windows.svg" title="Windows" height="14"></picture>, $30).
-  - [PowerGREP](https://www.powergrep.com/) (<picture><img src="public/images/windows.svg" title="Windows" height="14"></picture>, $159) - Can search through archives, binary files, PDFs, docs/sheets, Outlook emails, etc., via GUI or command line.
+  - [Aba Search and Replace](https://www.abareplace.com/) (<picture><img src="public/images/windows.svg" title="Windows" height="14"></picture>, $30) - Displays matches as you type.
+  - [PowerGREP](https://www.powergrep.com/) (<picture><img src="public/images/windows.svg" title="Windows" height="14"></picture>, $159) - Can search through archives, binary files, PDFs, docs/sheets, emails, etc., via GUI or command line.
   - [RegexRenamer](https://regexrenamer.sourceforge.net/) (<picture><img src="public/images/windows.svg" title="Windows" height="14"></picture>) - Rename files using regexes.
 
 ## Tutorials
