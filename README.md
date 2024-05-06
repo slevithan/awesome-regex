@@ -242,7 +242,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 *Prewritten regexes for specific tasks.*
 
-- [Book: Regular Expressions Cookbook, 2nd Edition](https://www.amazon.com/Regular-Expressions-Cookbook-Solutions-Programming/dp/1449319432/?tag=slev-20) (2012) - High-quality solutions with detailed explanations and analysis.
+- [Book: Regular Expressions Cookbook, 2nd Edition](https://www.amazon.com/Regular-Expressions-Cookbook-Solutions-Programming/dp/1449319432/?tag=slev-20) (2012) - High-quality solutions with detailed explanations.
   - Flavors: Java, JavaScript, .NET, PCRE, Perl, Python, Ruby, XRegExp.
 - [Regex DB](https://rgxdb.com/) - Solutions include basic descriptions and examples of matching and non-matching text.
 
