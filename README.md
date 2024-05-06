@@ -222,8 +222,8 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 **Learn**
 
 - [Runaway Regular Expressions: Catastrophic Backtracking](https://www.regular-expressions.info/catastrophic.html) - Exploration and solutions for superlinear backtracking, which leads to [ReDoS](https://en.wikipedia.org/wiki/ReDoS) vulnerability.
-- [Book: High Performance JavaScript](https://www.amazon.com/dp/059680279X/?tag=slev-20) [2010] - *Chapter 5: Strings and Regular Expressions*.
-- [Book: Mastering Regular Expressions, 3rd Edition](https://www.amazon.com/Mastering-Regular-Expressions-Jeffrey-Friedl/dp/0596528124/?tag=slev-20) [2006] - *Chapter 6: Crafting an Efficient Expression*.
+- [Book: High Performance JavaScript](https://www.amazon.com/dp/059680279X/?tag=slev-20) (2010) - *Chapter 5: Strings and Regular Expressions*.
+- [Book: Mastering Regular Expressions, 3rd Edition](https://www.amazon.com/Mastering-Regular-Expressions-Jeffrey-Friedl/dp/0596528124/?tag=slev-20) (2006) - *Chapter 6: Crafting an Efficient Expression*.
 - [Regular Expression Matching Can Be Simple And Fast](https://swtch.com/~rsc/regexp/regexp1.html) - On non-backtracking engines.
 
 **Benchmark**
@@ -242,7 +242,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 *Prewritten regexes for specific tasks.*
 
-- [Book: Regular Expressions Cookbook, 2nd Edition](https://www.amazon.com/Regular-Expressions-Cookbook-Solutions-Programming/dp/1449319432/?tag=slev-20) [2012] - High-quality solutions with detailed explanations and analysis.
+- [Book: Regular Expressions Cookbook, 2nd Edition](https://www.amazon.com/Regular-Expressions-Cookbook-Solutions-Programming/dp/1449319432/?tag=slev-20) (2012) - High-quality solutions with detailed explanations and analysis.
   - Flavors: Java, JavaScript, .NET, PCRE, Perl, Python, Ruby, XRegExp.
 - [Regex DB](https://rgxdb.com/) - Solutions include basic descriptions and examples of matching and non-matching text.
 
@@ -280,10 +280,10 @@ Many regexes online are low quality. It's risky to use regexes you don't fully u
   <summary>✳️ <b>Notable mentions: Readable regex composers</b></summary>
   <br>
 
-- [VerbalExpressions](https://github.com/VerbalExpressions/JSVerbalExpressions) (has implementations for [many languages](https://verbalexpressions.github.io/)).
-- [magic-regexp](https://github.com/unjs/magic-regexp) [[*home*](https://regexp.dev/)].
-- [Super Expressive](https://github.com/francisrstokes/super-expressive) [[*playground*](https://nartc.github.io/ng-super-expressive/)].
-- [Melody](https://github.com/yoav-lavi/melody) [[*home*](https://yoav-lavi.github.io/melody/book/)].
+- [VerbalExpressions](https://github.com/VerbalExpressions/JSVerbalExpressions) (has implementations for [many languages](https://verbalexpressions.github.io/))
+- [magic-regexp](https://github.com/unjs/magic-regexp) [[*home*](https://regexp.dev/)]
+- [Super Expressive](https://github.com/francisrstokes/super-expressive) [[*playground*](https://nartc.github.io/ng-super-expressive/)]
+- [Melody](https://github.com/yoav-lavi/melody) [[*home*](https://yoav-lavi.github.io/melody/book/)]
 </details>
 
 ## JavaScript regex evolution
