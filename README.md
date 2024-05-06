@@ -8,6 +8,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 <details>
   <summary>📖 <b>Glossary</b></summary>
+  <br>
 
 *A brief glossary of regular expression terms as used in this list.*
 
@@ -89,6 +90,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 <details>
   <summary>✳️ <b>Notable mentions</b></summary>
+  <br>
 
 - [Regex Generator](https://regex-generator.olafneumann.org/) [[*GitHub*](https://github.com/noxone/regex-generator)] - Generate simple regexes from a sample text.
 - [Regex.ai](https://regex.ai/) - Mark samples in a text and use AI to generate potential regexes.
@@ -104,6 +106,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 <details>
   <summary>✳️ <b>Notable mentions</b></summary>
+  <br>
 
 - [Debuggex](https://www.debuggex.com/) - Create railroad diagrams. Flavors: JavaScript, PCRE, Python.
 - [RegExper](https://regexper.com/) [[*GitLab*](https://gitlab.com/javallone/regexper-static)] - Create railroad diagrams. Flavor: JavaScript.
@@ -143,6 +146,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 <details>
   <summary>✳️ <b>Notable mentions</b></summary>
+  <br>
 
 - [RexEgg](https://rexegg.com/) - Detailed tutorial with advanced topics.
 - [regex101: Regex Quiz](https://regex101.com/quiz) - Exercises only. Requires sign-in.
@@ -192,12 +196,13 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 - [Boost.Regex](https://github.com/boostorg/regex) - Popular C++ regex library.
 - [Hyperscan](https://github.com/intel/hyperscan) - Intel's high-performance library, used for [DPI](https://en.wikipedia.org/wiki/Deep_packet_inspection).
 - [ICU](https://github.com/unicode-org/icu/blob/main/icu4c/source/i18n/unicode/regex.h) - Unicode org's package with full Unicode support.
-- [Java: java.util.regex](https://github.com/openjdk/jdk/tree/master/src/java.base/share/classes/java/util/regex).
-- [.NET: System.Text.RegularExpressions](https://github.com/dotnet/runtime/tree/main/src/libraries/System.Text.RegularExpressions).
-- [Onigmo](https://github.com/k-takata/Onigmo) (Ruby 2.0+, etc.) and [Oniguruma](https://github.com/kkos/oniguruma) (Ruby 1.9, etc.).
-- [PCRE2](https://github.com/PCRE2Project/pcre2) - Popular regex library used by PHP, R, etc.
-- [Perl](https://github.com/Perl/perl5/blob/blead/regexp.h) (see [perlreguts](https://perldoc.perl.org/perlreguts)).
-- [Python: re](https://github.com/python/cpython/tree/main/Lib/re) and [regex](https://github.com/mrabarnett/mrab-regex) (with extended features).
+- [Java: java.util.regex](https://github.com/openjdk/jdk/tree/master/src/java.base/share/classes/java/util/regex) - JDK standard regexes.
+- [.NET: System.Text.RegularExpressions](https://github.com/dotnet/runtime/tree/main/src/libraries/System.Text.RegularExpressions) - Shared by all .NET languages (C#, VB, etc.).
+- [Onigmo](https://github.com/k-takata/Onigmo) - Forked and extended from Oniguruma. Default regex library of Ruby 2.0+.
+- [Oniguruma](https://github.com/kkos/oniguruma) - Popular C regex library. Default regex library of Ruby 1.9.
+- [PCRE2](https://github.com/PCRE2Project/pcre2) - Popular C regex library used by PHP, R, etc.
+- [Perl](https://github.com/Perl/perl5/blob/blead/regexp.h) - See [perlreguts](https://perldoc.perl.org/perlreguts).
+- [Python: re](https://github.com/python/cpython/tree/main/Lib/re) and [regex](https://github.com/mrabarnett/mrab-regex) - Standard and extended regex libraries.
 - [RE2](https://github.com/google/re2) (Go, etc.) - Non-backtracking engine.
 - [Rust: regex](https://github.com/rust-lang/regex) - Non-backtracking engine.
 
