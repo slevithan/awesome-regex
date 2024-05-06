@@ -182,7 +182,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 - RE2: [Syntax](https://github.com/google/re2/wiki/Syntax).
 - Rust: [regex](https://docs.rs/regex/latest/regex/), [regex_lite](https://docs.rs/regex-lite/latest/regex_lite/).
 
-ℹ️ Raku (formerly Perl 6) boldy reimagines regexes. See: [Grammars](https://docs.raku.org/language/grammars) ([tutorial](https://docs.raku.org/language/grammar_tutorial)), [Regexes](https://docs.raku.org/language/regexes) ([best practices](https://docs.raku.org/language/regexes-best-practices)).
+ℹ️ Raku (formerly Perl 6) reimagines regexes. See: [Grammars](https://docs.raku.org/language/grammars) ([tutorial](https://docs.raku.org/language/grammar_tutorial)), [Regexes](https://docs.raku.org/language/regexes) ([best practices](https://docs.raku.org/language/regexes-best-practices)).
 
 **Without own flavor**
 
@@ -253,7 +253,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
   <summary>⚠️ <b>Word of warning</b></summary>
   <br>
 
-Many regexes online are low quality. It's risky to use regexes you don't fully understand in code, since they might have false positives/negatives, run into performance problems with certain target strings only, or assume a different regex flavor.
+Many regexes found online are low quality. It's risky to use regexes you don't fully understand in code, since they might have false positives/negatives, be vulnerable to performance problems with certain target strings, or assume a different regex flavor.
 </details>
 
 ## JavaScript regex libraries
