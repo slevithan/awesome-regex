@@ -162,7 +162,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 *Official regex references and guides.*
 
 - Regex flavors:
-  - JavaScript [MDN]: [RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp), [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions), [Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions).
+  - JavaScript (MDN): [RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp), [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions), [Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions).
   - Boost.Regex: [Manual](https://boost.org/libs/regex).
   - Hyperscan: [Introduction](https://www.hyperscan.io/).
   - ICU: [Regular Expressions](https://unicode-org.github.io/icu/userguide/strings/regexp.html).
@@ -182,14 +182,14 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 *Read or contribute to the code behind major regex implementations.*
 
-- [V8: Irregexp](https://github.com/v8/v8/tree/main/src/regexp) (Chrome, etc.) - JavaScript `RegExp`.
-- [Boost.Regex](https://github.com/boostorg/regex) (C++, Sublime Text, etc.).
+- [V8: Irregexp](https://github.com/v8/v8/tree/main/src/regexp) - JavaScript `RegExp` engine used by Chrome, etc.
+- [Boost.Regex](https://github.com/boostorg/regex) - Popular C++ regex library.
 - [Hyperscan](https://github.com/intel/hyperscan) - Intel's high-performance library, used for [DPI](https://en.wikipedia.org/wiki/Deep_packet_inspection).
 - [ICU](https://github.com/unicode-org/icu/blob/main/icu4c/source/i18n/unicode/regex.h) - Unicode org's package with full Unicode support.
 - [Java: java.util.regex](https://github.com/openjdk/jdk/tree/master/src/java.base/share/classes/java/util/regex).
 - [.NET: System.Text.RegularExpressions](https://github.com/dotnet/runtime/tree/main/src/libraries/System.Text.RegularExpressions).
 - [Onigmo](https://github.com/k-takata/Onigmo) (Ruby 2.0+, etc.) and [Oniguruma](https://github.com/kkos/oniguruma) (Ruby 1.9, etc.).
-- [PCRE2](https://github.com/PCRE2Project/pcre2) (PHP, R, etc.).
+- [PCRE2](https://github.com/PCRE2Project/pcre2) - Popular regex library used by PHP, R, etc.
 - [Perl](https://github.com/Perl/perl5/blob/blead/regexp.h) (see [perlreguts](https://perldoc.perl.org/perlreguts)).
 - [Python: re](https://github.com/python/cpython/tree/main/Lib/re) and [regex](https://github.com/mrabarnett/mrab-regex) (with extended features).
 - [RE2](https://github.com/google/re2) (Go, etc.) - Non-backtracking engine.
@@ -206,9 +206,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 ## Performance
 
-*Guides for crafting efficient regexes, plus benchmarks and tools for regex performance.*
-
-> ℹ️ With backtracking engines, how you craft a regex can affect how quickly it finds matches or reports failures.
+*Guides for crafting efficient regexes<sup>1</sup>, plus benchmarks and tools for regex performance.*
 
 - Learn:
   - [*Runaway Regular Expressions: Catastrophic Backtracking*](https://www.regular-expressions.info/catastrophic.html), by Jan Goyvaerts.
@@ -216,10 +214,12 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
   - *Chapter 6: Crafting an Efficient Expression*, in [*Mastering Regular Expressions, 3rd Edition*](https://www.amazon.com/Mastering-Regular-Expressions-Jeffrey-Friedl/dp/0596528124/?tag=slev-20) [2006], by Jeffrey Friedl.
   - [*Regular Expression Matching Can Be Simple And Fast*](https://swtch.com/~rsc/regexp/regexp1.html), by Russ Cox - On non-backtracking engines.
 - Benchmark:
-  - Cross-regex-engine performance comparisons: [rebar](https://github.com/BurntSushi/rebar), [regex-benchmark](https://github.com/mariomka/regex-benchmark), [sljit/regex_perf.html](https://zherczeg.github.io/sljit/regex_perf.html).
-  - [octane/regexp.js](https://github.com/chromium/octane/blob/master/regexp.js) - Regex workload for performance testing.
+  - Regex engine performance comparisons: [rebar](https://github.com/BurntSushi/rebar), [regex-benchmark](https://github.com/mariomka/regex-benchmark), [sljit/regex_perf.html](https://zherczeg.github.io/sljit/regex_perf.html).
+  - [Boost.Regex: Performance](https://www.boost.org/doc/libs/release/libs/regex/doc/html/boost_regex/background/performance.html) - Compares Boost, `std::regex`, and others.
 - Tools:
   - [SDL Regex Fuzzer](https://download.cnet.com/sdl-regex-fuzzer/3000-2383_4-75321803.html) (<picture><img src="https://github.com/slevithan/awesome-regex/raw/main/public/images/windows.svg" title="Windows" height="14"></picture>) - Finds strings that trigger catastrophic backtracking (requires [.NET Framework 3.5](https://learn.microsoft.com/en-us/dotnet/framework/install/dotnet-35-windows)).
+
+ℹ️ <sup>1</sup> With backtracking engines, how you craft a regex can affect how quickly it finds matches or reports failures.
 
 ## Collections of patterns
 
