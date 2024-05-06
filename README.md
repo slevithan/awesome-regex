@@ -203,7 +203,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 - [PCRE2](https://github.com/PCRE2Project/pcre2) - Popular C regex library used by PHP, R, etc.
 - [Perl](https://github.com/Perl/perl5/blob/blead/regexp.h) - See [perlreguts](https://perldoc.perl.org/perlreguts).
 - [Python: re](https://github.com/python/cpython/tree/main/Lib/re) and [regex](https://github.com/mrabarnett/mrab-regex) - Standard and extended regex libraries.
-- [RE2](https://github.com/google/re2) (Go, etc.) - Non-backtracking engine.
+- [RE2](https://github.com/google/re2) - Popular C++ regex library used by Go, etc. Non-backtracking engine.
 - [Rust: regex](https://github.com/rust-lang/regex) - Non-backtracking engine.
 
 ### Flavor differences
@@ -217,23 +217,24 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 ## Performance
 
-*Guides for crafting efficient regexes<sup>1</sup>, plus benchmarks and tools for regex performance.*
+*Guides for crafting efficient regexes<sup>1</sup>, benchmarks, and ReDoS checkers.*
 
 **Learn**
 
-- [*Runaway Regular Expressions: Catastrophic Backtracking*](https://www.regular-expressions.info/catastrophic.html) - Exploration and solutions for superlinear backtracking, which can lead to [ReDoS](https://en.wikipedia.org/wiki/ReDoS).
+- [*Runaway Regular Expressions: Catastrophic Backtracking*](https://www.regular-expressions.info/catastrophic.html) - Exploration and solutions for superlinear backtracking, which leads to [ReDoS](https://en.wikipedia.org/wiki/ReDoS) vulnerability.
 - Book: [*High Performance JavaScript*](https://www.amazon.com/dp/059680279X/?tag=slev-20) [2010] - *Chapter 5: Strings and Regular Expressions*.
 - Book: [*Mastering Regular Expressions, 3rd Edition*](https://www.amazon.com/Mastering-Regular-Expressions-Jeffrey-Friedl/dp/0596528124/?tag=slev-20) [2006] - *Chapter 6: Crafting an Efficient Expression*.
 - [*Regular Expression Matching Can Be Simple And Fast*](https://swtch.com/~rsc/regexp/regexp1.html) - On non-backtracking engines.
 
 **Benchmark**
 
-- Regex engine performance comparisons: [rebar](https://github.com/BurntSushi/rebar), [regex-benchmark](https://github.com/mariomka/regex-benchmark), [sljit/regex_perf.html](https://zherczeg.github.io/sljit/regex_perf.html).
+- Libraries for cross-engine benchmarking: [rebar](https://github.com/BurntSushi/rebar), [regex-benchmark](https://github.com/mariomka/regex-benchmark), [sljit/regex_perf.html](https://zherczeg.github.io/sljit/regex_perf.html).
 - [Boost.Regex: Performance](https://www.boost.org/doc/libs/release/libs/regex/doc/html/boost_regex/background/performance.html) - Compares Boost, `std::regex`, and others.
 
-**Tools**
+**ReDoS checkers**
 
-- [SDL Regex Fuzzer](https://download.cnet.com/sdl-regex-fuzzer/3000-2383_4-75321803.html) (<picture><img src="https://github.com/slevithan/awesome-regex/raw/main/public/images/windows.svg" title="Windows" height="14"></picture>) - Finds strings that trigger catastrophic backtracking (requires [.NET Framework 3.5](https://learn.microsoft.com/en-us/dotnet/framework/install/dotnet-35-windows)).
+- [recheck](https://github.com/makenowjust-labs/recheck) [[*home*](https://makenowjust-labs.github.io/recheck/)] - JavaScript and Scala library for detecting ReDoS vulnerability. Can be used as an ESLint plugin.
+- [vuln-regex-detector](https://github.com/davisjam/vuln-regex-detector) - Perl library for detecting ReDoS vulnerability.
 
 ℹ️ <sup>1</sup> With backtracking engines, how you craft a regex can affect how quickly it finds matches or reports failures.
 
