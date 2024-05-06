@@ -300,12 +300,12 @@ Many regexes online are low quality. It's risky to use regexes you don't fully u
 
 *Learn about regex features potentially coming to future JavaScript versions.*
 
-- [Duplicate named capturing groups](https://github.com/tc39/proposal-duplicate-named-capturing-groups) (2022) - `(?<a>…)|(?<a>…)`.
+- [Duplicate named capturing groups](https://github.com/tc39/proposal-duplicate-named-capturing-groups) (2022) - Ex: `(?<a>…)|(?<a>…)`.
 - [Extended mode and comments](https://github.com/tc39/proposal-regexp-x-mode) (2021) - Flag `x` (`extended`) with insignificant whitespace and line comments (`#…`), inline comments via `(?#…)`.
-- [Pattern modifiers](https://github.com/tc39/proposal-regexp-modifiers) (2021) - `(?imsx-imsx:…)`.
+- [Pattern modifiers](https://github.com/tc39/proposal-regexp-modifiers) (2021) - Ex: `(?imsx-imsx:…)`.
 - [Atomic operators](https://github.com/tc39/proposal-regexp-atomic-operators) (2021) - Atomic groups via `(?>…)`, possessive quantifiers (ex: `*+`, `++`).
-- [Buffer boundaries](https://github.com/tc39/proposal-regexp-buffer-boundaries) (2021) - `\A` and `\z`, not affected by flag `m`.
-- [\R escape](https://github.com/tc39/proposal-regexp-r-escape) (2021) - `\R` for any line terminator.
+- [Buffer boundaries](https://github.com/tc39/proposal-regexp-buffer-boundaries) (2021) - Anchors `\A` and `\z`, not affected by flag `m`.
+- [\R escape](https://github.com/tc39/proposal-regexp-r-escape) (2021) - Outside a character class, `\R` matches any line terminator.
 - [RegExp escaping](https://github.com/tc39/proposal-regex-escaping) (2015) - `RegExp.escape`.
 - [Legacy RegExp features](https://github.com/tc39/proposal-regexp-legacy-features) (2015) - Standardization of legacy features.
 
@@ -315,11 +315,11 @@ Many regexes online are low quality. It's risky to use regexes you don't fully u
 
 *A curated list of regex books.*
 
-- [*Regular Expressions Cookbook, 2nd Edition*](https://www.amazon.com/dp/1449319432/?tag=slev-20) (2012), by Jan Goyvaerts, Steven Levithan
+- [*Regular Expressions Cookbook, 2nd Edition*](https://www.amazon.com/dp/1449319432/?tag=slev-20) (2012) by Jan Goyvaerts and Steven Levithan - Regex tutorial with code samples for eight programming languages, 100+ regex recipes for practical problems, and a deep focus on cross-flavor differences.
   - Flavors: Java, JavaScript, .NET, PCRE, Perl, Python, Ruby, XRegExp.
-- [*Mastering Regular Expressions, 3rd Edition*](https://www.amazon.com/dp/0596528124/?tag=slev-20) (2006), by Jeffrey Friedl.
+- [*Mastering Regular Expressions, 3rd Edition*](https://www.amazon.com/dp/0596528124/?tag=slev-20) (2006) by Jeffrey Friedl - A computer science classic, best for people who already know the basics. Includes good coverage of using regexes efficiently.
   - Flavors: Dedicated chapters on Java, .NET, Perl, and PHP (PCRE), with more limited coverage of Python, Tcl, command line tools, etc.
-- [*Introducing Regular Expressions*](https://www.amazon.com/dp/1449392687/?tag=slev-20) (2012), by Michael Fitzgerald.
+- [*Introducing Regular Expressions*](https://www.amazon.com/dp/1449392687/?tag=slev-20) (2012) by Michael Fitzgerald - An intro for programmers new to regular expressions that sticks to the basics.
 
 ## Articles
 
