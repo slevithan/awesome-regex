@@ -134,7 +134,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 **Traditional**
 
 - [Regular-Expressions.info](https://www.regular-expressions.info/) - Covers numerous regex flavors.
-- [The Modern JavaScript Tutorial: Regular expressions](https://javascript.info/regular-expressions) [[*GitHub*](https://github.com/javascript-tutorial/en.javascript.info)] - Specific to using regexes in JavaScript, with up to date coverage.
+- [The Modern JavaScript Tutorial: Regular expressions](https://javascript.info/regular-expressions) [[*GitHub*](https://github.com/javascript-tutorial/en.javascript.info)] - Detailed guide for using regexes in modern JavaScript.
   - Languages: 🇺🇸, 🇪🇸, 🇫🇷, 🇮🇹, 🇯🇵, 🇷🇺, 🇺🇦, 🇨🇳 (partial for [others](https://javascript.info/translate)).
 
 **With interactive exercises**
@@ -221,10 +221,10 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 **Learn**
 
-- [*Runaway Regular Expressions: Catastrophic Backtracking*](https://www.regular-expressions.info/catastrophic.html), by Jan Goyvaerts.
-- *Chapter 5: Strings and Regular Expressions*, by Steven Levithan, in [*High Performance JavaScript*](https://www.amazon.com/dp/059680279X/?tag=slev-20) [2010], by Nicholas C. Zakas et al.
-- *Chapter 6: Crafting an Efficient Expression*, in [*Mastering Regular Expressions, 3rd Edition*](https://www.amazon.com/Mastering-Regular-Expressions-Jeffrey-Friedl/dp/0596528124/?tag=slev-20) [2006], by Jeffrey Friedl.
-- [*Regular Expression Matching Can Be Simple And Fast*](https://swtch.com/~rsc/regexp/regexp1.html), by Russ Cox - On non-backtracking engines.
+- [*Runaway Regular Expressions: Catastrophic Backtracking*](https://www.regular-expressions.info/catastrophic.html) - Exploration and solutions for superlinear backtracking, which can lead to [ReDoS](https://en.wikipedia.org/wiki/ReDoS).
+- Book: [*High Performance JavaScript*](https://www.amazon.com/dp/059680279X/?tag=slev-20) [2010] - *Chapter 5: Strings and Regular Expressions*.
+- Book: [*Mastering Regular Expressions, 3rd Edition*](https://www.amazon.com/Mastering-Regular-Expressions-Jeffrey-Friedl/dp/0596528124/?tag=slev-20) [2006] - *Chapter 6: Crafting an Efficient Expression*.
+- [*Regular Expression Matching Can Be Simple And Fast*](https://swtch.com/~rsc/regexp/regexp1.html) - On non-backtracking engines.
 
 **Benchmark**
 
