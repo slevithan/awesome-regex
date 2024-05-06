@@ -274,17 +274,8 @@ Many regexes online are low quality. It's risky to use regexes you don't fully u
 **Readable regex composers**
 
 - [Rexx](https://github.com/yyytcool/rexx) - Structured syntax with variables and comments.
-- [compose-regexp.js](https://github.com/compose-regexp/compose-regexp.js) - Compose with functions. Includes extra features like `atomic`, `bound`.
-
-<details>
-  <summary>✳️ <b>Notable mentions: Readable regex composers</b></summary>
-  <br>
-
-- [VerbalExpressions](https://github.com/VerbalExpressions/JSVerbalExpressions) (has implementations for [many languages](https://verbalexpressions.github.io/))
-- [magic-regexp](https://github.com/unjs/magic-regexp) [[*home*](https://regexp.dev/)]
-- [Super Expressive](https://github.com/francisrstokes/super-expressive) [[*playground*](https://nartc.github.io/ng-super-expressive/)]
-- [Melody](https://github.com/yoav-lavi/melody) [[*home*](https://yoav-lavi.github.io/melody/book/)]
-</details>
+- [compose-regexp.js](https://github.com/compose-regexp/compose-regexp.js) - Compose with functions. Includes extra regex features like `atomic`, `bound`.
+- More: [VerbalExpressions](https://github.com/VerbalExpressions/JSVerbalExpressions) (has implementations for [many languages](https://verbalexpressions.github.io/)), [magic-regexp](https://github.com/unjs/magic-regexp) [[*home*](https://regexp.dev/)], [Super Expressive](https://github.com/francisrstokes/super-expressive) [[*playground*](https://nartc.github.io/ng-super-expressive/)], [Melody](https://github.com/yoav-lavi/melody) [[*home*](https://yoav-lavi.github.io/melody/book/)].
 
 ## JavaScript regex evolution
 
