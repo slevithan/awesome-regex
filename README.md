@@ -281,7 +281,7 @@ Many regexes online are low quality. It's risky to use regexes you don't fully u
 
 *A concise history of improvements to regular expressions in the JavaScript [standard](https://tc39.es/ecma262/), with links to the [TC39](https://tc39.es/) proposals where features were developed and discussed.*
 
-- ES3 [1999] introduced powerful regular expressions, though limited compared to other major flavors.
+- ES3 (1999) introduced powerful regular expressions, though limited compared to other major flavors.
 - ES6/ES2015 added: [[*explainer*](https://exploringjs.com/es6/ch_regexp.html)]
   - Flag `y` (`sticky`).
   - Flag `u` (`unicode`) [[*explainer*](https://mathiasbynens.be/notes/es6-unicode-regex)] [[*2016 spec fix*](https://github.com/tc39/ecma262/pull/525)] with errors for unreserved letter escapes, Unicode code point escapes (`\u{…}`), impact on flag `i`, and surrogate pairs as code points (with impact on quantifiers, character classes, character class ranges, and built-in classes like `.` and `\W`).
@@ -300,14 +300,14 @@ Many regexes online are low quality. It's risky to use regexes you don't fully u
 
 *Learn about regex features potentially coming to future JavaScript versions.*
 
-- [Duplicate named capturing groups](https://github.com/tc39/proposal-duplicate-named-capturing-groups) [2022] - `(?<a>…)|(?<a>…)`.
-- [Extended mode and comments](https://github.com/tc39/proposal-regexp-x-mode) [2021] - Flag `x` (`extended`) with insignificant whitespace and line comments (`#…`), inline comments via `(?#…)`.
-- [Pattern modifiers](https://github.com/tc39/proposal-regexp-modifiers) [2021] - `(?imsx-imsx:…)`.
-- [Atomic operators](https://github.com/tc39/proposal-regexp-atomic-operators) [2021] - Atomic groups via `(?>…)`, possessive quantifiers (ex: `*+`, `++`).
-- [Buffer boundaries](https://github.com/tc39/proposal-regexp-buffer-boundaries) [2021] - `\A` and `\z`, not affected by flag `m`.
-- [\R escape](https://github.com/tc39/proposal-regexp-r-escape) [2021] - `\R` for any line terminator.
-- [RegExp escaping](https://github.com/tc39/proposal-regex-escaping) [2015] - `RegExp.escape`.
-- [Legacy RegExp features](https://github.com/tc39/proposal-regexp-legacy-features) [2015] - Standardization of legacy features.
+- [Duplicate named capturing groups](https://github.com/tc39/proposal-duplicate-named-capturing-groups) (2022) - `(?<a>…)|(?<a>…)`.
+- [Extended mode and comments](https://github.com/tc39/proposal-regexp-x-mode) (2021) - Flag `x` (`extended`) with insignificant whitespace and line comments (`#…`), inline comments via `(?#…)`.
+- [Pattern modifiers](https://github.com/tc39/proposal-regexp-modifiers) (2021) - `(?imsx-imsx:…)`.
+- [Atomic operators](https://github.com/tc39/proposal-regexp-atomic-operators) (2021) - Atomic groups via `(?>…)`, possessive quantifiers (ex: `*+`, `++`).
+- [Buffer boundaries](https://github.com/tc39/proposal-regexp-buffer-boundaries) (2021) - `\A` and `\z`, not affected by flag `m`.
+- [\R escape](https://github.com/tc39/proposal-regexp-r-escape) (2021) - `\R` for any line terminator.
+- [RegExp escaping](https://github.com/tc39/proposal-regex-escaping) (2015) - `RegExp.escape`.
+- [Legacy RegExp features](https://github.com/tc39/proposal-regexp-legacy-features) (2015) - Standardization of legacy features.
 
 ➕ **See also:** Chrome's `l` (`linear`) flag, behind a V8 flag [[*explainer*](https://v8.dev/blog/non-backtracking-regexp)] [[*how to run*](https://www.chromium.org/developers/how-tos/run-chromium-with-flags/)].
 
@@ -315,24 +315,24 @@ Many regexes online are low quality. It's risky to use regexes you don't fully u
 
 *A curated list of regex books.*
 
-- [*Regular Expressions Cookbook, 2nd Edition*](https://www.amazon.com/dp/1449319432/?tag=slev-20) [2012], by Jan Goyvaerts, Steven Levithan
+- [*Regular Expressions Cookbook, 2nd Edition*](https://www.amazon.com/dp/1449319432/?tag=slev-20) (2012), by Jan Goyvaerts, Steven Levithan
   - Flavors: Java, JavaScript, .NET, PCRE, Perl, Python, Ruby, XRegExp.
-- [*Mastering Regular Expressions, 3rd Edition*](https://www.amazon.com/dp/0596528124/?tag=slev-20) [2006], by Jeffrey Friedl.
+- [*Mastering Regular Expressions, 3rd Edition*](https://www.amazon.com/dp/0596528124/?tag=slev-20) (2006), by Jeffrey Friedl.
   - Flavors: Dedicated chapters on Java, .NET, Perl, and PHP (PCRE), with more limited coverage of Python, Tcl, command line tools, etc.
-- [*Introducing Regular Expressions*](https://www.amazon.com/dp/1449392687/?tag=slev-20) [2012], by Michael Fitzgerald.
+- [*Introducing Regular Expressions*](https://www.amazon.com/dp/1449392687/?tag=slev-20) (2012), by Michael Fitzgerald.
 
 ## Articles
 
 *A curated list of regex articles.*
 
-- [*The World's Shortest Regex Compiler?*](https://jasonhpriestley.com/regex) and a [follow up](https://jasonhpriestley.com/regex-dfa) on optimization, by Jason H Priestley.
+- [*The World's Shortest Regex Compiler?*](https://jasonhpriestley.com/regex) and a [follow up](https://jasonhpriestley.com/regex-dfa) on optimization - Introduction to writing a non-backtracking regex engine (in JavaScript).
 
 ## Communities
 
 *Discuss, assist, and get help with regular expressions.*
 
-- [Reddit: /r/regex](https://www.reddit.com/r/regex/).
-- [Stack Overflow: [regex]](https://stackoverflow.com/questions/tagged/regex?tab=Votes).
+- [Reddit: /r/regex](https://www.reddit.com/r/regex/)
+- [Stack Overflow: [regex]](https://stackoverflow.com/questions/tagged/regex?tab=Votes)
 
 ## Miscelaneous
 
