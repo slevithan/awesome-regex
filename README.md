@@ -1,4 +1,4 @@
-# `(?<=`Awesome`)` Regex [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Regex [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated and opinionated list of regular expression tools, tutorials, libraries, and other resources. Covers all major regex flavors. Currently includes especially deep coverage of regular expressions in JavaScript.
 
@@ -12,8 +12,8 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 *A brief glossary of regular expression terms as used in this list.*
 
-- **Regex engine:** Software that parses and executes regular expressions, often built into a programming language (synonym: implementation).
-- **Regex flavor:** A unique set of regex syntax and behavior. Basic syntax is typically shared across flavors, but more advanced features often vary, sometimes in subtle ways. A flavor might be shared across multiple implementations or programming languages.
+- **Regex engine:** Software that parses and executes regular expressions, either built into a programming language or as a standalone library (synonym: implementation).
+- **Regex flavor:** A unique set of regex syntax and behavior. Basic syntax is typically shared across flavors, but more advanced features often vary, sometimes in subtle or incompatible ways. A flavor might be shared across multiple implementations or programming languages.
   - Ex: The “JavaScript” flavor is defined by the ECMAScript spec; implemented by multiple engines (V8, etc.).
   - Ex: The “PCRE” flavor is the PCRE2 library, used by numerous programming languages and tools.
   - Ex: Ruby changed its regex implementation twice from version 1.8 ➜ 1.9 ➜ 2.0, so each used a distinct flavor. The Ruby 2.0+ flavor is referred to here as either “Ruby” or “Onigmo” (the underlying regex library).
@@ -118,7 +118,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 **Command line**
 
-- [ack](https://beyondgrep.com/) [[*GitHub*](https://github.com/beyondgrep/ack3)] - Better grep; defaults to only searching source code. Flavor: Perl.
+- [ack](https://beyondgrep.com/) [[*GitHub*](https://github.com/beyondgrep/ack3)] - Better grep. Defaults to searching source code only. Flavor: Perl.
 
 **GUI**
 
@@ -176,11 +176,13 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 - ICU: [Regular Expressions](https://unicode-org.github.io/icu/userguide/strings/regexp.html).
 - Java: [java.util.regex](https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/util/regex/package-summary.html), [Pattern](https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/util/regex/Pattern.html).
 - .NET: [.NET regular expressions](https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expressions), [System.Text.RegularExpressions](https://learn.microsoft.com/en-us/dotnet/api/system.text.regularexpressions).
-- PCRE2: [pcre2pattern](https://www.pcre.org/current/doc/html/pcre2pattern.html).
+- PCRE2: [pcre2pattern](https://pcre2project.github.io/pcre2/doc/html/pcre2pattern.html), [API](https://pcre2project.github.io/pcre2/doc/html/).
 - Perl: [perlre](https://perldoc.perl.org/perlre), [perlretut](https://perldoc.perl.org/perlretut), [perlrequick](https://perldoc.perl.org/perlrequick).
 - Python: [re](https://docs.python.org/library/re.html).
 - RE2: [Syntax](https://github.com/google/re2/wiki/Syntax).
 - Rust: [regex](https://docs.rs/regex/latest/regex/).
+
+ℹ️ Raku (formerly Perl 6) boldy reimagines regexes. See: [Grammars](https://docs.raku.org/language/grammars) ([tutorial](https://docs.raku.org/language/grammar_tutorial)), [Regexes](https://docs.raku.org/language/regexes) ([best practices](https://docs.raku.org/language/regexes-best-practices)).
 
 **Without own flavor**
 
@@ -224,12 +226,12 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 - [Runaway Regular Expressions: Catastrophic Backtracking](https://www.regular-expressions.info/catastrophic.html) - Exploration and solutions for superlinear backtracking, which leads to [ReDoS](https://en.wikipedia.org/wiki/ReDoS) vulnerability.
 - [Book: High Performance JavaScript](https://www.amazon.com/dp/059680279X/?tag=slev-20) (2010) - *Chapter 5: Strings and Regular Expressions*.
 - [Book: Mastering Regular Expressions, 3rd Edition](https://www.amazon.com/Mastering-Regular-Expressions-Jeffrey-Friedl/dp/0596528124/?tag=slev-20) (2006) - *Chapter 6: Crafting an Efficient Expression*.
-- [Regular Expression Matching Can Be Simple And Fast](https://swtch.com/~rsc/regexp/regexp1.html) - On non-backtracking engines.
+- [Regular Expression Matching Can Be Simple And Fast](https://swtch.com/~rsc/regexp/regexp1.html) - On non-backtracking engines. A [follow up](https://swtch.com/~rsc/regexp/regexp3.html) includes comparisons of RE2 and PCRE performance.
 
 **Benchmark**
 
 - Libraries for cross-engine benchmarking: [rebar](https://github.com/BurntSushi/rebar), [regex-benchmark](https://github.com/mariomka/regex-benchmark), [sljit/regex_perf.html](https://zherczeg.github.io/sljit/regex_perf.html).
-- [Boost.Regex: Performance](https://www.boost.org/doc/libs/release/libs/regex/doc/html/boost_regex/background/performance.html) - Compares Boost, `std::regex`, and others.
+- [Boost.Regex: Performance](https://www.boost.org/doc/libs/release/libs/regex/doc/html/boost_regex/background/performance.html) - Compares `boost::regex`, `std::regex`, and others.
 
 **ReDoS checkers**
 
