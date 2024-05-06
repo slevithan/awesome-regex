@@ -2,7 +2,7 @@
 
 > A curated and opinionated list of regular expression tools, tutorials, libraries, and other resources. Covers all major regex flavors. Currently includes especially deep coverage of regular expressions in JavaScript.
 
-Regular expressions (regex or regexp) are a powerful and concise way to search, parse, and process text. They're built into many programming languages, text editors, IDEs, DBMSes, and other tools.
+Regular expressions (regex or regexp) are a powerful and concise way to search, parse, and process text. They're built into many programming languages, text editors, IDEs, word processors, database engines, and other tools.
 
 Contributions are welcome. Add links through pull requests ([guidelines](CONTRIBUTING.md)) or create an issue to start a discussion.
 
@@ -78,8 +78,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 ## Syntax-free regex builders
 
-<!--lint ignore double-link-->
-*Build regexes without writing regex syntax or code. See also: [Readable regex composers](#javascript-regex-libraries), [Collections of patterns](#collections-of-patterns).*
+*Build regexes without writing regex syntax or code.*
 
 - [ChatGPT](https://chat.openai.com/) (and other LLMs) - Ex: *"create a regex that matches `X` and explain it step by step"*.
 - [RegexMagic](https://www.regexmagic.com/) (<picture><img src="https://github.com/slevithan/awesome-regex/raw/main/public/images/windows.svg" title="Windows" height="14"></picture>, $40) - Generate regexes using samples and rules.
@@ -200,6 +199,8 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 *Guides for crafting efficient regexes, plus benchmarks and tools for regex performance.*
 
+> With backtracking engines, how you craft a regex can affect how quickly it finds matches or reports failures.
+
 - Learn:
   - [*Runaway Regular Expressions: Catastrophic Backtracking*](https://www.regular-expressions.info/catastrophic.html), by Jan Goyvaerts.
   - *Chapter 5: Strings and Regular Expressions*, by Steven Levithan, in [*High Performance JavaScript*](https://www.amazon.com/dp/059680279X/?tag=slev-20#chapter5) [2010], by Nicholas C. Zakas et al.
@@ -281,8 +282,10 @@ The quality of random regexes online tends to be low. It's risky to use regexes 
 
 *A curated list of regex books.*
 
-- [*Regular Expressions Cookbook, 2nd Edition*](https://www.amazon.com/dp/1449319432/?tag=slev-20) [2012], by Jan Goyvaerts, Steven Levithan.
+- [*Regular Expressions Cookbook, 2nd Edition*](https://www.amazon.com/dp/1449319432/?tag=slev-20) [2012], by Jan Goyvaerts, Steven Levithan
+  - Flavors: Java, JavaScript, .NET, PCRE, Perl, Python, Ruby, XRegExp.
 - [*Mastering Regular Expressions, 3rd Edition*](https://www.amazon.com/dp/0596528124/?tag=slev-20) [2006], by Jeffrey Friedl.
+  - Flavors: Dedicated chapters on Java, .NET, Perl, and PHP (PCRE), with more limited coverage of Python, Tcl, command line tools, etc.
 - [*Introducing Regular Expressions*](https://www.amazon.com/dp/1449392687/?tag=slev-20) [2012], by Michael Fitzgerald.
 
 ## Articles
