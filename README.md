@@ -156,8 +156,8 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 *Regex video tutorials.*
 
-- Lea Verou: [*Demystifying Regular Expressions*](https://www.youtube.com/watch?v=M7vDtxaD7ZU).
-- Kyle Cook: [*Learn Regular Expressions In 20 Minutes*](https://www.youtube.com/watch?v=rhzKDrUiJVk).
+- [*Demystifying Regular Expressions*](https://www.youtube.com/watch?v=M7vDtxaD7ZU) - Great presentation for beginners, by Lea Verou at HolyJS 2017.
+- [*Learn Regular Expressions In 20 Minutes*](https://www.youtube.com/watch?v=rhzKDrUiJVk) - Live syntax walkthrough in a regex tester, by Kyle Cook.
 - Many options for video courses are available on [Udemy](https://www.udemy.com/topic/regular-expressions/) ($).
 
 ## Regex engines
