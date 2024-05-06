@@ -72,9 +72,9 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
   - Python: [Pythex](https://pythex.org/).
   - Ruby: [Rubular](https://rubular.com/).
 - Multiple flavors:
-  - [CyrilEx](https://extendsclass.com/regex-tester.html) [[*GitHub*](https://github.com/cyrilbois/cyrilex)]: Java, JavaScript, MySQL, PHP, Python, Ruby.
-  - [Patterns](https://krillapps.com/patterns/) (<picture><img src="https://github.com/slevithan/awesome-regex/raw/main/public/images/macos.svg" title="macOS" height="14"></picture>, $3): Bash, Emacs, grep, Java, Oniguruma, PCRE, POSIX BRE, POSIX ERE, Ruby, sed.
-  - [RegexPlanet](https://www.regexplanet.com/) [[*GitHub*](https://github.com/regexplanet)]: Go, Haskell, Java, JavaScript, .NET, Perl, PHP, PostgreSQL, Python, Ruby, Tcl, XRegExp.
+  - [CyrilEx](https://extendsclass.com/regex-tester.html) [[*GitHub*](https://github.com/cyrilbois/cyrilex)] - Java, JavaScript, MySQL, PHP, Python, Ruby.
+  - [Patterns](https://krillapps.com/patterns/) (<picture><img src="https://github.com/slevithan/awesome-regex/raw/main/public/images/macos.svg" title="macOS" height="14"></picture>, $3) - Bash, Emacs, grep, Java, Oniguruma, PCRE, POSIX BRE, POSIX ERE, Ruby, sed.
+  - [RegexPlanet](https://www.regexplanet.com/) [[*GitHub*](https://github.com/regexplanet)] - Go, Haskell, Java, JavaScript, .NET, Perl, PHP, PostgreSQL, Python, Ruby, Tcl, XRegExp.
 
 ## Syntax-free regex builders
 
@@ -199,12 +199,12 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 *Guides for crafting efficient regexes, plus benchmarks and tools for regex performance.*
 
-> With backtracking engines, how you craft a regex can affect how quickly it finds matches or reports failures.
+ℹ️ With backtracking engines, how you craft a regex can affect how quickly it finds matches or reports failures.
 
 - Learn:
   - [*Runaway Regular Expressions: Catastrophic Backtracking*](https://www.regular-expressions.info/catastrophic.html), by Jan Goyvaerts.
-  - *Chapter 5: Strings and Regular Expressions*, by Steven Levithan, in [*High Performance JavaScript*](https://www.amazon.com/dp/059680279X/?tag=slev-20#chapter5) [2010], by Nicholas C. Zakas et al.
-  - *Chapter 6: Crafting an Efficient Expression*, in [*Mastering Regular Expressions, 3rd Edition*](https://www.amazon.com/dp/0596528124/?tag=slev-20#chapter6) [2006], by Jeffrey Friedl.
+  - *Chapter 5: Strings and Regular Expressions*, by Steven Levithan, in [*High Performance JavaScript*](https://www.amazon.com/dp/059680279X/?tag=slev-20) [2010], by Nicholas C. Zakas et al.
+  - *Chapter 6: Crafting an Efficient Expression*, in [*Mastering Regular Expressions, 3rd Edition*](https://www.amazon.com/dp/0596528124?tag=slev-20) [2006], by Jeffrey Friedl.
   - [*Regular Expression Matching Can Be Simple And Fast*](https://swtch.com/~rsc/regexp/regexp1.html), by Russ Cox - On non-backtracking engines.
 - Benchmark:
   - Cross-regex-engine performance comparisons: [rebar](https://github.com/BurntSushi/rebar), [regex-benchmark](https://github.com/mariomka/regex-benchmark), [sljit/regex_perf.html](https://zherczeg.github.io/sljit/regex_perf.html).
@@ -216,7 +216,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 *Prewritten regexes for specific tasks.*
 
-- Book: [*Regular Expressions Cookbook, 2nd Edition*](https://www.amazon.com/dp/1449319432/?tag=slev-20) [2012], by Jan Goyvaerts, Steven Levithan - High quality solutions with detailed explanations and analysis.
+- Book: [*Regular Expressions Cookbook, 2nd Edition*](https://www.amazon.com/dp/1449319432?tag=slev-20) [2012], by Jan Goyvaerts, Steven Levithan - High quality solutions with detailed explanations and analysis.
   - Flavors: Java, JavaScript, .NET, PCRE, Perl, Python, Ruby, XRegExp.
 - [Regex DB](https://rgxdb.com/) - Solutions include basic descriptions and examples of matching and non-matching text.
 
