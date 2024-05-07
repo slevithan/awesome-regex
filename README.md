@@ -1,10 +1,12 @@
 <div align="center">
 
-<picture>![Awesome Regex](https://github.com/slevithan/awesome-regex/raw/main/public/images/awesome-regex.svg)</picture>
-<sup>Just type [`regex.cool`](https://regex.cool/) to go here.</sup>
+<picture>![Awesome Regex](https://github.com/slevithan/awesome-regex/raw/main/media/awesome-regex.svg)</picture>
+<sub>Just type [`regex.cool`](https://regex.cool/) to go here.</sub>
 
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 </div>
+
+---
 
 > An opinionated list of the best regular expression tools, tutorials, libraries, and other resources. Covers all major regex flavors. Currently includes especially deep coverage of regular expressions in JavaScript.
 
@@ -59,7 +61,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 - [regex101](https://regex101.com/) - **Best free and best web-based tester**.
   - Flavors: Java, JavaScript, .NET, PCRE, RE2, Rust, and emulates Python.
   - Includes regex debugger (PCRE only).
-- [RegexBuddy](https://www.regexbuddy.com/) (<picture><img src="https://github.com/slevithan/awesome-regex/raw/main/public/images/windows.svg" title="Windows" height="14"></picture>, $40) - **Best tester**.
+- [RegexBuddy](https://www.regexbuddy.com/) (<picture><img src="https://github.com/slevithan/awesome-regex/raw/main/media/windows.svg" title="Windows" height="14"></picture>, $40) - **Best tester**.
   - Flavors: Emulates hundreds of flavors/versions, with deep knowledge of differences.
   - Includes regex debugger.
 - [RegExr](https://regexr.com/) [[*GitHub*](https://github.com/gskinner/regexr/)] - **Best open source tester**.
@@ -83,7 +85,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 **Multiple flavors**
 
 - [CyrilEx](https://extendsclass.com/regex-tester.html) [[*GitHub*](https://github.com/cyrilbois/cyrilex)] - Java, JavaScript, MySQL, PHP, Python, Ruby.
-- [Patterns](https://krillapps.com/patterns/) (<picture><img src="https://github.com/slevithan/awesome-regex/raw/main/public/images/macos.svg" title="macOS" height="14"></picture>, $3) - Bash, Emacs, grep, Java, Oniguruma, PCRE, POSIX BRE, POSIX ERE, Ruby, sed.
+- [Patterns](https://krillapps.com/patterns/) (<picture><img src="https://github.com/slevithan/awesome-regex/raw/main/media/macos.svg" title="macOS" height="14"></picture>, $3) - Bash, Emacs, grep, Java, Oniguruma, PCRE, POSIX BRE, POSIX ERE, Ruby, sed.
 - [RegexPlanet](https://www.regexplanet.com/) [[*GitHub*](https://github.com/regexplanet)] - Go, Haskell, Java, JavaScript, .NET, Perl, PHP, PostgreSQL, Python, Ruby, Tcl, XRegExp.
 
 ## Syntax-free regex builders
@@ -91,7 +93,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 *Build regexes without writing regex syntax or code.*
 
 - [ChatGPT](https://chat.openai.com/) (and other LLMs) - Ex: *"create a regex that matches `X` and explain it step by step"*.
-- [RegexMagic](https://www.regexmagic.com/) (<picture><img src="https://github.com/slevithan/awesome-regex/raw/main/public/images/windows.svg" title="Windows" height="14"></picture>, $40) - Generate regexes using samples and rules.
+- [RegexMagic](https://www.regexmagic.com/) (<picture><img src="https://github.com/slevithan/awesome-regex/raw/main/media/windows.svg" title="Windows" height="14"></picture>, $40) - Generate regexes using samples and rules.
   - Flavors: Emulates hundreds of flavors/versions.
 
 <details>
@@ -128,10 +130,10 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 **GUI**
 
-- [Aba Search and Replace](https://www.abareplace.com/) (<picture><img src="https://github.com/slevithan/awesome-regex/raw/main/public/images/windows.svg" title="Windows" height="14"></picture>, $30) - Displays matches as you type.
-- [PowerGREP](https://www.powergrep.com/) (<picture><img src="https://github.com/slevithan/awesome-regex/raw/main/public/images/windows.svg" title="Windows" height="14"></picture>, $159) - Can search through archives, binary files, PDFs, docs/sheets, emails, etc., via GUI or command line.
+- [Aba Search and Replace](https://www.abareplace.com/) (<picture><img src="https://github.com/slevithan/awesome-regex/raw/main/media/windows.svg" title="Windows" height="14"></picture>, $30) - Displays matches as you type.
+- [PowerGREP](https://www.powergrep.com/) (<picture><img src="https://github.com/slevithan/awesome-regex/raw/main/media/windows.svg" title="Windows" height="14"></picture>, $159) - Can search through archives, binary files, PDFs, docs/sheets, emails, etc., via GUI or command line.
   - Flavors: Emulates hundreds of flavors/versions.
-- [RegexRenamer](https://regexrenamer.sourceforge.net/) (<picture><img src="https://github.com/slevithan/awesome-regex/raw/main/public/images/windows.svg" title="Windows" height="14"></picture>) - Rename files using regexes.
+- [RegexRenamer](https://regexrenamer.sourceforge.net/) (<picture><img src="https://github.com/slevithan/awesome-regex/raw/main/media/windows.svg" title="Windows" height="14"></picture>) - Rename files using regexes.
 
 ## Tutorials
 
