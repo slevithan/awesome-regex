@@ -1,16 +1,16 @@
 <div align="center">
 
-<picture>![Awesome Regex](https://github.com/slevithan/awesome-regex/raw/main/media/awesome-regex.svg)</picture>
-<sub>Just type [`regex.cool`](https://regex.cool/) to go here.</sub>
+[![Awesome Regex](https://github.com/slevithan/awesome-regex/raw/main/media/awesome-regex.svg)](https://regex.cool/)
+Just type [`regex.cool`](https://regex.cool/) to go here.
 
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 </div>
 
 ---
 
-> An opinionated list of the best regular expression tools, tutorials, libraries, and other resources. Covers all major regex flavors. Currently includes especially deep coverage of regular expressions in JavaScript.
-
 Regular expressions (regex or regexp) are a powerful and concise way to search, parse, and process text. They're built into many programming languages, text editors, IDEs, word processors, database engines, and other tools.
+
+Awesome Regex includes the best of regular expression tools, tutorials, libraries, and other resources. It covers all major regex flavors, and currently includes especially deep coverage of regular expressions in JavaScript.
 
 Contributions are welcome. Add links through pull requests ([guidelines](CONTRIBUTING.md)) or create an issue to start a discussion.
 
