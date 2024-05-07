@@ -1,8 +1,7 @@
-# [![Awesome Regex](https://github.com/slevithan/awesome-regex/raw/main/media/awesome-regex.svg)](https://github.com/slevithan/awesome-regex)
+<!--lint ignore awesome-heading-->
+[![Awesome Regex](https://github.com/slevithan/awesome-regex/raw/main/media/awesome-regex.svg)](https://github.com/slevithan/awesome-regex)
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
-
-<sup>Just type [`regex.cool`](https://regex.cool/) to go here.</sup>
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) &nbsp;<sup>Just type [`regex.cool`](https://regex.cool/) to go here.</sup>
 
 Awesome Regex curates the best of regular expression tools, tutorials, libraries, and other resources. It covers all major regex flavors, and currently includes especially deep coverage of regular expressions in JavaScript.
 
