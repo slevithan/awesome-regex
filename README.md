@@ -127,6 +127,8 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 - [ripgrep](https://github.com/BurntSushi/ripgrep) - Better and faster grep. Recursively searches directories while respecting gitignore rules and skipping hidden files/directories and binary files.
   - Flavors: Rust (default), PCRE.
 
+➕ **See also:** [Feature comparison of grep-like tools](https://beyondgrep.com/feature-comparison/).
+
 **GUI**
 
 - [Aba Search and Replace](https://www.abareplace.com/) (<picture><img src="https://github.com/slevithan/awesome-regex/raw/main/media/windows.svg" title="Windows" height="13"></picture>, $30) - Displays matches as you type.
@@ -155,6 +157,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
   <summary>✳️ <b>Notable mentions</b></summary>
   <br>
 
+- [learnbyexample books](https://learnbyexample.github.io/books/) - Free and open source ebooks by Sundeep Agarwal with a focus on regexes ([JavaScript](https://learnbyexample.github.io/learn_js_regexp/), [Python](https://learnbyexample.github.io/py_regular_expressions/), [Ruby](https://learnbyexample.github.io/Ruby_Regexp/)) and command line text processing.
 - [RexEgg](https://rexegg.com/) - Detailed tutorial with advanced topics.
 - [regex101: Regex Quiz](https://regex101.com/quiz) - Exercises only. Requires sign-in.
 </details>
@@ -163,7 +166,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 *Regex video tutorials.*
 
-- [*Demystifying Regular Expressions*](https://www.youtube.com/watch?v=M7vDtxaD7ZU) - Great presentation for beginners, by Lea Verou at HolyJS 2017.
+- [*Demystifying Regular Expressions*](https://www.youtube.com/watch?v=M7vDtxaD7ZU) - Great presentation for beginners, by Lea Verou at HolyJS 2017 (1hr 12m).
 - [*Learn Regular Expressions In 20 Minutes*](https://www.youtube.com/watch?v=rhzKDrUiJVk) - Live syntax walkthrough in a regex tester, by Kyle Cook.
 - Many options for video courses are available on [Udemy](https://www.udemy.com/topic/regular-expressions/) ($).
 
@@ -183,6 +186,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 - ICU: [Regular Expressions](https://unicode-org.github.io/icu/userguide/strings/regexp.html).
 - Java: [Pattern](https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/util/regex/Pattern.html), [API](https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/util/regex/package-summary.html).
 - .NET: [Overview](https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expressions), [Language](https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-language-quick-reference), [API](https://learn.microsoft.com/en-us/dotnet/api/system.text.regularexpressions).
+- Onigmo: [RE](https://github.com/k-takata/Onigmo/blob/master/doc/RE).
 - PCRE2: [pcre2pattern](https://pcre2project.github.io/pcre2/doc/html/pcre2pattern.html), [API](https://pcre2project.github.io/pcre2/doc/html/).
 - Perl: [Syntax](https://perldoc.perl.org/perlre), [Tutorial](https://perldoc.perl.org/perlretut), [Quick Start](https://perldoc.perl.org/perlrequick).
 - Python: [re](https://docs.python.org/library/re.html).
@@ -195,6 +199,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 - MySQL: [Regular Expressions](https://dev.mysql.com/doc/refman/en/regexp.html) - Flavor: ICU.
 - PHP: [Regular Expressions](https://www.php.net/manual/en/book.pcre.php) - Flavor: PCRE.
+- Ruby: [Regexp](https://docs.ruby-lang.org/en/master/Regexp.html) - Flavor: Onigmo.
 - Swift: [NSRegularExpression](https://developer.apple.com/documentation/foundation/nsregularexpression) - Flavor: ICU.
 
 ### Source code
@@ -226,15 +231,16 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 ## Performance
 
-*Pattern and engine efficiency, benchmarks, and [ReDoS](https://en.wikipedia.org/wiki/ReDoS) prevention.*
+*Pattern and engine performance, benchmarks, and [ReDoS](https://en.wikipedia.org/wiki/ReDoS) prevention.*
 
 **Crafting efficient regexes**
 
 - [Runaway Regular Expressions: Catastrophic Backtracking](https://www.regular-expressions.info/catastrophic.html) - Exploration and solutions for superlinear backtracking.
 - [Book: High Performance JavaScript](https://www.amazon.com/dp/059680279X/?tag=slev-20) (2010) - *Chapter 5: Strings and Regular Expressions*.
 - [Book: Mastering Regular Expressions, 3rd Edition](https://www.amazon.com/Mastering-Regular-Expressions-Jeffrey-Friedl/dp/0596528124/?tag=slev-20) (2006) - *Chapter 6: Crafting an Efficient Expression*.
+- [Performance of Greedy vs. Lazy Regex Quantifiers](https://blog.stevenlevithan.com/archives/greedy-lazy-performance) - Illustrates the mechanics of backtracking.
 
-ℹ️ With backtracking engines, how you craft a regex can affect how quickly it finds matches or reports failures.
+ℹ️ With backtracking engines, how you craft a regex can affect how fast it finds matches or reports failures.
 
 **Regex engine optimizations**
 
@@ -242,10 +248,10 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 - [Regular Expression Improvements in .NET 7](https://devblogs.microsoft.com/dotnet/regular-expression-improvements-in-dotnet-7/) and [.NET 5](https://devblogs.microsoft.com/dotnet/regex-performance-improvements-in-net-5/) - Includes detailed explanations of performance optimizations.
 - [ripgrep is faster than {grep, …}](https://blog.burntsushi.net/ripgrep/) - Includes details about what makes ripgrep and Rust's `regex` fast.
 
-**Benchmark**
+**Benchmarking**
 
 - Libraries for cross-engine benchmarking: [rebar](https://github.com/BurntSushi/rebar), [regex-benchmark](https://github.com/mariomka/regex-benchmark), [sljit/regex_perf.html](https://zherczeg.github.io/sljit/regex_perf.html).
-- [Boost.Regex: Performance](https://www.boost.org/doc/libs/release/libs/regex/doc/html/boost_regex/background/performance.html) - Compares `boost::regex`, `std::regex`, and others.
+- [Boost.Regex: Performance](https://www.boost.org/doc/libs/release/libs/regex/doc/html/boost_regex/background/performance.html) - Compares Boost, C++ `std::regex`, and others.
 
 **ReDoS checkers**
 
