@@ -6,9 +6,9 @@
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) &nbsp;<sup>Shortcut URL: [`regex.cool`](https://regex.cool/).</sup>
 </div>
 
-Awesome Regex curates the best of regular expression tools, tutorials, libraries, and other resources. It covers all major regex flavors, and currently includes especially deep coverage of regular expressions in JavaScript.
+Awesome Regex curates the best regular expression tools, tutorials, libraries, and other resources. It covers all major regex flavors, and currently includes especially deep coverage of regular expressions in JavaScript.
 
-> Regular expressions (regex or regexp) are a powerful and concise way to search, parse, and process text. They're built into many programming languages, text editors, IDEs, word processors, database engines, and other tools.
+> Regular expressions (regex or regexp) are a powerful and concise way to search, parse, and process text. They're built into many programming languages, text editors, IDEs, database engines, word processors, and other tools.
 
 Contributions are welcome. Add links through pull requests ([guidelines](CONTRIBUTING.md)) or create an issue to start a discussion.
 
@@ -225,11 +225,11 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 ## Performance
 
-*Guides for crafting efficient regexes<sup>1</sup>, benchmarks, and ReDoS checkers.*
+*Guides for crafting efficient regexes<sup>1</sup>, engine optimizations, benchmarks, and [ReDoS](https://en.wikipedia.org/wiki/ReDoS) prevention.*
 
 **Learn**
 
-- [Runaway Regular Expressions: Catastrophic Backtracking](https://www.regular-expressions.info/catastrophic.html) - Exploration and solutions for superlinear backtracking, which leads to [ReDoS](https://en.wikipedia.org/wiki/ReDoS) vulnerability.
+- [Runaway Regular Expressions: Catastrophic Backtracking](https://www.regular-expressions.info/catastrophic.html) - Exploration and solutions for superlinear backtracking.
 - [Book: High Performance JavaScript](https://www.amazon.com/dp/059680279X/?tag=slev-20) (2010) - *Chapter 5: Strings and Regular Expressions*.
 - [Book: Mastering Regular Expressions, 3rd Edition](https://www.amazon.com/Mastering-Regular-Expressions-Jeffrey-Friedl/dp/0596528124/?tag=slev-20) (2006) - *Chapter 6: Crafting an Efficient Expression*.
 - [Regular Expression Matching Can Be Simple And Fast](https://swtch.com/~rsc/regexp/regexp1.html) - On non-backtracking engines. A [follow up](https://swtch.com/~rsc/regexp/regexp3.html) includes comparisons of RE2 and PCRE performance.
