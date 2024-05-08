@@ -364,4 +364,7 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
 
 - Chrome extension: [Regex](https://chromewebstore.google.com/detail/regex/pmihaiejckejbpjdnildimfkpcpnohlo) - Regex search on webpages via `Ctrl+Shift+F`.
 - Games: [Regex Crossword](https://regexcrossword.com/), [Redoku](https://padolsey.github.io/redoku/).
-- [xkcd: Regular Expressions](https://xkcd.com/208/) - A famous regex comic.
+
+*Obligatory xkcd comic:*
+
+[![xkcd: Regular Expressions](https://imgs.xkcd.com/comics/regular_expressions.png)](https://xkcd.com/208/)
