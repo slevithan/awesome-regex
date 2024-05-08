@@ -336,6 +336,12 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
 *A curated list of regex articles.*
 
 - [*The World's Shortest Regex Compiler?*](https://jasonhpriestley.com/regex) and a [follow up](https://jasonhpriestley.com/regex-dfa) on optimization - Introduction to writing a non-backtracking regex engine (in JavaScript).
+- [*Regex Legends: The People Behind the Magic*](https://blog.stevenlevithan.com/archives/regex-legends) - Some of the most influential people behind the technology.
+
+**Techniques for advanced patterns**
+
+- [*Fun With .NET Regex Balancing Groups*](https://blog.stevenlevithan.com/archives/balancing-groups) - Advanced usage of a .NET-only regex feature.
+- [*Solving Algebraic Equations Using Regular Expressions*](https://blog.stevenlevithan.com/archives/algebra-with-regexes)
 
 ## Communities
 
@@ -350,3 +356,4 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
 
 - Chrome extension: [Regex](https://chromewebstore.google.com/detail/regex/pmihaiejckejbpjdnildimfkpcpnohlo) - Regex search on webpages via `Ctrl+Shift+F`.
 - Games: [Regex Crossword](https://regexcrossword.com/), [Redoku](https://padolsey.github.io/redoku/).
+- [xkcd: Regular Expressions](https://xkcd.com/208/) - A famous regex comic.
