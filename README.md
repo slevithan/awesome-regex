@@ -348,12 +348,8 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
 *A curated list of regex articles.*
 
 - [*The World's Shortest Regex Compiler?*](https://jasonhpriestley.com/regex) and a [follow up](https://jasonhpriestley.com/regex-dfa) on optimization - Introduction to writing a non-backtracking regex engine (in JavaScript).
-- [*Regex Legends: The People Behind the Magic*](https://blog.stevenlevithan.com/archives/regex-legends) - Some of the most influential people behind the technology.
-
-**Techniques for advanced patterns**
-
+- [*Regex Legends: The People Behind the Magic*](https://blog.stevenlevithan.com/archives/regex-legends) - Influential people behind the technology.
 - [*Fun With .NET Regex Balancing Groups*](https://blog.stevenlevithan.com/archives/balancing-groups) - Advanced usage of a .NET-only regex feature.
-- [*Solving Algebraic Equations Using Regular Expressions*](https://blog.stevenlevithan.com/archives/algebra-with-regexes)
 
 ## Communities
 
