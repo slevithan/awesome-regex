@@ -124,7 +124,8 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 **Command line**
 
-- [ack](https://beyondgrep.com/) [[*GitHub*](https://github.com/beyondgrep/ack3)] - Better grep. Defaults to searching source code only. Flavor: Perl.
+- [ripgrep](https://github.com/BurntSushi/ripgrep) - Better grep. Recursively searches directories while respecting gitignore rules and skipping hidden files/directories and binary files.
+  - Flavors: Rust (default), PCRE.
 
 **GUI**
 
@@ -234,6 +235,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 - [Book: Mastering Regular Expressions, 3rd Edition](https://www.amazon.com/Mastering-Regular-Expressions-Jeffrey-Friedl/dp/0596528124/?tag=slev-20) (2006) - *Chapter 6: Crafting an Efficient Expression*.
 - [Regular Expression Matching Can Be Simple And Fast](https://swtch.com/~rsc/regexp/regexp1.html) - On non-backtracking engines. A [follow up](https://swtch.com/~rsc/regexp/regexp3.html) includes comparisons of RE2 and PCRE performance.
 - [Regular Expression Improvements in .NET 7](https://devblogs.microsoft.com/dotnet/regular-expression-improvements-in-dotnet-7/) and [.NET 5](https://devblogs.microsoft.com/dotnet/regex-performance-improvements-in-net-5/) - Includes detailed explanations of regex engine performance optimizations.
+- [ripgrep is faster than {grep, ag, git grep, ucg, pt, sift}](https://blog.burntsushi.net/ripgrep/) - Includes detailed explanations of what makes ripgrep fast.
 
 **Benchmark**
 
