@@ -157,8 +157,8 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
   <summary>✳️ <b>Notable mentions</b></summary>
   <br>
 
-- [learnbyexample books](https://learnbyexample.github.io/books/) - Free and open source ebooks by Sundeep Agarwal with a focus on regexes ([JavaScript](https://learnbyexample.github.io/learn_js_regexp/), [Python](https://learnbyexample.github.io/py_regular_expressions/), [Ruby](https://learnbyexample.github.io/Ruby_Regexp/)) and command line text processing.
 - [RexEgg](https://rexegg.com/) - Detailed tutorial with advanced topics.
+- [Programming ebooks by Sundeep Agarwal](https://learnbyexample.github.io/books/) - Free and open source ebooks that focus on regexes ([JavaScript](https://learnbyexample.github.io/learn_js_regexp/), [Python](https://learnbyexample.github.io/py_regular_expressions/), [Ruby](https://learnbyexample.github.io/Ruby_Regexp/)) and command line text processing.
 - [regex101: Regex Quiz](https://regex101.com/quiz) - Exercises only. Requires sign-in.
 </details>
 
