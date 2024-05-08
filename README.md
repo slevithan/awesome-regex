@@ -282,7 +282,7 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
 
 - AST builders: [regexp-tree](https://github.com/DmitrySoshnikov/regexp-tree) (includes optimizer, etc.), [regexpp](https://github.com/eslint-community/regexpp) (used by ESLint), [regjsparser](https://github.com/jviereck/regjsparser)/[regjsgen](https://github.com/bnjmnt4n/regjsgen), [ret.js](https://github.com/fent/ret.js), [RegexAnalyzer](https://github.com/foo123/RegexAnalyzer).
 - Generate strings that match a given regex: [randexp.js](https://github.com/fent/randexp.js), [regex-to-strings](https://github.com/wimpyprogrammer/regex-to-strings).
-- Generate a regex from given strings: [retrie](https://github.com/satyr/retrie).
+- Generate a regex from given strings: [regexgen](https://github.com/devongovett/regexgen).
 - Highlight regex syntax: [Regex Colorizer](https://github.com/slevithan/regex-colorizer) [[*home*](https://stevenlevithan.com/regex/colorizer/)].
 
 **Alternative regex builders and engines**
@@ -364,7 +364,6 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
 
 - Chrome extension: [Regex](https://chromewebstore.google.com/detail/regex/pmihaiejckejbpjdnildimfkpcpnohlo) - Regex search on webpages via `Ctrl+Shift+F`.
 - Games: [Regex Crossword](https://regexcrossword.com/), [Redoku](https://padolsey.github.io/redoku/).
-
-*Obligatory xkcd comic:*
+- Obligatory xkcd comic:
 
 [![xkcd: Regular Expressions](https://imgs.xkcd.com/comics/regular_expressions.png)](https://xkcd.com/208/)
