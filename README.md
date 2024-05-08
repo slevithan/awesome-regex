@@ -124,7 +124,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 **Command line**
 
-- [ripgrep](https://github.com/BurntSushi/ripgrep) - Better and faster grep. Recursively searches directories while respecting gitignore rules and skipping hidden files/directories and binary files.
+- [ripgrep](https://github.com/BurntSushi/ripgrep) - Better and faster grep. Recursively searches directories while respecting gitignore rules and skipping hidden/binary files.
   - Flavors: Rust (default), PCRE.
 
 ➕ **See also:** [Feature comparison of grep-like tools](https://beyondgrep.com/feature-comparison/).
@@ -132,7 +132,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 **GUI**
 
 - [Aba Search and Replace](https://www.abareplace.com/) (<picture><img src="https://github.com/slevithan/awesome-regex/raw/main/media/windows.svg" title="Windows" height="13"></picture>, $30) - Displays matches as you type.
-- [PowerGREP](https://www.powergrep.com/) (<picture><img src="https://github.com/slevithan/awesome-regex/raw/main/media/windows.svg" title="Windows" height="13"></picture>, $159) - Can search through archives, binary files, PDFs, docs/sheets, emails, etc., via GUI or command line.
+- [PowerGREP](https://www.powergrep.com/) (<picture><img src="https://github.com/slevithan/awesome-regex/raw/main/media/windows.svg" title="Windows" height="13"></picture>, $159) - Can search through archives, binary files, PDFs, docs/sheets, emails, etc., via its GUI or the command line.
   - Flavors: Emulates hundreds of flavors/versions.
 - [RegexRenamer](https://regexrenamer.sourceforge.net/) (<picture><img src="https://github.com/slevithan/awesome-regex/raw/main/media/windows.svg" title="Windows" height="13"></picture>) - Rename files using regexes.
 
@@ -158,7 +158,8 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
   <br>
 
 - [RexEgg](https://rexegg.com/) - Detailed tutorial with advanced topics.
-- [Programming ebooks by Sundeep Agarwal](https://learnbyexample.github.io/books/) - Free and open source ebooks that focus on regexes ([JavaScript](https://learnbyexample.github.io/learn_js_regexp/), [Python](https://learnbyexample.github.io/py_regular_expressions/), [Ruby](https://learnbyexample.github.io/Ruby_Regexp/)) and command line text processing.
+- [learnbyexample](https://learnbyexample.github.io/books/) [[*GitHub*](https://github.com/learnbyexample)] - Ebooks that focus on regexes ([JavaScript](https://learnbyexample.github.io/learn_js_regexp/), [Python](https://learnbyexample.github.io/py_regular_expressions/), [Ruby](https://learnbyexample.github.io/Ruby_Regexp/)) and command line text processing.
+- [Regular Expressions for Regular Folk](https://refrf.dev/) [[*GitHub*](https://github.com/shreyasminocha/regex-for-regular-folk)] - Visual, example-based ebook for beginners.
 - [regex101: Regex Quiz](https://regex101.com/quiz) - Exercises only. Requires sign-in.
 </details>
 
@@ -358,7 +359,7 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
 
 *Discuss, assist, and get help with regular expressions.*
 
-- [Reddit: /r/regex](https://www.reddit.com/r/regex/)
+- [Reddit: r/regex](https://www.reddit.com/r/regex/)
 - [Stack Overflow: [regex]](https://stackoverflow.com/questions/tagged/regex?tab=Votes)
 
 ## Miscelaneous
