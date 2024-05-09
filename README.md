@@ -52,10 +52,6 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 *For building, testing, and playing with regexes.*
 
-### Best testers
-
-*The very best, in multiple categories. All include live match highlighting.*
-
 - [regex101](https://regex101.com/) - **Best free and best web-based tester**.
   - Flavors: Java, JavaScript, .NET, PCRE, RE2, Rust, and emulates Python.
   - Includes regex debugger (PCRE only).
@@ -68,7 +64,9 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
   - Languages: 🇺🇸, 🇹🇷, 🇷🇺, 🇪🇸, 🇨🇳, 🇩🇪, 🇺🇦, 🇫🇷, 🇵🇱, 🇰🇷, 🇧🇷, 🇨🇿, 🇬🇪.
 - [regexplained](https://regexplained.com/) [[*GitHub*](https://github.com/LeaVerou/regexplained)] - **Best tester for presentations** (JavaScript).
 
-### More testers
+<details>
+  <summary>✳️ <b>Notable mentions</b></summary>
+  <br>
 
 *Additional testing options that are high quality or include unique features.*
 
@@ -85,6 +83,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 - [CyrilEx](https://extendsclass.com/regex-tester.html) [[*GitHub*](https://github.com/cyrilbois/cyrilex)] - Java, JavaScript, MySQL, PHP, Python, Ruby.
 - [Patterns](https://krillapps.com/patterns/) (<picture><img src="https://github.com/slevithan/awesome-regex/raw/main/media/macos.svg" title="macOS" height="13"></picture>, $3) - Bash, Emacs, grep, Java, Oniguruma, PCRE, POSIX BRE, POSIX ERE, Ruby, sed.
 - [RegexPlanet](https://www.regexplanet.com/) [[*GitHub*](https://github.com/regexplanet)] - Go, Haskell, Java, JavaScript, .NET, Perl, PHP, PostgreSQL, Python, Ruby, Tcl, XRegExp.
+</details>
 
 ## Syntax-free regex builders
 
