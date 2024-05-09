@@ -23,7 +23,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
   - Ex: The “JavaScript” flavor is defined by the ECMAScript spec; implemented by multiple engines (V8, etc.).
   - Ex: The “PCRE” flavor is the PCRE2 library, used by numerous programming languages and tools.
   - Ex: Ruby changed its regex implementation twice from version 1.8 ➜ 1.9 ➜ 2.0, so each used a distinct flavor. The Ruby 2.0+ flavor is referred to here as either “Ruby” or “Onigmo” (the underlying regex library).
-- **Non-backtracking engine:** Sometimes referred to elsewhere as a “DFA” engine. Non-backtracking engines like RE2 and Rust's `regex` run in linear time because they don't use backtracking. This rules out worst case performance from superlinear backtracking, but it's also slower for many common patterns and precludes some useful features like backreferences.
+- **Non-backtracking engine:** Sometimes referred to elsewhere as a “DFA” engine. Non-backtracking engines like RE2 and Rust's `regex` run in linear time because they don't use backtracking. This rules out worst case performance from superlinear backtracking, but it's not always faster and it precludes some useful features like backreferences.
 </details>
 
 ## Contents
@@ -251,7 +251,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 **Benchmarking**
 
 - Libraries for cross-engine benchmarking: [rebar](https://github.com/BurntSushi/rebar), [regex-benchmark](https://github.com/mariomka/regex-benchmark), [sljit/regex_perf.html](https://zherczeg.github.io/sljit/regex_perf.html).
-- [Boost.Regex: Performance](https://www.boost.org/doc/libs/release/libs/regex/doc/html/boost_regex/background/performance.html) - Compares Boost, C++ `std::regex`, and others.
+- [Boost.Regex: Performance](https://www.boost.org/doc/libs/release/libs/regex/doc/html/boost_regex/background/performance.html) - Compares Boost, C++'s `std::regex`, and others.
 
 **ReDoS checkers**
 
@@ -319,6 +319,7 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
 
 - Backcompat libraries: [regexpu](https://github.com/mathiasbynens/regexpu), [regenerate](https://github.com/mathiasbynens/regenerate).
 - Chrome's `l` (`linear`) flag, behind a V8 flag [[*explainer*](https://v8.dev/blog/non-backtracking-regexp)] [[*how to run*](https://www.chromium.org/developers/how-tos/run-chromium-with-flags/)].
+- [Can I use](https://caniuse.com/) - Up-to-date browser support tables for individual features.
 
 <details>
   <summary>🔮 <b>Future: Active proposals</b></summary>
