@@ -68,8 +68,6 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
   <summary>✳️ <b>Notable mentions</b></summary>
   <br>
 
-*Additional testing options that are high quality or include unique features.*
-
 **Flavors**
 
 - JavaScript: [RegViz](http://regviz.org/).
