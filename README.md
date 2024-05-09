@@ -42,7 +42,6 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 - [Collections of patterns](#collections-of-patterns)
 - [JavaScript regex libraries](#javascript-regex-libraries)
 - [JavaScript regex evolution](#javascript-regex-evolution)
-  - [Future: Active proposals](#future-active-proposals)
 - [Books](#books)
 - [Articles](#articles)
 - [Communities](#communities)
@@ -317,9 +316,11 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
 
 ➕ **See also:** Backcompat libraries: [regexpu](https://github.com/mathiasbynens/regexpu), [regenerate](https://github.com/mathiasbynens/regenerate).
 
-### Future: Active proposals
+➕ **See also:** Chrome's `l` (`linear`) flag, behind a V8 flag [[*explainer*](https://v8.dev/blog/non-backtracking-regexp)] [[*how to run*](https://www.chromium.org/developers/how-tos/run-chromium-with-flags/)].
 
-*Learn about regex features potentially coming to future JavaScript versions.*
+<details>
+  <summary>🔮 <b>Future: Active proposals</b></summary>
+  <br>
 
 - [Duplicate named capturing groups](https://github.com/tc39/proposal-duplicate-named-capturing-groups) (2022) - Ex: `(?<a>…)|(?<a>…)`.
 - [Extended mode and comments](https://github.com/tc39/proposal-regexp-x-mode) (2021) - Flag `x` (`extended`) with insignificant whitespace and line comments (`#…`), inline comments via `(?#…)`.
@@ -329,8 +330,7 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
 - [\R escape](https://github.com/tc39/proposal-regexp-r-escape) (2021) - Outside a character class, `\R` matches any line terminator.
 - [RegExp escaping](https://github.com/tc39/proposal-regex-escaping) (2015) - `RegExp.escape`.
 - [Legacy RegExp features](https://github.com/tc39/proposal-regexp-legacy-features) (2015) - Standardization of legacy features.
-
-➕ **See also:** Chrome's `l` (`linear`) flag, behind a V8 flag [[*explainer*](https://v8.dev/blog/non-backtracking-regexp)] [[*how to run*](https://www.chromium.org/developers/how-tos/run-chromium-with-flags/)].
+</details>
 
 ## Books
 
