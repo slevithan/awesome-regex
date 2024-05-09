@@ -144,7 +144,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 **Traditional**
 
 - [Regular-Expressions.info](https://www.regular-expressions.info/) - Covers numerous regex flavors.
-- [The Modern JavaScript Tutorial: Regular expressions](https://javascript.info/regular-expressions) [[*GitHub*](https://github.com/javascript-tutorial/en.javascript.info)] - Detailed guide for using regexes in modern JavaScript.
+- [The Modern JavaScript Tutorial: Regular expressions](https://javascript.info/regular-expressions) [[*GitHub*](https://github.com/javascript-tutorial/en.javascript.info)] - Guide to using regexes in modern JavaScript.
   - Languages: 🇺🇸, 🇪🇸, 🇫🇷, 🇮🇹, 🇯🇵, 🇷🇺, 🇺🇦, 🇨🇳 (partial for [others](https://javascript.info/translate)).
 
 **With interactive exercises**
@@ -159,7 +159,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
   <br>
 
 - [RexEgg](https://rexegg.com/) - Detailed tutorial with advanced topics.
-- [learnbyexample](https://learnbyexample.github.io/books/) [[*GitHub*](https://github.com/learnbyexample)] - Ebooks that focus on regexes ([JavaScript](https://learnbyexample.github.io/learn_js_regexp/), [Python](https://learnbyexample.github.io/py_regular_expressions/), [Ruby](https://learnbyexample.github.io/Ruby_Regexp/)) and command line text processing.
+- [learnbyexample](https://learnbyexample.github.io/books/) [[*GitHub*](https://github.com/learnbyexample)] - Ebooks on regexes ([JavaScript](https://learnbyexample.github.io/learn_js_regexp/), [Python](https://learnbyexample.github.io/py_regular_expressions/), [Ruby](https://learnbyexample.github.io/Ruby_Regexp/)) and command line text processing.
 - [Regular Expressions for Regular Folk](https://refrf.dev/) [[*GitHub*](https://github.com/shreyasminocha/regex-for-regular-folk)] - Visual, example-based ebook for beginners.
 - [regex101: Regex Quiz](https://regex101.com/quiz) - Exercises only. Requires sign-in.
 </details>
