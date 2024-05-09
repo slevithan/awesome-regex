@@ -181,6 +181,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 - JavaScript (MDN): [RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp), [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions), [Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions).
 - Boost.Regex: [Manual](https://boost.org/libs/regex).
+- C++: [Regular expressions library](https://en.cppreference.com/w/cpp/regex).
 - Hyperscan: [Introduction](https://www.hyperscan.io/).
 - ICU: [Regular Expressions](https://unicode-org.github.io/icu/userguide/strings/regexp.html).
 - Java: [Pattern](https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/util/regex/Pattern.html), [API](https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/util/regex/package-summary.html).
