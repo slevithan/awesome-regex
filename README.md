@@ -106,12 +106,12 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
   - Languages: 🇺🇸, 🇨🇳.
 - [Regulex](https://jex.im/regulex/) [[*GitHub*](https://github.com/CJex/regulex)] - Create railroad diagrams. Flavor: JavaScript.
 - [Nodexr](https://www.nodexr.net/) [[*GitHub*](https://github.com/Jcparkyn/nodexr)] - Graphical editor with visual hierarchy. Flavor: .NET.
-- [Regex Nodes](https://johannesvollmer.com/regex-nodes/) [[*GitHub*](https://github.com/johannesvollmer/regex-nodes)] - Graphical editor with visual hierarchy. Flavor: JavaScript.
 
 <details>
   <summary>✳️ <b>Notable mentions</b></summary>
   <br>
 
+- [Regex Nodes](https://johannesvollmer.com/regex-nodes/) [[*GitHub*](https://github.com/johannesvollmer/regex-nodes)] - Graphical editor with visual hierarchy. Flavor: JavaScript.
 - [Debuggex](https://www.debuggex.com/) - Create railroad diagrams. Flavors: JavaScript, PCRE, Python.
 - [RegExper](https://regexper.com/) [[*GitLab*](https://gitlab.com/javallone/regexper-static)] - Create railroad diagrams. Flavor: JavaScript.
 </details>
@@ -279,7 +279,7 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
 
 **Regex processors**
 
-- AST builders: [regexp-tree](https://github.com/DmitrySoshnikov/regexp-tree) (includes optimizer, etc.), [regexpp](https://github.com/eslint-community/regexpp) (used by ESLint), [regjsparser](https://github.com/jviereck/regjsparser)/[regjsgen](https://github.com/bnjmnt4n/regjsgen), [ret.js](https://github.com/fent/ret.js), [RegexAnalyzer](https://github.com/foo123/RegexAnalyzer).
+- AST builders: [regexp-tree](https://github.com/DmitrySoshnikov/regexp-tree) (includes optimizer, etc.), [regexpp](https://github.com/eslint-community/regexpp) (used by ESLint).
 - Generate strings that match a given regex: [randexp.js](https://github.com/fent/randexp.js), [regex-to-strings](https://github.com/wimpyprogrammer/regex-to-strings).
 - Generate a regex from given strings: [regexgen](https://github.com/devongovett/regexgen).
 - Highlight regex syntax: [Regex Colorizer](https://github.com/slevithan/regex-colorizer) [[*home*](https://stevenlevithan.com/regex/colorizer/)].
@@ -315,11 +315,15 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
 - ES2022 added [flag `d`](https://github.com/tc39/proposal-regexp-match-indices) (`hasIndices`), which provides start/end indices for matched substrings.
 - ES2024 added [flag `v`](https://github.com/tc39/proposal-regexp-v-flag) (`unicodeSets`) [[*explainer*](https://v8.dev/features/regexp-v-flag)] as an upgrade to flag `u` (can't be used together); adds properties of *strings* to `\p{…}`, multicharacter elements within character classes via `\p{…}` and `\q{…|…}`, nested character classes, set operators `[…--…]` and `[…&&…]`, improved case-insensitive matching, and different escaping rules within character classes.
 
-➕ **See also:**
+<details>
+  <summary>➕ <b>See also</b></summary>
+  <br>
 
 - Backcompat libraries: [regexpu](https://github.com/mathiasbynens/regexpu), [regenerate](https://github.com/mathiasbynens/regenerate).
 - Chrome's `l` (`linear`) flag, behind a V8 flag [[*explainer*](https://v8.dev/blog/non-backtracking-regexp)] [[*how to run*](https://www.chromium.org/developers/how-tos/run-chromium-with-flags/)].
 - [Can I use](https://caniuse.com/) - Up-to-date browser support tables for individual features.
+</details>
+<br>
 
 <details>
   <summary>🔮 <b>Future: Active proposals</b></summary>
