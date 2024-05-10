@@ -282,7 +282,7 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
 - AST builders: [regexp-tree](https://github.com/DmitrySoshnikov/regexp-tree) (includes optimizer, etc.), [regexpp](https://github.com/eslint-community/regexpp) (used by ESLint).
 - Generate strings that match a given regex: [randexp.js](https://github.com/fent/randexp.js), [regex-to-strings](https://github.com/wimpyprogrammer/regex-to-strings).
 - Generate a regex from given strings: [regexgen](https://github.com/devongovett/regexgen).
-- Highlight regex syntax: [Regex Colorizer](https://github.com/slevithan/regex-colorizer) [[*home*](https://stevenlevithan.com/regex/colorizer/)].
+- Highlight regex syntax: [CodeMirror PCRE mode](https://github.com/xavierog/codemirror-mode-pcre), [Regex Colorizer](https://github.com/slevithan/regex-colorizer) [[*home*](https://stevenlevithan.com/regex/colorizer/)].
 
 **Alternative regex builders and engines**
 
@@ -323,7 +323,6 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
 - Chrome's `l` (`linear`) flag, behind a V8 flag [[*explainer*](https://v8.dev/blog/non-backtracking-regexp)] [[*how to run*](https://www.chromium.org/developers/how-tos/run-chromium-with-flags/)].
 - [Can I use](https://caniuse.com/) - Up-to-date browser support tables for individual features.
 </details>
-<br>
 
 <details>
   <summary>🔮 <b>Future: Active proposals</b></summary>
