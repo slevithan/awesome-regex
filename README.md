@@ -23,7 +23,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
   - Ex: The “JavaScript” flavor is defined by the ECMAScript spec; implemented by multiple engines (V8, etc.).
   - Ex: The “PCRE” flavor is the PCRE2 library, used by numerous programming languages and tools.
   - Ex: Ruby swapped its regex implementation twice from version 1.8 ➜ 1.9 ➜ 2.0, so each used a distinct flavor. The Ruby 2.0+ flavor is referred to here as either “Ruby” or “Onigmo” (the underlying regex library).
-- **Non-backtracking engine:** Sometimes referred to elsewhere as a “DFA” engine. Non-backtracking engines like RE2 and Rust's `regex` run in linear time because they don't use backtracking. This rules out worst case performance from superlinear backtracking, but it's not always faster and it precludes some useful features like backreferences.
+- **Non-backtracking engine:** Sometimes referred to elsewhere as a “DFA” engine. Non-backtracking engines like RE2 and Rust's `regex` run in linear time because they don't use backtracking. This rules out worst case performance from superlinear backtracking, but it's slower with some patterns and precludes some useful features like backreferences.
 </details>
 
 ## Contents
@@ -284,7 +284,7 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
 - Generate strings that match a given regex: [randexp.js](https://github.com/fent/randexp.js), [regex-to-strings](https://github.com/wimpyprogrammer/regex-to-strings).
 - Generate a regex from given strings: [regexgen](https://github.com/devongovett/regexgen).
 - Highlight regex syntax: [CodeMirror PCRE mode](https://github.com/xavierog/codemirror-mode-pcre), [Regex Colorizer](https://github.com/slevithan/regex-colorizer) [[*home*](https://stevenlevithan.com/regex/colorizer/)].
-- Lint: [eslint-plugin-regexp](https://github.com/ota-meshi/eslint-plugin-regexp) [[*home*](https://ota-meshi.github.io/eslint-plugin-regexp/)].
+- Find regex mistakes and stylistic improvements: [eslint-plugin-regexp](https://github.com/ota-meshi/eslint-plugin-regexp) [[*home*](https://ota-meshi.github.io/eslint-plugin-regexp/)].
 
 **Alternative regex builders and engines**
 
