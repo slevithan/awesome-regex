@@ -283,7 +283,7 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
 - AST builders: [regexp-tree](https://github.com/DmitrySoshnikov/regexp-tree) (includes optimizer, etc.), [regexpp](https://github.com/eslint-community/regexpp) (used by ESLint).
 - Generate strings that match a given regex: [randexp.js](https://github.com/fent/randexp.js), [regex-to-strings](https://github.com/wimpyprogrammer/regex-to-strings).
 - Generate a regex from given strings: [regexgen](https://github.com/devongovett/regexgen).
-- Highlight regex syntax: [CodeMirror PCRE mode](https://github.com/xavierog/codemirror-mode-pcre), [Regex Colorizer](https://github.com/slevithan/regex-colorizer) [[*home*](https://slevithan.github.io/regex-colorizer/demo/)].
+- Highlight regex syntax: [Regex Colorizer](https://github.com/slevithan/regex-colorizer) [[*home*](https://slevithan.github.io/regex-colorizer/demo/)], [CodeMirror PCRE mode](https://github.com/xavierog/codemirror-mode-pcre).
 - Find regex mistakes and stylistic improvements: [eslint-plugin-regexp](https://github.com/ota-meshi/eslint-plugin-regexp) [[*home*](https://ota-meshi.github.io/eslint-plugin-regexp/)].
 
 **Alternative regex builders and engines**
@@ -309,7 +309,7 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
   - Flag `y` (`sticky`), which anchors matches to `lastIndex`.
   - Flag `u` (`unicode`) [[*explainer*](https://mathiasbynens.be/notes/es6-unicode-regex)] [[*2016 spec fix*](https://github.com/tc39/ecma262/pull/525)] with errors for unreserved letter escapes, Unicode code point escapes (`\u{…}`), impact on flag `i`, and surrogate pairs as code points (with impact on quantifiers, character classes, character class ranges, and built-in classes like `.` and `\W`).
   - Getter `RegExp.prototype.flags`.
-  - Can subclass `RegExp`, plus `RegExp.prototype[Symbol.match/replace/search/split]` and `RegExp[Symbol.species]` for use in subclasses.
+  - Can subclass `RegExp`, plus `RegExp.prototype[Symbol.match`/`replace`/`search`/`split]` and `RegExp[Symbol.species]` for use in subclasses.
   - Use `RegExp` to copy a regex, optionally with new flags.
 - ES2018 added [flag `s`](https://github.com/tc39/proposal-regexp-dotall-flag) (`dotAll`), [lookbehind](https://github.com/tc39/proposal-regexp-lookbehind), [named capture](https://github.com/tc39/proposal-regexp-named-groups), and [Unicode properties](https://github.com/tc39/proposal-regexp-unicode-property-escapes) via `\p{…}` and `\P{…}` behind flag `u` (see [property list](https://github.com/mathiasbynens/regexpu-core/blob/main/property-escapes.md)).
 - ES2020 added string method [`matchAll`](https://github.com/tc39/proposal-string-matchall) (which returns an iterator) and `RegExp.prototype[Symbol.matchAll]`.
