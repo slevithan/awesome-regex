@@ -70,6 +70,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 **Flavors**
 
+- Java: [Javex](https://softwium.com/javex/).
 - JavaScript: [RegViz](http://regviz.org/).
 - .NET: [Regex Storm](http://regexstorm.net/tester) [[*GitHub*](https://github.com/lonekorean/regex-storm)].
 - PCRE: [PHP Live Regex](https://www.phpliveregex.com/).
