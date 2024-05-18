@@ -303,9 +303,9 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
 
 *A concise history of improvements to regular expressions in the JavaScript [standard](https://tc39.es/ecma262/), with links to the [TC39](https://tc39.es/) proposals where features were developed and discussed.*
 
-- ES3 (1999) included powerful regular expressions, though limited compared to other major flavors.
+- ES3 (1999) introduced powerful regular expressions, though limited compared to other major flavors.
 - ES5 (2009) fixed unintuitive behavior by creating a new object every time regex literals are evaluated [[*explainer*](https://whereswalden.com/2010/01/15/more-es5-incompatible-changes-regular-expressions-now-evaluate-to-a-new-object-not-the-same-object-each-time-theyre-encountered/)], and allowed regex literals to use unescaped forward slashes within character clases (`/[/]/`).
-- ES6/ES2015 added: [[*explainer*](https://exploringjs.com/es6/ch_regexp.html)]
+- ES6/ES2015 added: [[*explainer*](https://2ality.com/2015/07/regexp-es6.html)]
   - Flag `y` (`sticky`), which anchors matches to `lastIndex`.
   - Flag `u` (`unicode`) [[*explainer*](https://mathiasbynens.be/notes/es6-unicode-regex)] [[*2016 spec fix*](https://github.com/tc39/ecma262/pull/525)] with errors for unreserved letter escapes, Unicode code point escapes (`\u{…}`), impact on flag `i`, and surrogate pairs as code points (with impact on quantifiers, character classes, character class ranges, and built-in classes like `.` and `\W`).
   - Getter `RegExp.prototype.flags`.
@@ -322,7 +322,7 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
   <br>
 
 - Backcompat libraries: [regexpu](https://github.com/mathiasbynens/regexpu), [regenerate](https://github.com/mathiasbynens/regenerate).
-- Chrome's `l` (`linear`) flag, behind a V8 flag [[*explainer*](https://v8.dev/blog/non-backtracking-regexp)] [[*how to run*](https://www.chromium.org/developers/how-tos/run-chromium-with-flags/)].
+- Chrome's `l` (`linear`) regex flag, behind a V8 flag [[*explainer*](https://v8.dev/blog/non-backtracking-regexp)] [[*how to run*](https://www.chromium.org/developers/how-tos/run-chromium-with-flags/)].
 - [Can I use](https://caniuse.com/) - Up-to-date browser support tables for individual features.
 </details>
 
