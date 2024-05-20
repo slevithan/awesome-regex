@@ -1,9 +1,9 @@
 <!--lint ignore awesome-heading-->
 <div align="center">
 
-[![Awesome Regex](https://github.com/slevithan/awesome-regex/raw/main/media/awesome-regex.svg)](https://github.com/slevithan/awesome-regex)
+[![Awesome Regex](media/awesome-regex-banner.svg)](https://github.com/slevithan/awesome-regex)
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) &nbsp;<sup>Shortcut URL: [`regex.cool`](https://regex.cool/).</sup>
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) &nbsp;<sup>Shortcut URL: [`regex.cool`](https://regex.cool/)</sup>
 </div>
 
 Awesome Regex curates the best regular expression tools, tutorials, libraries, and other resources. It covers all major regex flavors, and currently includes especially deep coverage of regular expressions in JavaScript.
@@ -336,7 +336,7 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
 - [Atomic operators](https://github.com/tc39/proposal-regexp-atomic-operators) (2021) - Atomic groups via `(?>…)`, possessive quantifiers (ex: `*+`, `++`).
 - [Buffer boundaries](https://github.com/tc39/proposal-regexp-buffer-boundaries) (2021) - Anchors `\A` and `\z`, not affected by flag `m`.
 - [\R escape](https://github.com/tc39/proposal-regexp-r-escape) (2021) - Outside character classes, `\R` matches any line terminator.
-- [Restricting subclassing support in built-in methods](https://github.com/tc39/proposal-rm-builtin-subclassing) (2020) - Limit capabilities for subclassing of built-ins including `RegExp`.
+- [Restricting subclassing support in built-in methods](https://github.com/tc39/proposal-rm-builtin-subclassing) (2020) - Limit subclassing capabilities for built-ins including `RegExp`.
 - [RegExp escaping](https://github.com/tc39/proposal-regex-escaping) (2015) - `RegExp.escape`.
 - [Legacy RegExp features](https://github.com/tc39/proposal-regexp-legacy-features) (2015) - Standardization of legacy features.
 </details>
