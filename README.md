@@ -280,7 +280,7 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
 
 **Regex processors**
 
-- AST builders: [regexp-tree](https://github.com/DmitrySoshnikov/regexp-tree) (includes optimizer, etc.), [regexpp](https://github.com/eslint-community/regexpp) (used by ESLint).
+- AST builders: [regexpp](https://github.com/eslint-community/regexpp) (used by ESLint), [regexp-tree](https://github.com/DmitrySoshnikov/regexp-tree) (includes optimizer, etc.), [regjsparser](https://github.com/jviereck/regjsparser)/[regjsgen](https://github.com/bnjmnt4n/regjsgen).
 - Generate strings that match a given regex: [randexp.js](https://github.com/fent/randexp.js), [regex-to-strings](https://github.com/wimpyprogrammer/regex-to-strings).
 - Generate a regex from given strings: [regexgen](https://github.com/devongovett/regexgen).
 - Highlight regex syntax: [Regex Colorizer](https://github.com/slevithan/regex-colorizer) [[*home*](https://slevithan.github.io/regex-colorizer/demo/)], [CodeMirror PCRE mode](https://github.com/xavierog/codemirror-mode-pcre).
