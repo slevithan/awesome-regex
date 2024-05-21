@@ -307,7 +307,7 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
 - ES5 (2009) fixed unintuitive behavior by creating a new object every time regex literals are evaluated [[*explainer*](https://whereswalden.com/2010/01/15/more-es5-incompatible-changes-regular-expressions-now-evaluate-to-a-new-object-not-the-same-object-each-time-theyre-encountered/)], and allowed regex literals to use unescaped forward slashes within character clases (`/[/]/`).
 - ES6/ES2015 added: [[*explainer*](https://2ality.com/2015/07/regexp-es6.html)]
   - Flag `y` (`sticky`), which anchors matches to `lastIndex`.
-  - Flag `u` (`unicode`) [[*explainer*](https://mathiasbynens.be/notes/es6-unicode-regex)] [[*2016 spec fix*](https://github.com/tc39/ecma262/pull/525)], which adds 21-bit Unicode code point escapes (`\u{…}`), errors for unreserved letter escapes, impact on flag `i`, and surrogate pairs as code points (with impact on quantifiers, character classes, character class ranges, and built-in sets like `.` and `\W`).
+  - Flag `u` (`unicode`) [[*explainer*](https://mathiasbynens.be/notes/es6-unicode-regex)] [[*2016 spec fix*](https://github.com/tc39/ecma262/pull/525)], which adds Unicode code point escapes via `\u{…}`, errors for unreserved letter escapes, impact on flag `i`, and surrogate pairs as code points (with impact on quantifiers, character classes, character class ranges, and built-in sets like `.` and `\W`).
   - Getter `RegExp.prototype.flags`.
   - Can subclass `RegExp`, plus `RegExp.prototype[Symbol.match`/`replace`/`search`/`split]` and `RegExp[Symbol.species]` for use in subclasses.
   - Use `RegExp` to copy a regex, optionally with new flags.
@@ -317,7 +317,7 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
 - ES2022 added [flag `d`](https://github.com/tc39/proposal-regexp-match-indices) (`hasIndices`), which provides start/end indices for matched substrings.
 - ES2024 added [flag `v`](https://github.com/tc39/proposal-regexp-v-flag) (`unicodeSets`) [[*explainer*](https://v8.dev/features/regexp-v-flag)] as an upgrade to flag `u` (can't be used together), which adds a set of multicharacter "properties of strings" to `\p{…}`, multicharacter elements within character classes via `\p{…}` and `\q{…|…}`, nested character classes, set operators `[…--…]` and `[…&&…]`, improved case-insensitive matching, and different escaping rules within character classes.
 
-> ES2019, ES2020, ES2021, ES2022, and ES2023 each added additional Unicode properties that can be used via `\p{…}` and `\P{…}` (see [list](https://github.com/eslint-community/regexpp/blob/main/src/unicode/properties.ts)).
+> ES2019, ES2020, ES2021, ES2022, and ES2023 each added additional Unicode properties that can be used via `\p{…}` and `\P{…}` (see [lists](https://github.com/eslint-community/regexpp/blob/main/src/unicode/properties.ts)).
 
 <details>
   <summary>➕ <b>See also</b></summary>
