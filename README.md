@@ -31,7 +31,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 - [Testers](#testers)
 - [Syntax-free regex builders](#syntax-free-regex-builders)
 - [Visualizers](#visualizers)
-- [Search and replace through files](#search-and-replace-through-files)
+- [Grep-like tools](#grep-like-tools)
 - [Tutorials](#tutorials)
   - [Videos](#videos)
 - [Regex engines](#regex-engines)
@@ -117,9 +117,9 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 - [RegExper](https://regexper.com/) [[*GitLab*](https://gitlab.com/javallone/regexper-static)] - Create railroad diagrams. Flavor: JavaScript.
 </details>
 
-## Search and replace through files
+## Grep-like tools
 
-*Grep-like software.*
+*Search and replace through files.*
 
 **Command line**
 
