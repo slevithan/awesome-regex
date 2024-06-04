@@ -282,7 +282,7 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
 
 ### Readable regex composers
 
-- [Rexx](https://github.com/yyytcool/rexx) - A template tag that uses a structured syntax with variables and comments.
+- [Rexx](https://github.com/yyytcool/rexx) - A template tag that uses structured syntax with variables and comments.
 - [Melody](https://github.com/yoav-lavi/melody) \[[*docs*](https://yoav-lavi.github.io/melody/book/)] - A language that compiles to regexes.
 - Compose with functions: [compose-regexp.js](https://github.com/compose-regexp/compose-regexp.js), [VerbalExpressions](https://github.com/VerbalExpressions/JSVerbalExpressions) (implementations for [many languages](https://verbalexpressions.github.io/)), [magic-regexp](https://github.com/unjs/magic-regexp) \[[*home*](https://regexp.dev/)], [Super Expressive](https://github.com/francisrstokes/super-expressive) \[[*playground*](https://nartc.github.io/ng-super-expressive/)].
 
@@ -304,7 +304,7 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
 - ES5 (2009) fixed unintuitive behavior by creating a new object every time regex literals are evaluated \[[*explainer*](https://whereswalden.com/2010/01/15/more-es5-incompatible-changes-regular-expressions-now-evaluate-to-a-new-object-not-the-same-object-each-time-theyre-encountered/)], and allowed regex literals to use unescaped forward slashes within character clases (`/[/]/`).
 - ES6/ES2015 added: \[[*explainer*](https://2ality.com/2015/07/regexp-es6.html)]
   - Flag `y` (`sticky`), which anchors matches to `lastIndex`.
-  - Flag `u` (`unicode`) \[[*explainer*](https://mathiasbynens.be/notes/es6-unicode-regex)] \[[*2016 spec fix*](https://github.com/tc39/ecma262/pull/525)], which adds Unicode code point escapes via `\u{…}`, errors for unreserved letter escapes, impact on flag `i`, and surrogate pairs as code points (with impact on quantifiers, character classes, character class ranges, and built-in sets like `.` and `\W`).
+  - Flag `u` (`unicode`) \[[*explainer*](https://mathiasbynens.be/notes/es6-unicode-regex)] \[[*2016 spec fix*](https://github.com/tc39/ecma262/pull/525)], which adds Unicode code point escapes via `\u{…}`, errors for unreserved letter escapes, Unicode case-folding for flag `i`, and surrogate pairs as code points (with impact on quantifiers, character classes, character class ranges, and built-in sets like `.` and `\W`).
   - Getter `RegExp.prototype.flags`.
   - Can subclass `RegExp`, plus `RegExp.prototype[Symbol.match`/`replace`/`search`/`split]` and `RegExp[Symbol.species]` for use in subclasses.
   - Use `RegExp` to copy a regex, optionally with new flags.
