@@ -251,8 +251,11 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 ### ReDoS checkers
 
+- [regex.rip](https://regex.rip/) - Test a regex for ReDoS vulnerability.
 - [recheck](https://github.com/makenowjust-labs/recheck) \[[*home*](https://makenowjust-labs.github.io/recheck/)] - JavaScript and Scala library for detecting ReDoS vulnerability. Can be used as an ESLint plugin.
 - [vuln-regex-detector](https://github.com/davisjam/vuln-regex-detector) - Perl library for detecting ReDoS vulnerability.
+
+⚠️ These tools aren't able to find vulnerabilities in all cases and have limitations on supported syntax.
 
 ## Collections of patterns
 
