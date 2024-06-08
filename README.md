@@ -275,10 +275,11 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
 
 ### Alternative regex builders and engines
 
-- [regex](https://github.com/slevithan/regex-make) - A template tag with best practices built-in and advanced features.
+- [regex](https://github.com/slevithan/regex) - A template tag with best practices built-in and advanced features.
 - [XRegExp](https://github.com/slevithan/xregexp) \[[*home*](https://xregexp.com/)] - Extended regex syntax, flags, and utils; useful for backcompat.
 - [incr-regex-package](https://github.com/nurulc/incr-regex-package) - Partial/incremental matching, used by [react-rxinput](https://github.com/nurulc/react-rxinput) for input validation with a regex mask.
-- [@iter-tools/regex](https://github.com/iter-tools/regex) - Non-backtracking engine for streaming evaluation.
+- [node-re2](https://github.com/uhop/node-re2) - Bindings for RE2, a non-backtracking engine.
+- [rregex](https://github.com/2fd/rregex) - Bindings for Rust's `regex`, a non-backtracking engine.
 
 ### Abstracted regex syntax
 
