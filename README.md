@@ -315,11 +315,10 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
   - Use `RegExp` to copy a regex, optionally with new flags.
 - ES2018 added [flag `s`](https://github.com/tc39/proposal-regexp-dotall-flag) (`dotAll`), [lookbehind](https://github.com/tc39/proposal-regexp-lookbehind), [named capture](https://github.com/tc39/proposal-regexp-named-groups), and [Unicode properties](https://github.com/tc39/proposal-regexp-unicode-property-escapes) via `\p{…}` and `\P{…}` behind flag `u` (see [list](https://github.com/mathiasbynens/regexpu-core/blob/main/property-escapes.md)).
 - ES2020 added string method [`matchAll`](https://github.com/tc39/proposal-string-matchall) (which returns an iterator), plus `RegExp.prototype[Symbol.matchAll]`.
-- ES2021 added [`replaceAll`](https://github.com/tc39/proposal-string-replaceall).
 - ES2022 added [flag `d`](https://github.com/tc39/proposal-regexp-match-indices) (`hasIndices`), which provides start/end indices for matched substrings.
 - ES2024 added [flag `v`](https://github.com/tc39/proposal-regexp-v-flag) (`unicodeSets`) \[[*explainer*](https://v8.dev/features/regexp-v-flag)] as an upgrade to flag `u` (can't be used together), which adds a set of multicharacter "properties of strings" to `\p{…}`, multicharacter elements within character classes via `\p{…}` and `\q{…|…}`, nested character classes, set operators `[…--…]` and `[…&&…]`, improved case-insensitive matching, and different escaping rules within character classes.
 
-> ES2019, ES2020, ES2021, ES2022, and ES2023 each added additional Unicode properties that can be used via `\p{…}` and `\P{…}` (see [lists](https://github.com/eslint-community/regexpp/blob/main/src/unicode/properties.ts)).
+> Each edition from ES2019 to ES2023 added additional Unicode properties that can be used via `\p{…}` and `\P{…}` (see [lists](https://github.com/eslint-community/regexpp/blob/main/src/unicode/properties.ts)). ES2021 added [`replaceAll`](https://github.com/tc39/proposal-string-replaceall), which optionally accepts a `RegExp`, but it behaves identically to ES3's `replace` when given a regex as the search.
 
 <details>
   <summary>➕ <b>See also</b></summary>
