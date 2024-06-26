@@ -18,12 +18,12 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 *A brief glossary of regular expression terms as used in this list.*
 
-- **Regex engine:** Software that parses and executes regular expressions, either built into a programming language or as a standalone library (synonym: implementation).
+- **Regex engine:** Software that interprets and executes regular expressions, either built into a programming language or as a standalone library.
 - **Regex flavor:** A unique set of regex syntax and behavior. Basic syntax is typically shared across flavors, but more advanced features often vary, sometimes in subtle or incompatible ways. A flavor might be shared across multiple implementations or programming languages.
   - Ex: The “JavaScript” flavor is defined by the ECMAScript spec; implemented by multiple engines (V8, etc.).
   - Ex: The “PCRE” flavor is the PCRE2 library, used by numerous programming languages and tools.
   - Ex: Ruby swapped its regex implementation twice from version 1.8 ➜ 1.9 ➜ 2.0, so each used a distinct flavor. The Ruby 2.0+ flavor is referred to here as either “Ruby” or “Onigmo” (the underlying regex library).
-- **Non-backtracking engine:** Sometimes referred to elsewhere as a “DFA” engine. Non-backtracking engines like RE2 and Rust's `regex` run in linear time because they don't use backtracking. This rules out worst case performance from superlinear backtracking, but it's slower with some patterns and precludes some useful features like backreferences.
+- **Non-backtracking engine:** A regex implementation that uses a non-backtracking algorithm and runs in linear time. This rules out worst case performance from superlinear backtracking, but it's slower with some patterns and precludes some useful features like backreferences.
 </details>
 
 ## Contents
@@ -256,7 +256,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 - [recheck](https://github.com/makenowjust-labs/recheck) \[[*home*](https://makenowjust-labs.github.io/recheck/)] - JavaScript and Scala library for detecting ReDoS vulnerability. Can be used as an ESLint plugin.
 - [vuln-regex-detector](https://github.com/davisjam/vuln-regex-detector) - Perl library for detecting ReDoS vulnerability.
 
-⚠️ These tools aren't able to find vulnerabilities in all cases and have limitations on supported syntax.
+⚠️ These tools have limitations on supported syntax.
 
 ## Collections of patterns
 
