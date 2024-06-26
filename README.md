@@ -247,7 +247,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 ### Benchmarking
 
-- Libraries for cross-engine benchmarking: [rebar](https://github.com/BurntSushi/rebar), [regex-benchmark](https://github.com/mariomka/regex-benchmark), [sljit/regex_perf.html](https://zherczeg.github.io/sljit/regex_perf.html).
+- Cross-engine benchmarking libraries: [rebar](https://github.com/BurntSushi/rebar), [regex-benchmark](https://github.com/mariomka/regex-benchmark).
 - [Boost.Regex: Performance](https://www.boost.org/doc/libs/release/libs/regex/doc/html/boost_regex/background/performance.html) - Compares Boost, C++ `std::regex`, and others.
 
 ### ReDoS checkers
