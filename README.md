@@ -74,6 +74,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 - PCRE: [PHP Live Regex](https://www.phpliveregex.com/).
 - Python: [Pythex](https://pythex.org/).
 - Ruby: [Rubular](https://rubular.com/).
+- sed: [GNU sed REPL](https://sed.js.org/).
 
 **Multiple flavors**
 
