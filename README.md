@@ -236,7 +236,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 - [Book: High Performance JavaScript](https://www.amazon.com/dp/059680279X/?tag=slev-20) (2010) - *Chapter 5: Strings and Regular Expressions*.
 - [Book: Mastering Regular Expressions, 3rd Edition](https://www.amazon.com/Mastering-Regular-Expressions-Jeffrey-Friedl/dp/0596528124/?tag=slev-20) (2006) - *Chapter 6: Crafting an Efficient Expression*.
 - [Performance of Greedy vs. Lazy Regex Quantifiers](https://blog.stevenlevithan.com/archives/greedy-lazy-performance) - Illustrates the mechanics of backtracking.
-- [Performance of Regular Expressions](https://medium.com/textmaster-engineering/performance-of-regular-expressions-81371f569698) - wholistic description of regex performance with detailed examples
+
 
 ℹ️ With backtracking engines, how you craft a regex can affect how fast it finds matches or reports failures.
 
@@ -258,6 +258,13 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 - [vuln-regex-detector](https://github.com/davisjam/vuln-regex-detector) - Perl library for detecting ReDoS vulnerability.
 
 ⚠️ These tools aren't able to find vulnerabilities in all cases and have limitations on supported syntax.
+
+<details>
+  <summary>✳️ <b>Notable mentions</b></summary>
+  <br>
+
+- [On backtracking performance, with detailed examples](https://medium.com/textmaster-engineering/performance-of-regular-expressions-81371f569698)
+</details>
 
 ## Collections of patterns
 
