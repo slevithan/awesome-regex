@@ -237,7 +237,6 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 - [Book: Mastering Regular Expressions, 3rd Edition](https://www.amazon.com/Mastering-Regular-Expressions-Jeffrey-Friedl/dp/0596528124/?tag=slev-20) (2006) - *Chapter 6: Crafting an Efficient Expression*.
 - [Performance of Greedy vs. Lazy Regex Quantifiers](https://blog.stevenlevithan.com/archives/greedy-lazy-performance) - Illustrates the mechanics of backtracking.
 
-
 ℹ️ With backtracking engines, how you craft a regex can affect how fast it finds matches or reports failures.
 
 ### Regex engine optimizations
