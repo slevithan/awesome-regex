@@ -176,12 +176,12 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 #### Regex flavors
 
-- JavaScript (MDN): [RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp), [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions), [Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions).
 - Boost.Regex: [Manual](https://boost.org/libs/regex).
 - C++: [Regular expressions library](https://en.cppreference.com/w/cpp/regex).
 - Hyperscan: [Introduction](https://www.hyperscan.io/).
 - ICU: [Regular Expressions](https://unicode-org.github.io/icu/userguide/strings/regexp.html).
 - Java: [Pattern](https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/util/regex/Pattern.html), [API](https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/util/regex/package-summary.html).
+- JavaScript: [RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp), [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions), [Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions).
 - .NET: [Overview](https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expressions), [Language](https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-language-quick-reference), [API](https://learn.microsoft.com/en-us/dotnet/api/system.text.regularexpressions).
 - Onigmo: [RE](https://github.com/k-takata/Onigmo/blob/master/doc/RE).
 - PCRE2: [Pattern](https://pcre2project.github.io/pcre2/doc/html/pcre2pattern.html), [API](https://pcre2project.github.io/pcre2/doc/html/).
@@ -204,12 +204,13 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 *Read or contribute to the code behind major regex implementations.*
 
-- [V8: Irregexp](https://github.com/v8/v8/tree/main/src/regexp) - JavaScript `RegExp` engine used by Chrome, Edge, [Firefox](https://hacks.mozilla.org/2020/06/a-new-regexp-engine-in-spidermonkey/), etc.
-- [JavaScriptCore: RegExp](https://github.com/WebKit/WebKit/blob/main/Source/JavaScriptCore/runtime/RegExp.cpp) - JavaScript `RegExp` engine used by Safari.
 - [Boost.Regex](https://github.com/boostorg/regex) - Popular C++ regex library.
 - [Hyperscan](https://github.com/intel/hyperscan) - Intel's high-performance library, used for [DPI](https://en.wikipedia.org/wiki/Deep_packet_inspection).
 - [ICU](https://github.com/unicode-org/icu/blob/main/icu4c/source/i18n/regexcmp.cpp) - Unicode org's package with full Unicode support.
 - [Java: java.util.regex](https://github.com/openjdk/jdk/tree/master/src/java.base/share/classes/java/util/regex) - JDK standard regexes.
+- JavaScript:
+  - [JavaScriptCore: RegExp](https://github.com/WebKit/WebKit/blob/main/Source/JavaScriptCore/runtime/RegExp.cpp) - Regex engine used by Safari.
+  - [V8: Irregexp](https://github.com/v8/v8/tree/main/src/regexp) - Regex engine used by Chrome, Edge, [Firefox](https://hacks.mozilla.org/2020/06/a-new-regexp-engine-in-spidermonkey/), etc.
 - [.NET: System.Text.RegularExpressions](https://github.com/dotnet/runtime/tree/main/src/libraries/System.Text.RegularExpressions) - Shared by all .NET languages (C#, VB, etc.).
 - [Onigmo](https://github.com/k-takata/Onigmo) - Forked and extended from Oniguruma. Default regex library of Ruby 2.0+.
 - [Oniguruma](https://github.com/kkos/oniguruma) - Popular C regex library. Default regex library of Ruby 1.9.
