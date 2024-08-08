@@ -261,6 +261,13 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 ⚠️ These tools have limitations on supported syntax.
 
+<details>
+  <summary>✳️ <b>Notable mentions</b></summary>
+  <br>
+
+- [On backtracking performance, with detailed examples](https://medium.com/textmaster-engineering/performance-of-regular-expressions-81371f569698)
+</details>
+
 ## Collections of patterns
 
 *Prewritten regexes for specific tasks.*
