@@ -242,6 +242,13 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 ℹ️ With backtracking engines, how you craft a regex can affect how fast it finds matches or reports failures.
 
+<details>
+  <summary>✳️ <b>Notable mentions</b></summary>
+  <br>
+
+- [Performance of Regular Expressions](https://medium.com/textmaster-engineering/performance-of-regular-expressions-81371f569698) - On backtracking performance, with detailed examples.
+</details>
+
 ### Regex engine optimizations
 
 - [Regular Expression Matching Can Be Simple And Fast](https://swtch.com/~rsc/regexp/regexp1.html) - On non-backtracking engines. A [follow up](https://swtch.com/~rsc/regexp/regexp3.html) includes comparisons of RE2 and PCRE performance.
@@ -260,13 +267,6 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 - [vuln-regex-detector](https://github.com/davisjam/vuln-regex-detector) - Perl library for detecting ReDoS vulnerability.
 
 ⚠️ These tools have limitations on supported syntax.
-
-<details>
-  <summary>✳️ <b>Notable mentions</b></summary>
-  <br>
-
-- [On backtracking performance, with detailed examples](https://medium.com/textmaster-engineering/performance-of-regular-expressions-81371f569698)
-</details>
 
 ## Collections of patterns
 
