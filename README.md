@@ -313,23 +313,20 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
 
 ## JavaScript regex evolution
 
-*A concise history of improvements to regular expressions in the JavaScript [standard](https://tc39.es/ecma262/), with links to the [TC39](https://tc39.es/) proposals where features were developed and discussed.*
+*The history of improvements to regular expressions in the JavaScript [standard](https://tc39.es/ecma262/). Starting with ES2018, includes links to the TC39 proposals where features were developed and discussed.*
 
-- ES3 (1999) introduced powerful regular expressions, though limited compared to other major flavors.
-- ES5 (2009) fixed unintuitive behavior by creating a new object every time regex literals are evaluated \[[*explainer*](https://whereswalden.com/2010/01/15/more-es5-incompatible-changes-regular-expressions-now-evaluate-to-a-new-object-not-the-same-object-each-time-theyre-encountered/)], and allowed regex literals to use unescaped forward slashes within character clases (`/[/]/`).
+- ES3 (1999) introduced regular expressions.
+- ES5 (2009) fixed unintuitive behavior by creating a new object every time regex literals are evaluated \[[*explainer*](https://whereswalden.com/2010/01/15/more-es5-incompatible-changes-regular-expressions-now-evaluate-to-a-new-object-not-the-same-object-each-time-theyre-encountered/)], and allowed regex literals to use unescaped forward slashes within character classes (`/[/]/`).
 - ES6/ES2015 added: \[[*explainer*](https://2ality.com/2015/07/regexp-es6.html)]
   - Flag `y` (`sticky`), which anchors matches to `lastIndex`.
-  - Flag `u` (`unicode`) \[[*explainer*](https://mathiasbynens.be/notes/es6-unicode-regex)] \[[*2016 spec fix*](https://github.com/tc39/ecma262/pull/525)], which adds Unicode code point escapes via `\u{…}`, strict errors (for unreserved letter escapes, octal escapes, escaped literal digits, and unescaped special characters in some contexts), Unicode case-folding for flag `i`, and code-point-based matching (with impact on quantifiers, character classes, character class ranges, and built-in sets like `.` and `\W`).
-  - Getter `RegExp.prototype.flags`.
-  - Can subclass `RegExp`, plus `RegExp.prototype[Symbol.match`/`replace`/`search`/`split]` and `RegExp[Symbol.species]` for use in subclasses.
-  - Use `RegExp` to copy a regex, optionally with new flags.
-- ES2018 added [flag `s`](https://github.com/tc39/proposal-regexp-dotall-flag) (`dotAll`), [lookbehind](https://github.com/tc39/proposal-regexp-lookbehind), [named capture](https://github.com/tc39/proposal-regexp-named-groups), and (behind flag `u`) [Unicode properties](https://github.com/tc39/proposal-regexp-unicode-property-escapes) via `\p{…}` and `\P{…}` (see [list](https://github.com/mathiasbynens/regexpu-core/blob/main/property-escapes.md)).
+  - Flag `u` (`unicode`) \[[*explainer*](https://mathiasbynens.be/notes/es6-unicode-regex)] \[[*2016 spec fix*](https://github.com/tc39/ecma262/pull/525)], which adds Unicode code point escapes via `\u{…}`, strict errors (for unreserved escapes, octal escapes, quantified lookahead, and unescaped special characters in some contexts), Unicode case-folding for flag `i`, and code-point-based matching (with impact on quantifiers, character classes, ranges, and built-in sets).
+  - Getter `RegExp.prototype.flags`, the ability to copy a regex using `RegExp` (optionally with new flags), and support for subclassing `RegExp` (along with `RegExp.prototype[Symbol.match`/`replace`/`search`/`split]` and `RegExp[Symbol.species]`).
+- ES2018 added [flag `s`](https://github.com/tc39/proposal-regexp-dotall-flag) (`dotAll`), [lookbehind](https://github.com/tc39/proposal-regexp-lookbehind), [named capture](https://github.com/tc39/proposal-regexp-named-groups), and [Unicode properties](https://github.com/tc39/proposal-regexp-unicode-property-escapes) (via `\p{…}` and `\P{…}` which require flag `u`; see [list](https://github.com/mathiasbynens/regexpu-core/blob/main/property-escapes.md)).
 - ES2020 added string method [`matchAll`](https://github.com/tc39/proposal-string-matchall) (which returns an iterator), plus `RegExp.prototype[Symbol.matchAll]`.
-- ES2021 added string method [`replaceAll`](https://github.com/tc39/proposal-string-replaceall). When given a regex, the only difference from ES3's `replace` is that it throws if not using flag `g`.
 - ES2022 added [flag `d`](https://github.com/tc39/proposal-regexp-match-indices) (`hasIndices`), which provides start/end indices for matched substrings.
-- ES2024 added [flag `v`](https://github.com/tc39/proposal-regexp-v-flag) (`unicodeSets`) \[[*explainer*](https://v8.dev/features/regexp-v-flag)] as an upgrade to flag `u` (can't be used together), which adds a set of multicharacter "properties of strings" to `\p{…}`, multicharacter elements within character classes via `\p{…}` and `\q{…|…}`, nested character classes, set operators `[…--…]` and `[…&&…]`, and different escaping rules within character classes. It also fixes case-insensitive matching for `\p` and `\P` within negated `[^…]`.
+- ES2024 added [flag `v`](https://github.com/tc39/proposal-regexp-v-flag) (`unicodeSets`) \[[*explainer*](https://v8.dev/features/regexp-v-flag)] as an upgrade to flag `u`, which adds a set of multicharacter "properties of strings" to `\p{…}`, multicharacter elements within character classes via `\p{…}` and `\q{…|…}`, nested character classes, set operators `[…--…]` and `[…&&…]`, and different escaping rules within character classes. It also fixes case-insensitive matching for `\p` and `\P` within negated `[^…]`.
 
-> Each edition from ES2019 to ES2023 added additional Unicode properties that can be used via `\p{…}` and `\P{…}` (see [lists](https://github.com/eslint-community/regexpp/blob/main/src/unicode/properties.ts)).
+> Each edition from ES2019 to ES2023 added additional Unicode properties that can be used via `\p{…}` and `\P{…}` (see [lists](https://github.com/eslint-community/regexpp/blob/main/src/unicode/properties.ts)). ES2021 added string method [`replaceAll`](https://github.com/tc39/proposal-string-replaceall), although, when given a regex, the only difference from ES3's `replace` is that it throws if not using flag `g`.
 <details>
   <summary>➕ <b>See also</b></summary>
   <br>
