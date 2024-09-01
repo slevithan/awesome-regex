@@ -114,7 +114,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 - [Regex Nodes](https://johannesvollmer.com/regex-nodes/) \[[*GitHub*](https://github.com/johannesvollmer/regex-nodes)] - Graphical editor with visual hierarchy. Flavor: JavaScript.
 - [Debuggex](https://www.debuggex.com/) - Create railroad diagrams. Flavors: JavaScript, PCRE, Python.
-- [RegExper](https://regexper.com/) \[[*GitLab*](https://gitlab.com/javallone/regexper-static)] - Create railroad diagrams. Flavor: JavaScript.
+- [Regexper](https://regexper.com/) \[[*GitLab*](https://gitlab.com/javallone/regexper-static)] - Create railroad diagrams. Flavor: JavaScript.
 </details>
 
 ## Grep-like tools
@@ -184,6 +184,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 - JavaScript: [RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp), [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions), [Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions), [Cheatsheet](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Cheatsheet).
 - .NET: [Overview](https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expressions), [Language](https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-language-quick-reference), [API](https://learn.microsoft.com/en-us/dotnet/api/system.text.regularexpressions).
 - Onigmo: [RE](https://github.com/k-takata/Onigmo/blob/master/doc/RE).
+- Oniguruma: [RE](https://github.com/kkos/oniguruma/blob/master/doc/RE).
 - PCRE2: [Pattern](https://pcre2project.github.io/pcre2/doc/html/pcre2pattern.html), [API](https://pcre2project.github.io/pcre2/doc/html/).
 - Perl: [Syntax](https://perldoc.perl.org/perlre), [Tutorial](https://perldoc.perl.org/perlretut), [Quick Start](https://perldoc.perl.org/perlrequick).
 - Python: [re](https://docs.python.org/library/re.html).
@@ -212,8 +213,8 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
   - [JavaScriptCore: RegExp](https://github.com/WebKit/WebKit/blob/main/Source/JavaScriptCore/runtime/RegExp.cpp) - Regex engine used by Safari.
   - [V8: Irregexp](https://github.com/v8/v8/tree/main/src/regexp) - Regex engine used by Chrome, Edge, [Firefox](https://hacks.mozilla.org/2020/06/a-new-regexp-engine-in-spidermonkey/), etc.
 - [.NET: System.Text.RegularExpressions](https://github.com/dotnet/runtime/tree/main/src/libraries/System.Text.RegularExpressions) - Shared by all .NET languages (C#, VB, etc.).
-- [Onigmo](https://github.com/k-takata/Onigmo) - Forked and extended from Oniguruma. Default regex library of Ruby 2.0+.
-- [Oniguruma](https://github.com/kkos/oniguruma) - Popular C regex library. Default regex library of Ruby 1.9.
+- [Onigmo](https://github.com/k-takata/Onigmo) - Forked and extended from Oniguruma. Used by Ruby 2.0+.
+- [Oniguruma](https://github.com/kkos/oniguruma) - Popular C regex library used by Ruby 1.9, TextMate grammars, etc.
 - [PCRE2](https://github.com/PCRE2Project/pcre2) - Popular C regex library used by PHP, R, etc.
 - [Perl](https://github.com/Perl/perl5/blob/blead/regexp.h) - See [perlreguts](https://perldoc.perl.org/perlreguts).
 - [Python: re](https://github.com/python/cpython/tree/main/Lib/re) and [regex](https://github.com/mrabarnett/mrab-regex) - Standard and extended regex libraries.
@@ -319,7 +320,7 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
 - ES5 (2009) fixed unintuitive behavior by creating a new object every time regex literals are evaluated \[[*explainer*](https://whereswalden.com/2010/01/15/more-es5-incompatible-changes-regular-expressions-now-evaluate-to-a-new-object-not-the-same-object-each-time-theyre-encountered/)], and allowed regex literals to use unescaped forward slashes within character classes (`/[/]/`).
 - ES6/ES2015 added: \[[*explainer*](https://2ality.com/2015/07/regexp-es6.html)]
   - Flag `y` (`sticky`), which anchors matches to `lastIndex`.
-  - Flag `u` (`unicode`) \[[*explainer*](https://mathiasbynens.be/notes/es6-unicode-regex)] \[[*2016 spec fix*](https://github.com/tc39/ecma262/pull/525)], which adds Unicode code point escapes via `\u{…}`, strict errors (for unreserved escapes, octal escapes, quantified lookahead, and unescaped special characters in some contexts), Unicode case-folding for flag `i`, and code-point-based matching (with impact on quantifiers, character classes, ranges, and built-in sets).
+  - Flag `u` (`unicode`) \[[*explainer*](https://mathiasbynens.be/notes/es6-unicode-regex)] \[[*2016 spec fix*](https://github.com/tc39/ecma262/pull/525)], which adds Unicode code point escapes via `\u{…}`, strict errors (for unreserved escapes, octal escapes, quantified lookahead, and unescaped special characters in some contexts), Unicode case-folding for flag `i`, and code point matching (with impact on quantifiers, character classes, ranges, and built-in sets).
   - Getter `RegExp.prototype.flags`, the ability to copy a regex using `RegExp` (optionally with new flags), and support for subclassing `RegExp` (along with `RegExp.prototype[Symbol.match`/`replace`/`search`/`split]` and `RegExp[Symbol.species]`).
 - ES2018 added [flag `s`](https://github.com/tc39/proposal-regexp-dotall-flag) (`dotAll`), [lookbehind](https://github.com/tc39/proposal-regexp-lookbehind), [named capture](https://github.com/tc39/proposal-regexp-named-groups), and [Unicode properties](https://github.com/tc39/proposal-regexp-unicode-property-escapes) (via `\p{…}` and `\P{…}` which require flag `u`; see [list](https://github.com/mathiasbynens/regexpu-core/blob/main/property-escapes.md)).
 - ES2020 added string method [`matchAll`](https://github.com/tc39/proposal-string-matchall) (which returns an iterator), plus `RegExp.prototype[Symbol.matchAll]`.
