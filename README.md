@@ -213,7 +213,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
   - [JavaScriptCore: RegExp](https://github.com/WebKit/WebKit/blob/main/Source/JavaScriptCore/runtime/RegExp.cpp) - Regex engine used by Safari.
   - [V8: Irregexp](https://github.com/v8/v8/tree/main/src/regexp) - Regex engine used by Chrome, Edge, [Firefox](https://hacks.mozilla.org/2020/06/a-new-regexp-engine-in-spidermonkey/), etc.
 - [.NET: System.Text.RegularExpressions](https://github.com/dotnet/runtime/tree/main/src/libraries/System.Text.RegularExpressions) - Shared by all .NET languages (C#, VB, etc.).
-- [Onigmo](https://github.com/k-takata/Onigmo) - Forked and extended from Oniguruma. Used by Ruby 2.0+.
+- [Onigmo](https://github.com/k-takata/Onigmo) - Forked from Oniguruma. Used by Ruby 2.0+.
 - [Oniguruma](https://github.com/kkos/oniguruma) - Popular C regex library used by Ruby 1.9, TextMate grammars, etc.
 - [PCRE2](https://github.com/PCRE2Project/pcre2) - Popular C regex library used by PHP, R, etc.
 - [Perl](https://github.com/Perl/perl5/blob/blead/regexp.h) - See [perlreguts](https://perldoc.perl.org/perlreguts).
@@ -314,7 +314,7 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
 
 ## JavaScript regex evolution
 
-*The history of improvements to regular expressions in the JavaScript [standard](https://tc39.es/ecma262/). Starting with ES2018, includes links to the TC39 proposals where features were developed and discussed.*
+*The history of improvements to regular expressions in the JavaScript [standard](https://tc39.es/ecma262/multipage/). Starting with ES2018, includes links to the TC39 proposals where features were developed and discussed.*
 
 - ES3 (1999) introduced regular expressions.
 - ES5 (2009) fixed unintuitive behavior by creating a new object every time regex literals are evaluated \[[*explainer*](https://whereswalden.com/2010/01/15/more-es5-incompatible-changes-regular-expressions-now-evaluate-to-a-new-object-not-the-same-object-each-time-theyre-encountered/)], and allowed regex literals to use unescaped forward slashes within character classes (`/[/]/`).
