@@ -44,7 +44,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 - [Books](#books)
 - [Articles](#articles)
 - [Communities](#communities)
-- [Miscelaneous](#miscelaneous)
+- [Miscellaneous](#miscellaneous)
 
 ## Testers
 
@@ -377,7 +377,7 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
 - [Reddit: r/regex](https://www.reddit.com/r/regex/)
 - [Stack Overflow: &lsqb;regex&rsqb;](https://stackoverflow.com/questions/tagged/regex?tab=Votes)
 
-## Miscelaneous
+## Miscellaneous
 
 *Other interesting, fun, and useful stuff.*
 
