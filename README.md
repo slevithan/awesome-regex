@@ -28,14 +28,14 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 ### Featured resource
 
-[`regex`](https://github.com/slevithan/regex) is a lightweight JavaScript library for more readable, high-performance, native JavaScript regexes with powerful features including free spacing, atomic groups, possessive quantifiers, subroutines, subroutine definition groups, and context-aware interpolation.
-
 <a href="https://github.com/slevithan/regex">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/slevithan/regex@4.1.0/media/regex-logo-dark.svg">
-    <img alt="regex logo" height="100" src="https://cdn.jsdelivr.net/gh/slevithan/regex@4.1.0/media/regex-logo.svg">
+    <img alt="regex logo" height="100" align="right" src="https://cdn.jsdelivr.net/gh/slevithan/regex@4.1.0/media/regex-logo.svg">
   </picture>
 </a>
+
+[`regex`](https://github.com/slevithan/regex) is a lightweight JavaScript library for more readable, high-performance, native JavaScript regexes with powerful features including free spacing, atomic groups, possessive quantifiers, subroutines, subroutine definition groups, and context-aware interpolation.
 
 ## Contents
 
