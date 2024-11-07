@@ -302,6 +302,7 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
 ### Alternative regex builders and engines
 
 - [regex](https://github.com/slevithan/regex) - A template tag for extended, readable, high-performance JavaScript regexes.
+- [Oniguruma-To-ES](https://github.com/slevithan/oniguruma-to-es) - Convert Oniguruma patterns to native JavaScript regexes.
 - [XRegExp](https://github.com/slevithan/xregexp) \[[*home*](https://xregexp.com/)] - Extended regex syntax, flags, and utils; useful for backcompat.
 - [incr-regex-package](https://github.com/nurulc/incr-regex-package) - Partial/incremental matching, used by [react-rxinput](https://github.com/nurulc/react-rxinput) for input validation with a regex mask.
 - Use other engines via WASM bindings: [node-re2](https://github.com/uhop/node-re2) (RE2), [rregex](https://github.com/2fd/rregex) (Rust's `regex`), [vscode-oniguruma](https://github.com/microsoft/vscode-oniguruma) (Oniguruma).
