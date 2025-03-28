@@ -198,7 +198,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 - .NET: [Overview](https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expressions), [Language](https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-language-quick-reference), [API](https://learn.microsoft.com/en-us/dotnet/api/system.text.regularexpressions).
 - Onigmo: [RE](https://github.com/k-takata/Onigmo/blob/master/doc/RE).
 - Oniguruma: [RE](https://github.com/kkos/oniguruma/blob/master/doc/RE).
-- PCRE2: [Pattern](https://pcre2project.github.io/pcre2/doc/html/pcre2pattern.html), [API](https://pcre2project.github.io/pcre2/doc/html/).
+- PCRE2: [Pattern](https://pcre2project.github.io/pcre2/doc/pcre2pattern/), [API](https://pcre2project.github.io/pcre2/doc/).
 - Perl: [Syntax](https://perldoc.perl.org/perlre), [Tutorial](https://perldoc.perl.org/perlretut), [Quick Start](https://perldoc.perl.org/perlrequick).
 - Python: [re](https://docs.python.org/library/re.html).
 - RE2: [Syntax](https://github.com/google/re2/wiki/Syntax).
