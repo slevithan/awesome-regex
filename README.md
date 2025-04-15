@@ -86,6 +86,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 - Python: [Pythex](https://pythex.org/).
 - Ruby: [Rubular](https://rubular.com/).
 - sed: [GNU sed REPL](https://sed.js.org/).
+- Swift: [Swift Regex](https://swiftregex.com/) \[[*GitHub*](https://github.com/swiftfiddle/swiftregex)] - Includes regex debugger, DSL builder.
 
 **Multiple flavors**
 
@@ -212,7 +213,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 - MySQL: [Regular Expressions](https://dev.mysql.com/doc/refman/en/regexp.html) - Flavor: ICU.
 - PHP: [Regular Expressions](https://www.php.net/manual/en/book.pcre.php) - Flavor: PCRE.
 - Ruby: [Regexp](https://docs.ruby-lang.org/en/master/Regexp.html) - Flavor: Onigmo.
-- Swift: [NSRegularExpression](https://developer.apple.com/documentation/foundation/nsregularexpression) - Flavor: ICU.
+- Swift: [NSRegularExpression](https://developer.apple.com/documentation/foundation/nsregularexpression) - Flavor: ICU. See also [RegexBuilder](https://developer.apple.com/documentation/regexbuilder).
 
 ### Source code
 
