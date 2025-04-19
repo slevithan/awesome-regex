@@ -203,7 +203,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 - Perl: [Syntax](https://perldoc.perl.org/perlre), [Tutorial](https://perldoc.perl.org/perlretut), [Quick Start](https://perldoc.perl.org/perlrequick).
 - Python: [re](https://docs.python.org/library/re.html).
 - RE2: [Syntax](https://github.com/google/re2/wiki/Syntax).
-- Rust: [regex](https://docs.rs/regex/latest/regex/) - See also: [regex_lite](https://docs.rs/regex-lite/latest/regex_lite/).
+- Rust: [regex](https://docs.rs/regex) - See also: [regex-lite](https://docs.rs/regex-lite).
 - Swift: [Regex](https://developer.apple.com/documentation/swift/regex/) - See also: [RegexBuilder](https://developer.apple.com/documentation/regexbuilder), [NSRegularExpression](https://developer.apple.com/documentation/foundation/nsregularexpression).
 
 ℹ️ Raku (formerly Perl 6) reimagines regexes. See: [Grammars](https://docs.raku.org/language/grammars) ([tutorial](https://docs.raku.org/language/grammar_tutorial)), [Regexes](https://docs.raku.org/language/regexes) ([best practices](https://docs.raku.org/language/regexes-best-practices)).
