@@ -401,7 +401,6 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
 
 *Other interesting, fun, and useful stuff.*
 
-- Chrome extension: [Regex](https://chromewebstore.google.com/detail/regex/pmihaiejckejbpjdnildimfkpcpnohlo) - Regex search on webpages via `Ctrl+Shift+F`.
 - Quiz: [regex101 Regex Quiz](https://regex101.com/quiz) - Requires sign-in.
 - Games: [Regex Crossword](https://regexcrossword.com/), [regexle](https://regexle.com/), [The Typing of the RegEX](https://thetypingoftheregex.com/), [Regex Machina](https://codepip.com/games/regex-machina/) ($).
 - Comics: [xkcd](https://xkcd.com/208/), [Garabato Kid](https://twitter.com/garabatokid/status/1147063121678389253).
