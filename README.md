@@ -83,6 +83,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 - JavaScript: [RegViz](http://regviz.org/).
 - .NET: [Regex Storm](http://regexstorm.net/tester) \[[*GitHub*](https://github.com/lonekorean/regex-storm)].
 - PCRE: [PHP Live Regex](https://www.phpliveregex.com/).
+- Perl: [rxrx](https://metacpan.org/dist/Regexp-Debugger/view/bin/rxrx) - Visually debug Perl regexes in a REPL.
 - Python: [Pythex](https://pythex.org/).
 - Ruby: [Rubular](https://rubular.com/).
 - sed: [GNU sed REPL](https://sed.js.org/).
