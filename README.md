@@ -330,6 +330,7 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
 - Find regex mistakes and improvements: [eslint-plugin-regexp](https://github.com/ota-meshi/eslint-plugin-regexp) \[[*home*](https://ota-meshi.github.io/eslint-plugin-regexp/)], [eslint-plugin-optimize-regex](https://github.com/BrainMaestro/eslint-plugin-optimize-regex).
 - Generate strings that match a given regex: [randexp.js](https://github.com/fent/randexp.js), [regex-to-strings](https://github.com/wimpyprogrammer/regex-to-strings).
 - Generate a regex from given strings: [regexgen](https://github.com/devongovett/regexgen).
+- [regex-utils](https://github.com/gruhn/regex-utils) - Check if two regex match the same strings, build regex intersections/complement, compute Brzozowski derivative, and other meta utilities.
 
 ## JavaScript regex evolution
 
