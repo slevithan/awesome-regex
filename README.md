@@ -125,6 +125,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
   - Languages: 🇺🇸, 🇨🇳.
 - [Regulex](https://jex.im/regulex/) \[[*GitHub*](https://github.com/CJex/regulex)] - Create railroad diagrams. Flavor: JavaScript.
 - [Nodexr](https://www.nodexr.net/) \[[*GitHub*](https://github.com/Jcparkyn/nodexr)] - Graphical editor with visual hierarchy. Flavor: .NET.
+- [regex-to-mermaid](https://www.npmjs.com/package/regex-to-mermaid) \[[*GitHub*](https://github.com/tayles/regex-to-mermaid)] - TypeScript library and CLI tool to visualize regular expressions as Mermaid flowchart diagrams for sharing on GitHub etc. Flavor: JavaScript.
 
 <details>
   <summary>✳️ <b>Notable mentions</b></summary>
