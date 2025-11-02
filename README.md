@@ -332,7 +332,7 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
 - Generate strings that match a given regex: [randexp.js](https://github.com/fent/randexp.js), [regex-to-strings](https://github.com/wimpyprogrammer/regex-to-strings).
 - Generate a regex from given strings: [regexgen](https://github.com/devongovett/regexgen).
 - [regex-utils](https://github.com/gruhn/regex-utils) - Check regex equivalence, build regex intersections, and other meta utilities.
-- [regex-to-mermaid](https://www.npmjs.com/package/regex-to-mermaid) \[[*GitHub*](https://github.com/tayles/regex-to-mermaid)] - TypeScript library and CLI tool to visualize as Mermaid flowchart diagrams for sharing on GitHub etc. Flavor: JavaScript.
+- [regex-to-mermaid](https://github.com/tayles/regex-to-mermaid) - Generate Mermaid diagrams to visualize regexes within Markdown docs, etc.
 
 ## JavaScript regex evolution
 
