@@ -314,6 +314,7 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
 - [Oniguruma-To-ES](https://github.com/slevithan/oniguruma-to-es) - Convert Oniguruma patterns to native JavaScript regexes.
 - [incr-regex-package](https://github.com/nurulc/incr-regex-package) - Partial/incremental matching, used by [react-rxinput](https://github.com/nurulc/react-rxinput) for input validation with a regex mask.
 - Use other engines via WebAssembly: [node-re2](https://github.com/uhop/node-re2) (RE2), [rregex](https://github.com/2fd/rregex) (Rust's `regex`), [vscode-oniguruma](https://github.com/microsoft/vscode-oniguruma) (Oniguruma).
+- [regex-partial-match](https://github.com/TomStrepsil/regex-partial-match) - Partial/incremental matching via regex transformation.
 
 ### Abstracted regex syntax
 
