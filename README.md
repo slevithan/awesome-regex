@@ -312,9 +312,7 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
 
 - [Regex+](https://github.com/slevithan/regex) - A template tag for extended, readable, high-performance JavaScript regexes.
 - [Oniguruma-To-ES](https://github.com/slevithan/oniguruma-to-es) - Convert Oniguruma patterns to native JavaScript regexes.
-- [incr-regex-package](https://github.com/nurulc/incr-regex-package) - Partial/incremental matching, used by [react-rxinput](https://github.com/nurulc/react-rxinput) for input validation with a regex mask.
 - Use other engines via WebAssembly: [node-re2](https://github.com/uhop/node-re2) (RE2), [rregex](https://github.com/2fd/rregex) (Rust's `regex`), [vscode-oniguruma](https://github.com/microsoft/vscode-oniguruma) (Oniguruma).
-- [regex-partial-match](https://github.com/TomStrepsil/regex-partial-match) - Partial/incremental matching via regex transformation.
 
 ### Abstracted regex syntax
 
@@ -322,16 +320,17 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
 - [Melody](https://github.com/yoav-lavi/melody) \[[*docs*](https://yoav-lavi.github.io/melody/book/)] - A language that compiles to regexes.
 - Compose with functions: [compose-regexp.js](https://github.com/compose-regexp/compose-regexp.js), [VerbalExpressions](https://github.com/VerbalExpressions/JSVerbalExpressions) (implementations for [many languages](https://verbalexpressions.github.io/)), [magic-regexp](https://github.com/unjs/magic-regexp) \[[*home*](https://regexp.dev/)], [Super Expressive](https://github.com/francisrstokes/super-expressive) \[[*playground*](https://nartc.github.io/ng-super-expressive/)].
 
-### Regex processors
+### Regex processors, utilities, and more
 
 - AST builders: [regexpp](https://github.com/eslint-community/regexpp) (used by ESLint), [regexp-tree](https://github.com/DmitrySoshnikov/regexp-tree) (includes optimizer, etc.), [regjsparser](https://github.com/jviereck/regjsparser)/[regjsgen](https://github.com/bnjmnt4n/regjsgen).
   - AST explorers: [AST Explorer: RegExp](https://astexplorer.net/#/gist/56d33dc28d07c7f57bdf5ca0f4061320/c6b67a829334151af01ba55960c653e4462df437), [JS RegExp AST Viewer](https://leaysgur.github.io/js-regexp-ast-viewer/).
   - [regexp-ast-analysis](https://github.com/RunDevelopment/regexp-ast-analysis) \[[*docs*](https://rundevelopment.github.io/regexp-ast-analysis/docs/latest/)] - Analyze AST nodes produced by regexpp.
 - [eslint-plugin-regexp](https://github.com/ota-meshi/eslint-plugin-regexp) \[[*home*](https://ota-meshi.github.io/eslint-plugin-regexp/)] - ESLint plugin for finding regex mistakes, etc.
-- [Regex Colorizer](https://github.com/slevithan/regex-colorizer) \[[*home*](https://slevithan.github.io/regex-colorizer/demo/)] - Highlight regex syntax.
-- [regex-utils](https://github.com/gruhn/regex-utils) - Check regex equivalence, build regex intersections, and other meta utilities.
+- Partial regex matching:  [regex-partial-match](https://github.com/TomStrepsil/regex-partial-match), [incr-regex-package](https://github.com/nurulc/incr-regex-package).
+- [regex-utils](https://github.com/gruhn/regex-utils) - Check regex equivalence, build regex intersections, and other utilities.
 - Generate strings that match a given regex: [randexp.js](https://github.com/fent/randexp.js), [regex-to-strings](https://github.com/wimpyprogrammer/regex-to-strings).
 - [regexgen](https://github.com/devongovett/regexgen) - Generate a regex that matches a set of strings.
+- [Regex Colorizer](https://github.com/slevithan/regex-colorizer) \[[*home*](https://slevithan.github.io/regex-colorizer/demo/)] - Highlight regex syntax.
 - [regex-to-mermaid](https://github.com/tayles/regex-to-mermaid) - Generate Mermaid diagrams to visualize regexes.
 
 ## JavaScript regex evolution
