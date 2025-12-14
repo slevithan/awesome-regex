@@ -327,6 +327,7 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
   - [regexp-ast-analysis](https://github.com/RunDevelopment/regexp-ast-analysis) \[[*docs*](https://rundevelopment.github.io/regexp-ast-analysis/docs/latest/)] - Analyze AST nodes produced by regexpp.
 - [eslint-plugin-regexp](https://github.com/ota-meshi/eslint-plugin-regexp) \[[*home*](https://ota-meshi.github.io/eslint-plugin-regexp/)] - ESLint plugin for finding regex mistakes, etc.
 - [arkregex](https://github.com/arktypeio/arktype/tree/main/ark/regex) - `RegExp`-equivalent constructor with TS types.
+- [super-regex](https://github.com/sindresorhus/super-regex) - Add an execution timeout to regexes.
 - Partial regex matching: [regex-partial-match](https://github.com/TomStrepsil/regex-partial-match), [incr-regex-package](https://github.com/nurulc/incr-regex-package).
 - [regex-utils](https://github.com/gruhn/regex-utils) - Check regex equivalence, build regex intersections, and other utilities.
 - Generate strings that match a given regex: [randexp.js](https://github.com/fent/randexp.js), [regex-to-strings](https://github.com/wimpyprogrammer/regex-to-strings).
