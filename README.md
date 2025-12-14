@@ -30,8 +30,8 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 <a href="https://github.com/slevithan/regex">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/slevithan/regex@5.0.1/media/regex-logo-dark.svg">
-    <img alt="regex logo" height="100" align="right" src="https://cdn.jsdelivr.net/gh/slevithan/regex@5.0.1/media/regex-logo.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/slevithan/regex@6.1.0/media/logo-dark.svg">
+    <img alt="Regex+ logo" height="100" width="225" align="right" src="https://cdn.jsdelivr.net/gh/slevithan/regex@6.1.0/media/logo.svg">
   </picture>
 </a>
 
@@ -326,7 +326,7 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
   - AST explorers: [AST Explorer: RegExp](https://astexplorer.net/#/gist/56d33dc28d07c7f57bdf5ca0f4061320/c6b67a829334151af01ba55960c653e4462df437), [JS RegExp AST Viewer](https://leaysgur.github.io/js-regexp-ast-viewer/).
   - [regexp-ast-analysis](https://github.com/RunDevelopment/regexp-ast-analysis) \[[*docs*](https://rundevelopment.github.io/regexp-ast-analysis/docs/latest/)] - Analyze AST nodes produced by regexpp.
 - [eslint-plugin-regexp](https://github.com/ota-meshi/eslint-plugin-regexp) \[[*home*](https://ota-meshi.github.io/eslint-plugin-regexp/)] - ESLint plugin for finding regex mistakes, etc.
-- Partial regex matching:  [regex-partial-match](https://github.com/TomStrepsil/regex-partial-match), [incr-regex-package](https://github.com/nurulc/incr-regex-package).
+- Partial regex matching: [regex-partial-match](https://github.com/TomStrepsil/regex-partial-match), [incr-regex-package](https://github.com/nurulc/incr-regex-package).
 - [regex-utils](https://github.com/gruhn/regex-utils) - Check regex equivalence, build regex intersections, and other utilities.
 - Generate strings that match a given regex: [randexp.js](https://github.com/fent/randexp.js), [regex-to-strings](https://github.com/wimpyprogrammer/regex-to-strings).
 - [regexgen](https://github.com/devongovett/regexgen) - Generate a regex that matches a set of strings.
