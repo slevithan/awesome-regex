@@ -8,7 +8,7 @@
 
 Awesome Regex curates the best regular expression tools, tutorials, libraries, and other resources, covering all major regex flavors.
 
-> [Regular expressions](https://en.wikipedia.org/wiki/Regular_expression) (regex or regexp) are a powerful and concise way to search, parse, and process text. They're built into many programming languages, text editors, IDEs, database engines, word processors, and other tools.
+> Regular expressions (regex or regexp) are a powerful and concise way to search, parse, and process text. They're built into many programming languages, text editors, IDEs, database engines, word processors, and other tools.
 
 Contributions are welcome. Add links through pull requests ([guidelines](CONTRIBUTING.md)).
 
@@ -35,7 +35,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
   </picture>
 </a>
 
-[Regex+](https://github.com/slevithan/regex) is a lightweight JavaScript library for more readable, high-performance, native JavaScript regexes with powerful features including free spacing, atomic groups, possessive quantifiers, subroutines, subroutine definition groups, and context-aware interpolation.
+[Regex+](https://github.com/slevithan/regex) is a lightweight JavaScript library for more readable, high-performance, native JavaScript regexes with powerful features including free spacing, atomic groups, possessive quantifiers, subroutines, definition groups, and context-aware interpolation.
 
 ## Contents
 
@@ -326,6 +326,7 @@ Many regexes found online are low quality. It's risky to use regexes you don't f
   - AST explorers: [AST Explorer: RegExp](https://astexplorer.net/#/gist/56d33dc28d07c7f57bdf5ca0f4061320/c6b67a829334151af01ba55960c653e4462df437), [JS RegExp AST Viewer](https://leaysgur.github.io/js-regexp-ast-viewer/).
   - [regexp-ast-analysis](https://github.com/RunDevelopment/regexp-ast-analysis) \[[*docs*](https://rundevelopment.github.io/regexp-ast-analysis/docs/latest/)] - Analyze AST nodes produced by regexpp.
 - [eslint-plugin-regexp](https://github.com/ota-meshi/eslint-plugin-regexp) \[[*home*](https://ota-meshi.github.io/eslint-plugin-regexp/)] - ESLint plugin for finding regex mistakes, etc.
+- [arkregex](https://github.com/arktypeio/arktype/tree/main/ark/regex) - `RegExp`-equivalent constructor with TS types.
 - Partial regex matching: [regex-partial-match](https://github.com/TomStrepsil/regex-partial-match), [incr-regex-package](https://github.com/nurulc/incr-regex-package).
 - [regex-utils](https://github.com/gruhn/regex-utils) - Check regex equivalence, build regex intersections, and other utilities.
 - Generate strings that match a given regex: [randexp.js](https://github.com/fent/randexp.js), [regex-to-strings](https://github.com/wimpyprogrammer/regex-to-strings).
