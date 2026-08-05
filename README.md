@@ -133,6 +133,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 - [Regex Nodes](https://johannesvollmer.com/regex-nodes/) \[[*GitHub*](https://github.com/johannesvollmer/regex-nodes)] - Graphical editor with visual hierarchy. Flavor: JavaScript.
 - [Debuggex](https://www.debuggex.com/) - Create railroad diagrams. Flavors: JavaScript, PCRE, Python.
 - [Regexper](https://regexper.com/) \[[*GitLab*](https://gitlab.com/javallone/regexper-static)] - Create railroad diagrams. Flavor: JavaScript.
+- [Nutilz Regex Visualizer](https://nutilz.com/regex-visualizer) - Token-by-token visual breakdown paired with plain-English step-by-step explanations and live match/capture-group testing in one view. Flavor: JavaScript.
 </details>
 
 ## Grep-like tools
