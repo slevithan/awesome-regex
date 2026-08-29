@@ -86,7 +86,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 **By flavor**
 
 - fancy-regex (Rust library): [fancy-regex playground](https://fancy-regex.github.io/fancy-regex/) \[[*GitHub*](https://github.com/fancy-regex/fancy-regex/tree/main/playground)].
-- JavaScript: [RegViz](http://regviz.org/).
+- JavaScript: [Nutilz](https://nutilz.com/regex-tester), [RegViz](http://regviz.org/).
 - .NET: [Regex Storm](http://regexstorm.net/tester) \[[*GitHub*](https://github.com/lonekorean/regex-storm)].
 - PCRE: [PHP Live Regex](https://www.phpliveregex.com/).
 - Python: [Pythex](https://pythex.org/).
