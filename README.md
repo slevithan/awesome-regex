@@ -103,6 +103,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 - [CyrilEx](https://extendsclass.com/regex-tester.html) \[[*GitHub*](https://github.com/cyrilbois/cyrilex)] - Java, JavaScript, MySQL, PHP, Python, Ruby.
 - [Patterns](https://krillapps.com/patterns/) (macOS, $3) - Bash, Emacs, grep, Java, Oniguruma, PCRE, POSIX BRE, POSIX ERE, Ruby, sed.
+- [RegexTester.dev](https://regextester.dev/) - PCRE2, PCRE, JavaScript, Python, Go (RE2), Java, .NET, Rust.
 - [RegexPlanet](https://www.regexplanet.com/) \[[*GitHub*](https://github.com/regexplanet)] - Go, Java, JavaScript (Bun, Deno, Node.js), .NET, Perl, PHP, PostgreSQL, Python, Ruby, Rust, Swift, Tcl, XRegExp.
 </details>
 
