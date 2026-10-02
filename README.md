@@ -130,6 +130,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
   - Languages: 🇺🇸, 🇨🇳.
 - [Regulex](https://jex.im/regulex/) \[[*GitHub*](https://github.com/CJex/regulex)] - Create railroad diagrams. Flavor: JavaScript.
 - [Nodexr](https://www.nodexr.net/) \[[*GitHub*](https://github.com/Jcparkyn/nodexr)] - Graphical editor with visual hierarchy. Flavor: .NET.
+- - [Ghost Regex](https://marketplace.visualstudio.com/items?itemName=ghost-regex.ghost-regex) [[*GitHub*](https://github.com/XLKA11/ghost-regex)] - VS Code extension with Railroad diagrams, ReDoS detector, and preview on real files. Flavor: TypeScript.
 
 <details>
   <summary>✳️ <b>Notable mentions</b></summary>
