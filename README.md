@@ -184,6 +184,8 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 - [RegexLearn](https://regexlearn.com/) \[[*GitHub*](https://github.com/aykutkardas/regexlearn.com)] - Interactive tutorial and practice problems.
   - Languages: 🇺🇸, 🇹🇷, 🇷🇺, 🇪🇸, 🇨🇳, 🇩🇪, 🇺🇦, 🇫🇷, 🇵🇱, 🇰🇷, 🇧🇷, 🇨🇿, 🇬🇪.
 - [RegexOne](https://regexone.com/) - Interactive tutorial and practice problems.
+- [Regex Hunter](https://regexhunter.com/) - Daily regex puzzle game with practice packs and an interactive course.
+  - Languages: 🇺🇸, 🇨🇳.
 
 ### Videos
 
