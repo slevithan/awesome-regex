@@ -98,6 +98,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 - Ruby: [Rubular](https://rubular.com/).
 - sed: [GNU sed REPL](https://sed.js.org/).
 - Swift: [Swift Regex](https://swiftregex.com/) \[[*GitHub*](https://github.com/swiftfiddle/swiftregex)] - Includes regex debugger, DSL builder.
+- [Nimzoa Regex Tester](https://nimzoa.com/tools/regex-tester) - Test JavaScript regular expressions with highlighted matches, capture groups, and replace previews.
 
 **Multiple flavors**
 
