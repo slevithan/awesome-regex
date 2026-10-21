@@ -301,6 +301,8 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 - [Book: Regular Expressions Cookbook, 2nd Edition](https://www.amazon.com/Regular-Expressions-Cookbook-Solutions-Programming/dp/1449319432/?tag=slev-20) (2012) - High-quality solutions with detailed explanations.
   - Flavors: Java, JavaScript, .NET, PCRE, Perl, Python, Ruby, XRegExp.
 - [Regex DB](https://rgxdb.com/) - Solutions include basic descriptions and examples of matching and non-matching text.
+- [Regex Cheatsheet](https://github.com/Ezra-Zhao/regex-cheatsheet) - One-page collection of 30 entries covering metacharacters, quantifiers, groups, assertions, common pitfalls, and practical patterns (email, URL, phone, IPv4, dates, HTML tags, trimming whitespace), each with a copy-paste example, with engine differences noted where they apply.
+  - Flavors: PCRE, Python, JavaScript.
 
 <details>
   <summary>⚠️ <b>Word of warning</b></summary>
