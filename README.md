@@ -101,6 +101,7 @@ Contributions are welcome. Add links through pull requests ([guidelines](CONTRIB
 
 **Multiple flavors**
 
+- [PageUtil Regex Tester](https://pageutil.com/regex-tester/) - Browser-local matching, replacement, extraction, test cases, and engine comparison. Flavors: JavaScript, PCRE2, Python (`re`), Rust (`regex`), Go (`regexp`), .NET, Java.
 - [CyrilEx](https://extendsclass.com/regex-tester.html) \[[*GitHub*](https://github.com/cyrilbois/cyrilex)] - Java, JavaScript, MySQL, PHP, Python, Ruby.
 - [Patterns](https://krillapps.com/patterns/) (macOS, $3) - Bash, Emacs, grep, Java, Oniguruma, PCRE, POSIX BRE, POSIX ERE, Ruby, sed.
 - [RegexPlanet](https://www.regexplanet.com/) \[[*GitHub*](https://github.com/regexplanet)] - Go, Java, JavaScript (Bun, Deno, Node.js), .NET, Perl, PHP, PostgreSQL, Python, Ruby, Rust, Swift, Tcl, XRegExp.
